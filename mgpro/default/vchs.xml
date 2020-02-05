@@ -1,0 +1,23 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="vchs" description="Типовой драйвер ВЧС" code="0xc4" lenData="26" lenInit="25" header="../dspa/drivers/vchs2.h">
+<!--
+    need="n" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01VCHS" format="3" need="n" address="0"/>
+        <signal name="K02VCHS" format="3" need="n" address="5"/>
+        <signal name="Cyclen" format="18" need="n" address="10"/>
+    </signals>
+    <init type="vchs_inipar">
+        <signal name="INIT01" format="18" value="0xc4" address="0"/>
+        <signal name="INIT02" format="18" value="255" address="1"/>
+        <signal name="INIT03" format="18" value="0"  address="2"/>
+        <signal name="INIT04" format="18" value="8" address="4"/>
+        <signal name="INIT05" format="18" value="255" address="5"/>
+        <signal name="INIT06" format="18" value="16" address="7"/>
+    </init>
+</driver>

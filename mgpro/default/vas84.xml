@@ -1,0 +1,30 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="vas84" description="Типовой драйвер ВАС84" code="0xc6" lenData="26" lenInit="7" header="../dspa/drivers/vas84r.h">
+<!-->
+    need="n" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01VASR" format="2" need="n" address="0"/>
+        <signal name="K02VASR" format="2" need="n" address="3"/>
+        <signal name="K03VASR" format="2" need="n" address="6"/>
+        <signal name="K04VASR" format="2" need="n" address="9"/>
+        <signal name="K05VASR" format="2" need="n" address="12"/>
+        <signal name="K06VASR" format="2" need="n" address="15"/>
+        <signal name="K07VASR" format="2" need="n" address="18"/>
+        <signal name="K08VASR" format="2" need="n" address="21"/>
+        <signal name="EXTVASR" format="18" need="n" address="24"/>
+    </signals>
+    <init type="vas84r_inipar">
+        <signal name="type" format="18" value="172" address="0"/>
+        <signal name="BoxLen" format="2" value="255" address="1"/>
+        <signal name="vip" format="18" value="1" address="2"/>
+        <signal name="NumCh" format="18" value="8"  address="3"/>
+        <signal name="Usmask" format="18" value="0xff" address="4"/>
+        <signal name="ChMask" format="18" value="0" address="5"/>
+        <signal name="Aprt" format="18" value="16" address="6"/>
+    </init>
+</driver>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+             
+<!--
+-->
+        <variable xml="vardu"/>
+        <saves xml="savedu"/>
+        <devices xml="devdu"/>
+        <modbus name="msdu" description="Основной канал управления" type="slave" port="502" xml="du"/>
+        <modbus name="msbaz1" description="БАЗ1 канал управления" type="slave" port="503" xml="baz1"/>
+        <modbus name="msbaz2" description="БАЗ2 канал управления" type="slave" port="504" xml="baz1"/>
+		
+        <modbus name="ctrl"  description="Прием информации о режиме измерения" type="master" port="5505" 
+        	ip1="192.168.1.242" ip2="192.168.1.242" step="1000" xml="ctrl"> </modbus>        
+</subsystem>

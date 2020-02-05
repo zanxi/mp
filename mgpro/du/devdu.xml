@@ -1,0 +1,8 @@
+<devices xml="duassign">
+        <device name="DOUT01" driver="fds16" slot="0x01" description="Формирование дискретных первый"> </device>
+        <device name="DOUT02" driver="fds16" slot="0x04" description="Формирование дискретных второй"> </device>
+        <device name="DINP01" driver="vds32" slot="0x05" description="Ввод дискретных перший"> </device>
+        <device name="DINP02" driver="vds32" slot="0x06" description="Ввод дискретных вторый"> </device>
+		
+        <device name="AOUT01" driver="vas84" slot="0x07" description="Аналоговый первенький"> </device>
+</devices>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem >
+             
+<!--
+-->
+        <variable xml="varaknp"/>
+        <saves xml="saveaknp"/>
+        <devices xml="devaknp"/>
+        <modbus name="msaknp" description="Основной канал управления" type="slave" port="502" xml="aknp"/>
+</subsystem>

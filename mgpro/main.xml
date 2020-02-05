@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <general name="test" description="Это очень большой тестовый пример" path="d:/md/docs/mgpro" defdrv="d:/md/docs/mgpro/default"> 
+    <subs name="aknp" shema="aknp.tpr"  file="aknpfp" description="АКНП" main="192.168.20.11" second="192.168.30.11" path="d:/md/docs/mgpro/aknp1" step="20" status="ok" result="d:/md/cpc108/fpcpc" />
+<!--
+    <subs name="du" shema="du.tpr"  file="dufp" description="DU" main="192.168.20.11" second="192.168.30.11" path="d:/md/docs/mgpro/du" step="20" status="ok" result="d:/md/cpc108/fpcpc" />
+    <subs subpath="baz1" file="baz1fp"/>
+    <subs subpath="baz2" file="baz2fp"/>
+-->
+</general>

@@ -1,0 +1,174 @@
+<vars>
+<!--
+    in
+-->
+<var name="A0EE03LS1"   description= "(A0EE03LS1) Подключена сеть питания АКНП" format="1"></var>
+<var name="B8VC01UDU"   description= "(B8VC01UDU) Координата АЗ2, 0.01 мм" format="4"></var>
+<var name="fp_diagn"    description= "(fp_diagn) Диагностика работы ФП (побитно)" format="5"></var>
+<var name="i01vchs01"   description= "(i01vchs01) Количество импульсов ВЧС (01) канала 1" format="3"></var>
+<var name="i01vchs02"   description= "(i01vchs02) Количество импульсов ВЧС (02) канала 1" format="3"></var>
+<var name="i02vchs01"   description= "(i02vchs01) Количество импульсов ВЧС (01) канала 2" format="3"></var>
+<var name="i02vchs02"   description= "(i02vchs02) Количество импульсов ВЧС (02) канала 2" format="3"></var>
+<var name="k01vchs01"   description= "(k01vchs01) Результат счета ВЧС (01) канала 1" format="3"></var>
+<var name="k01vchs02"   description= "(k01vchs02) Результат счета ВЧС (02) канала 1" format="3"></var>
+<var name="k02vchs01"   description= "(k02vchs01) Результат счета ВЧС (01) канала 2" format="3"></var>
+<var name="k02vchs02"   description= "(k02vchs02) Результат счета ВЧС (02) канала 2" format="3"></var>
+<var name="k01vds32r03" description= "(k01vds32r03) ВДС32Р значение по каналу 01" format="1"></var>
+<var name="k02vds32r03" description= "(k02vds32r03) ВДС32Р значение по каналу 02" format="1"></var>
+<var name="k03vds32r03" description= "(k03vds32r03) ВДС32Р значение по каналу 03" format="1"></var>
+<var name="k04vds32r03" description= "(k04vds32r03) ВДС32Р значение по каналу 04" format="1"></var>
+<var name="k05vds32r03" description= "(k05vds32r03) ВДС32Р значение по каналу 05" format="1"></var>
+<var name="k06vds32r03" description= "(k06vds32r03) ВДС32Р значение по каналу 06" format="1"></var>
+<var name="k07vds32r03" description= "(k07vds32r03) ВДС32Р значение по каналу 07" format="1"></var>
+<var name="k08vds32r03" description= "(k08vds32r03) ВДС32Р значение по каналу 08" format="1"></var>
+<var name="k09vds32r03" description= "(k09vds32r03) ВДС32Р значение по каналу 09" format="1"></var>
+<var name="k10vds32r03" description= "(k10vds32r03) ВДС32Р значение по каналу 10" format="1"></var>
+<var name="k11vds32r03" description= "(k11vds32r03) ВДС32Р значение по каналу 11" format="1"></var>
+<var name="k12vds32r03" description= "(k12vds32r03) ВДС32Р значение по каналу 12" format="1"></var>
+<var name="k13vds32r03" description= "(k13vds32r03) ВДС32Р значение по каналу 13" format="1"></var>
+<var name="k14vds32r03" description= "(k14vds32r03) ВДС32Р значение по каналу 14" format="1"></var>
+<var name="k15vds32r03" description= "(k15vds32r03) ВДС32Р значение по каналу 15" format="1"></var>
+<var name="k16vds32r03" description= "(k16vds32r03) ВДС32Р значение по каналу 16" format="1"></var>
+<var name="k17vds32r03" description= "(k17vds32r03) ВДС32Р значение по каналу 17" format="1"></var>
+<var name="k18vds32r03" description= "(k18vds32r03) ВДС32Р значение по каналу 18" format="1"></var>
+<var name="k19vds32r03" description= "(k19vds32r03) ВДС32Р значение по каналу 19" format="1"></var>
+<var name="k20vds32r03" description= "(k20vds32r03) ВДС32Р значение по каналу 20" format="1"></var>
+<var name="k21vds32r03" description= "(k21vds32r03) ВДС32Р значение по каналу 21" format="1"></var>
+<var name="k22vds32r03" description= "(k22vds32r03) ВДС32Р значение по каналу 22" format="1"></var>
+<var name="k23vds32r03" description= "(k23vds32r03) ВДС32Р значение по каналу 23" format="1"></var>
+<var name="k24vds32r03" description= "(k24vds32r03) ВДС32Р значение по каналу 24" format="1"></var>
+<var name="k25vds32r03" description= "(k25vds32r03) ВДС32Р значение по каналу 25" format="1"></var>
+<var name="k26vds32r03" description= "(k26vds32r03) ВДС32Р значение по каналу 26" format="1"></var>
+<var name="k27vds32r03" description= "(k27vds32r03) ВДС32Р значение по каналу 27" format="1"></var>
+<var name="k28vds32r03" description= "(k28vds32r03) ВДС32Р значение по каналу 28" format="1"></var>
+<var name="k29vds32r03" description= "(k29vds32r03) ВДС32Р значение по каналу 29" format="1"></var>
+<var name="k30vds32r03" description= "(k30vds32r03) ВДС32Р значение по каналу 30" format="1"></var>
+<var name="k31vds32r03" description= "(k31vds32r03) ВДС32Р значение по каналу 31" format="1"></var>
+<var name="k32vds32r03" description= "(k32vds32r03) ВДС32Р значение по каналу 32" format="1"></var>
+<var name="l01vds32r03" description= "(l01vds32r03) ВДС32Р состояние по каналу 01" format="1"></var>
+<var name="l02vds32r03" description= "(l02vds32r03) ВДС32Р состояние по каналу 02" format="1"></var>
+<var name="l03vds32r03" description= "(l03vds32r03) ВДС32Р состояние по каналу 03" format="1"></var>
+<var name="l04vds32r03" description= "(l04vds32r03) ВДС32Р состояние по каналу 04" format="1"></var>
+<var name="l05vds32r03" description= "(l05vds32r03) ВДС32Р состояние по каналу 05" format="1"></var>
+<var name="l06vds32r03" description= "(l06vds32r03) ВДС32Р состояние по каналу 06" format="1"></var>
+<var name="l07vds32r03" description= "(l07vds32r03) ВДС32Р состояние по каналу 07" format="1"></var>
+<var name="l08vds32r03" description= "(l08vds32r03) ВДС32Р состояние по каналу 08" format="1"></var>
+<var name="l09vds32r03" description= "(l09vds32r03) ВДС32Р состояние по каналу 09" format="1"></var>
+<var name="l10vds32r03" description= "(l10vds32r03) ВДС32Р состояние по каналу 10" format="1"></var>
+<var name="l11vds32r03" description= "(l11vds32r03) ВДС32Р состояние по каналу 11" format="1"></var>
+<var name="l12vds32r03" description= "(l12vds32r03) ВДС32Р состояние по каналу 12" format="1"></var>
+<var name="l13vds32r03" description= "(l13vds32r03) ВДС32Р состояние по каналу 13" format="1"></var>
+<var name="l14vds32r03" description= "(l14vds32r03) ВДС32Р состояние по каналу 14" format="1"></var>
+<var name="l15vds32r03" description= "(l15vds32r03) ВДС32Р состояние по каналу 15" format="1"></var>
+<var name="l16vds32r03" description= "(l16vds32r03) ВДС32Р состояние по каналу 16" format="1"></var>
+<var name="l17vds32r03" description= "(l17vds32r03) ВДС32Р состояние по каналу 17" format="1"></var>
+<var name="l18vds32r03" description= "(l18vds32r03) ВДС32Р состояние по каналу 18" format="1"></var>
+<var name="l19vds32r03" description= "(l19vds32r03) ВДС32Р состояние по каналу 19" format="1"></var>
+<var name="l20vds32r03" description= "(l20vds32r03) ВДС32Р состояние по каналу 20" format="1"></var>
+<var name="l21vds32r03" description= "(l21vds32r03) ВДС32Р состояние по каналу 21" format="1"></var>
+<var name="l22vds32r03" description= "(l22vds32r03) ВДС32Р состояние по каналу 22" format="1"></var>
+<var name="l23vds32r03" description= "(l23vds32r03) ВДС32Р состояние по каналу 23" format="1"></var>
+<var name="l24vds32r03" description= "(l24vds32r03) ВДС32Р состояние по каналу 24" format="1"></var>
+<var name="l25vds32r03" description= "(l25vds32r03) ВДС32Р состояние по каналу 25" format="1"></var>
+<var name="l26vds32r03" description= "(l26vds32r03) ВДС32Р состояние по каналу 26" format="1"></var>
+<var name="l27vds32r03" description= "(l27vds32r03) ВДС32Р состояние по каналу 27" format="1"></var>
+<var name="l28vds32r03" description= "(l28vds32r03) ВДС32Р состояние по каналу 28" format="1"></var>
+<var name="l29vds32r03" description= "(l29vds32r03) ВДС32Р состояние по каналу 29" format="1"></var>
+<var name="l30vds32r03" description= "(l30vds32r03) ВДС32Р состояние по каналу 30" format="1"></var>
+<var name="l31vds32r03" description= "(l31vds32r03) ВДС32Р состояние по каналу 31" format="1"></var>
+<var name="l32vds32r03" description= "(l32vds32r03) ВДС32Р состояние по каналу 32" format="1"></var>
+<var name="R0EE02LZ1"   description= "(R0EE02LZ1) Питание  АКНП  отключить" format="1"></var>
+<var name="R0EE02LZ2"   description= "(R0EE02LZ2) Питание  АКНП  отключить" format="1"></var>
+<var name="R0IE11LS1"   description= "(R0IE11LS1) Исправность ВИП 1,6 (№8) СНМ11 1 канала" format="1"></var>
+<var name="R0IE12LS1"   description= "(R0IE12LS1) Исправность ВИП 0,5 (№9) КНК15-1 1 канала" format="1"></var>
+<var name="R0IE13LS1"   description= "(R0IE13LS1) Исправность ВИП 0,5 (№10) КНК53М 1 канала" format="1"></var>
+<var name="R0IN01IS1"   description= "(R0IN01IS1) Выход СНМ-11" format="3"></var>
+<var name="R0IN02IS1"   description= "(R0IN02IS1) Выход КНК15-1 счётный" format="3"></var>
+<var name="R0IN03IS1"   description= "(R0IN03IS1) Выход КНК53М счётный" format="3"></var>
+<var name="R0IN12IS1"   description= "(R0IN12IS1) Выход КНК15-1 интервальный" format="3"></var>
+<var name="R0IN13IS1"   description= "(R0IN13IS1) Выход КНК53М интервальный" format="3"></var>
+<var name="R0IN31CS1"   description= "(R0IN31CS1) Статус ВЧС СНМ-11" format="1"></var>
+<var name="R0IN32CS1"   description= "(R0IN32CS1) Статус ВЧС КНК15-1" format="1"></var>
+<var name="R0IN33CS1"   description= "(R0IN33CS1) Статус ВЧС КНК53М" format="1"></var>
+<var name="s01vchs01"   description= "(s01vchs01) Байт состояния ВЧС (01) канала 1" format="1"></var>
+<var name="s01vchs02"   description= "(s01vchs02) Байт состояния ВЧС (02) канала 1" format="1"></var>
+<var name="s02vchs01"   description= "(s02vchs01) Байт состояния ВЧС (01) канала 2" format="1"></var>
+<var name="s02vchs02"   description= "(s02vchs02) Байт состояния ВЧС (02) канала 2" format="1"></var>
+<var name="s01fds16r04" description= "(s01fds16r04) ФДС-16Р состояние по каналу 01" format="1"></var>
+<var name="s02fds16r04" description= "(s02fds16r04) ФДС-16Р состояние по каналу 02" format="1"></var>
+<var name="s03fds16r04" description= "(s03fds16r04) ФДС-16Р состояние по каналу 03" format="1"></var>
+<var name="s04fds16r04" description= "(s04fds16r04) ФДС-16Р состояние по каналу 04" format="1"></var>
+<var name="s05fds16r04" description= "(s05fds16r04) ФДС-16Р состояние по каналу 05" format="1"></var>
+<var name="s06fds16r04" description= "(s06fds16r04) ФДС-16Р состояние по каналу 06" format="1"></var>
+<var name="s07fds16r04" description= "(s07fds16r04) ФДС-16Р состояние по каналу 07" format="1"></var>
+<var name="s08fds16r04" description= "(s08fds16r04) ФДС-16Р состояние по каналу 08" format="1"></var>
+<var name="s09fds16r04" description= "(s09fds16r04) ФДС-16Р состояние по каналу 09" format="1"></var>
+<var name="s10fds16r04" description= "(s10fds16r04) ФДС-16Р состояние по каналу 10" format="1"></var>
+<var name="s11fds16r04" description= "(s11fds16r04) ФДС-16Р состояние по каналу 11" format="1"></var>
+<var name="s12fds16r04" description= "(s12fds16r04) ФДС-16Р состояние по каналу 12" format="1"></var>
+<var name="s13fds16r04" description= "(s13fds16r04) ФДС-16Р состояние по каналу 13" format="1"></var>
+<var name="s14fds16r04" description= "(s14fds16r04) ФДС-16Р состояние по каналу 14" format="1"></var>
+<var name="s15fds16r04" description= "(s15fds16r04) ФДС-16Р состояние по каналу 15" format="1"></var>
+<var name="s16fds16r04" description= "(s16fds16r04) ФДС-16Р состояние по каналу 16" format="1"></var>
+<var name="shkf_diagn"  description= "(shkf_diagn) Диагностика состояния шкафа" format="5"></var>
+<var name="TO_FLAG"     description= "(TO_FLAG) Признак работы ФП в режиме ТО: 0 - боевой режим, 1 - режим ТО" format="1"></var>
+
+<var name="S01SBK05" description= "(S01SBK05) флаг неисправности сети 1" format="1"></var>  
+<var name="S02SBK05" description= "(S02SBK05) флаг неисправности сети 2" format="1"></var> 
+<var name="S03SBK05" description= "(S03SBK05) флаг открытия двери" format="1"></var> 
+<var name="S04SBK05" description= "(S04SBK05) флаг повышения температуры выше 43" format="1"></var>
+<var name="S05SBK05" description= "(S05SBK05) флаг повышения температуры выше 53" format="1"></var> 
+<var name="S06SBK05" description= "(S06SBK05) флаг неисправности БП 1 - 24" format="1"></var> 
+<var name="S07SBK05" description= "(S07SBK05) флаг неисправности БП 1 - 5" format="1"></var> 
+<var name="S08SBK05" description= "(S08SBK05) флаг неисправности БП 2 - 24" format="1"></var> 
+<var name="S09SBK05" description= "(S09SBK05) флаг неисправности БП 2 - 5" format="1"></var> 
+<var name="P01SBK05" description= "(P01SBK05) флаг неисправности МпБП 1 - 24" format="1"></var> 
+<var name="P02SBK05" description= "(P02SBK05) флаг неисправности МпБП 1 - 5" format="1"></var> 
+<var name="P03SBK05" description= "(P03SBK05) флаг неисправности МпБП 2 - 24" format="1"></var> 
+<var name="P04SBK05" description= "(P04SBK05) флаг неисправности МпБП 2 - 5" format="1"></var> 
+
+<!--
+    out
+-->
+
+<var name="A0EE01LZ1"   description= "(A0EE01LZ1) Исправность АКНП" format="1"></var>
+<var name="A0EE01LZ2"   description= "(A0EE01LZ2) Исправность АКНП" format="1"></var>
+<var name="A0EE02LS1"   description= "(A0EE02LS1) Исправность АКНП" format="1"></var>
+<var name="A1VN71LDU"   description= "(A1VN71LDU) Блокировка автоматического  подъёма ББ" format="1"></var>
+<var name="k01fds16r04" description= "(k01fds16r04) ФДС-16Р значение по каналу 01" format="1"></var>
+<var name="k02fds16r04" description= "(k02fds16r04) ФДС-16Р значение по каналу 02" format="1"></var>
+<var name="k03fds16r04" description= "(k03fds16r04) ФДС-16Р значение по каналу 03" format="1"></var>
+<var name="k04fds16r04" description= "(k04fds16r04) ФДС-16Р значение по каналу 04" format="1"></var>
+<var name="k05fds16r04" description= "(k05fds16r04) ФДС-16Р значение по каналу 05" format="1"></var>
+<var name="k06fds16r04" description= "(k06fds16r04) ФДС-16Р значение по каналу 06" format="1"></var>
+<var name="k07fds16r04" description= "(k07fds16r04) ФДС-16Р значение по каналу 07" format="1"></var>
+<var name="k08fds16r04" description= "(k08fds16r04) ФДС-16Р значение по каналу 08" format="1"></var>
+<var name="k09fds16r04" description= "(k09fds16r04) ФДС-16Р значение по каналу 09" format="1"></var>
+<var name="k10fds16r04" description= "(k10fds16r04) ФДС-16Р значение по каналу 10" format="1"></var>
+<var name="k11fds16r04" description= "(k11fds16r04) ФДС-16Р значение по каналу 11" format="1"></var>
+<var name="k12fds16r04" description= "(k12fds16r04) ФДС-16Р значение по каналу 12" format="1"></var>
+<var name="k13fds16r04" description= "(k13fds16r04) ФДС-16Р значение по каналу 13" format="1"></var>
+<var name="k14fds16r04" description= "(k14fds16r04) ФДС-16Р значение по каналу 14" format="1"></var>
+<var name="k15fds16r04" description= "(k15fds16r04) ФДС-16Р значение по каналу 15" format="1"></var>
+<var name="k16fds16r04" description= "(k16fds16r04) ФДС-16Р значение по каналу 16" format="1"></var>
+<var name="R0IE01LS1"   description= "(R0IE01LS1) Отключение питание детекторов" format="1"></var>
+<var name="R0IE02LS1"   description= "(R0IE02LS1) Отключить питание ПР, ПУ" format="1"></var>
+<var name="R0VN01RS1"   description= "(R0VN01RS1) Период разгона" format="8"></var>
+<var name="R0VN02RS1"   description= "(R0VN02RS1) Уровень мощности" format="8"></var>
+<var name="R0VN03RS1"   description= "(R0VN03RS1) Измеренный нейтронный поток" format="8"></var>
+<var name="R0VN04RS1"   description= "(R0VN04RS1) Реактивность" format="8"></var>
+<var name="R0VN13RS1"   description= "(R0VN13RS1) Нейтронный поток по камере СНМ11" format="8"></var>
+<var name="R0VN14RS1"   description= "(R0VN14RS1) Номер счётчика  СНМ11" format="1"></var>
+<var name="R0VN15RS1"   description= "(R0VN15RS1) Номер ведущей камеры" format="1"></var>
+<var name="R0VN23RS1"   description= "(R0VN23RS1) Нейтронный поток по камере КНК15-1" format="8"></var>
+<var name="R0VN24RS1"   description= "(R0VN24RS1) Номер счётчика КНК15-1" format="1"></var>
+<var name="R0VN33RS1"   description= "(R0VN33RS1) Нейтронный поток по камере КНК53М" format="8"></var>
+<var name="R0VN34RS1"   description= "(R0VN34RS1) Номер счётчика КНК53М" format="1"></var>
+<var name="R0VN61LS1"   description= "(R0VN61LS1) ПС по мощности" format="1"></var>
+<var name="R0VN65LS1"   description= "(R0VN65LS1) ПС по периоду разгона" format="1"></var>
+<var name="R0VN71LZ1"   description= "(R0VN71LZ1) АС по мощности" format="1"></var>
+<var name="R0VN71LZ2"   description= "(R0VN71LZ2) АС по мощности" format="1"></var>
+<var name="R0VN75LZ1"   description= "(R0VN75LZ1) АС по периоду разгона" format="1"></var>
+<var name="R0VN75LZ2"   description= "(R0VN75LZ2) АС по периоду разгона" format="1"></var>
+
+</vars>

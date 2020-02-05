@@ -1,0 +1,150 @@
+"A0EE03LS1"   - Discrete input  - входит в ANDN
+"B8VC01UDU"   - static          - Входит в AMPL  
+"fp_diagn"    - input Register  - -
+"i01vchs01"   - input Register  - -
+"i01vchs02"   - input Register  - -
+"i02vchs01"   - input Register  - -
+"i02vchs02"   - input Register  - -
+"k01vchs01"   - input Register  - -
+"k01vchs02"   - input Register  - -
+"k02vchs01"   - input Register  - -
+"k02vchs02"   - input Register  - -
+"k01vds32r03" - Discrete input  - -
+"k02vds32r03" - Discrete input  - - 
+"k03vds32r03" - Discrete input  - - 
+"k04vds32r03" - Discrete input  - - 
+"k05vds32r03" - Discrete input  - - 
+"k06vds32r03" - Discrete input  - - 
+"k07vds32r03" - Discrete input  - - 
+"k08vds32r03" - Discrete input  - - 
+"k09vds32r03" - Discrete input  - - 
+"k10vds32r03" - Discrete input  - - 
+"k11vds32r03" - Discrete input  - - 
+"k12vds32r03" - Discrete input  - - 
+"k13vds32r03" - Discrete input  - - 
+"k14vds32r03" - Discrete input  - - 
+"k15vds32r03" - Discrete input  - - 
+"k16vds32r03" - Discrete input  - - 
+"k17vds32r03" - Discrete input  - - 
+"k18vds32r03" - Discrete input  - - 
+"k19vds32r03" - Discrete input  - - 
+"k20vds32r03" - Discrete input  - - 
+"k21vds32r03" - Discrete input  - - 
+"k22vds32r03" - Discrete input  - - 
+"k23vds32r03" - Discrete input  - - 
+"k24vds32r03" - Discrete input  - - 
+"k25vds32r03" - Discrete input  - - 
+"k26vds32r03" - Discrete input  - - 
+"k27vds32r03" - Discrete input  - - 
+"k28vds32r03" - Discrete input  - - 
+"k29vds32r03" - Discrete input  - - 
+"k30vds32r03" - Discrete input  - - 
+"k31vds32r03" - Discrete input  - - 
+"k32vds32r03" - Discrete input  - -
+"l01vds32r03" - Discrete input  - -
+"l02vds32r03" - Discrete input  - -
+"l03vds32r03" - Discrete input  - -
+"l04vds32r03" - Discrete input  - -
+"l05vds32r03" - Discrete input  - -
+"l06vds32r03" - Discrete input  - -
+"l07vds32r03" - Discrete input  - -
+"l08vds32r03" - Discrete input  - -
+"l09vds32r03" - Discrete input  - -
+"l10vds32r03" - Discrete input  - -
+"l11vds32r03" - Discrete input  - -
+"l12vds32r03" - Discrete input  - -
+"l13vds32r03" - Discrete input  - -
+"l14vds32r03" - Discrete input  - -
+"l15vds32r03" - Discrete input  - -
+"l16vds32r03" - Discrete input  - -
+"l17vds32r03" - Discrete input  - -
+"l18vds32r03" - Discrete input  - -
+"l19vds32r03" - Discrete input  - -
+"l20vds32r03" - Discrete input  - -
+"l21vds32r03" - Discrete input  - -
+"l22vds32r03" - Discrete input  - -
+"l23vds32r03" - Discrete input  - -
+"l24vds32r03" - Discrete input  - -
+"l25vds32r03" - Discrete input  - -
+"l26vds32r03" - Discrete input  - -
+"l27vds32r03" - Discrete input  - -
+"l28vds32r03" - Discrete input  - -
+"l29vds32r03" - Discrete input  - -
+"l30vds32r03" - Discrete input  - -
+"l31vds32r03" - Discrete input  - -
+"l32vds32r03" - Discrete input  - -
+"R0EE02LZ1"   - Discrete input  - Входит в ORN
+"R0EE02LZ2"   - Discrete input  - Входит в ORN
+"R0IE11LS1"   - Discrete input  - входит в ANDN
+"R0IE12LS1"   - Discrete input  - входит в ANDN
+"R0IE13LS1"   - Discrete input  - входит в ANDN
+"R0IN01IS1"   - input Register  - Входит в VCHTOCH
+"R0IN02IS1"   - input Register  - Входит в VCHTOCH
+"R0IN03IS1"   - input Register  - Входит в VCHTOCH
+"R0IN12IS1"   - input Register  - Входит в VCHTOCH
+"R0IN13IS1"   - input Register  - Входит в VCHTOCH
+"R0IN31CS1"   - Discrete input  - Входит в VCHTOCH
+"R0IN32CS1"   - Discrete input  - Входит в VCHTOCH
+"R0IN33CS1"   - Discrete input  - Входит в VCHTOCH
+"s01vchs01"   - Discrete input  - - 
+"s01vchs02"   - Discrete input  - - 
+"s02vchs01"   - Discrete input  - - 
+"s02vchs02"   - Discrete input  - - 
+"s01fds16r04" - Discrete input  - - 
+"s02fds16r04" - Discrete input  - - 
+"s03fds16r04" - Discrete input  - - 
+"s04fds16r04" - Discrete input  - - 
+"s05fds16r04" - Discrete input  - - 
+"s06fds16r04" - Discrete input  - - 
+"s07fds16r04" - Discrete input  - - 
+"s08fds16r04" - Discrete input  - - 
+"s09fds16r04" - Discrete input  - - 
+"s10fds16r04" - Discrete input  - - 
+"s11fds16r04" - Discrete input  - - 
+"s12fds16r04" - Discrete input  - - 
+"s13fds16r04" - Discrete input  - - 
+"s14fds16r04" - Discrete input  - - 
+"s15fds16r04" - Discrete input  - - 
+"s16fds16r04" - Discrete input  - - 
+"shkf_diagn"  - input Register  - -
+"TO_FLAG"     - Coil            - -
+
+"A0EE01LZ1"   - Discrete input  - Выход из ANDN
+"A0EE01LZ2"   - Discrete input  - Выход из ANDN
+"A0EE02LS1"   - Discrete input  - Выход из OCHAMB
+"A1VN71LDU"   - Discrete input  - Выход из BOL
+"k01fds16r04" - Discrete input  - -
+"k02fds16r04" - Discrete input  - -
+"k03fds16r04" - Discrete input  - -
+"k04fds16r04" - Discrete input  - -
+"k05fds16r04" - Discrete input  - -
+"k06fds16r04" - Discrete input  - -
+"k07fds16r04" - Discrete input  - -
+"k08fds16r04" - Discrete input  - -
+"k09fds16r04" - Discrete input  - -
+"k10fds16r04" - Discrete input  - -
+"k11fds16r04" - Discrete input  - -
+"k12fds16r04" - Discrete input  - -
+"k13fds16r04" - Discrete input  - -
+"k14fds16r04" - Discrete input  - -
+"k15fds16r04" - Discrete input  - -
+"k16fds16r04" - Discrete input  - -
+"R0IE01LS1"   - Discrete input  - Выход из ORN
+"R0IE02LS1"   - Discrete input  - Выход из ORN
+"R0VN01RS1"   - input Register  - Выход из PERIOD
+"R0VN02RS1"   - input Register  - Выход из OCHAMB
+"R0VN03RS1"   - input Register  - Выход из OCHAMB
+"R0VN04RS1"   - input Register  - Выход из REACT
+"R0VN13RS1"   - input Register  - Выход из OCHAMB
+"R0VN14RS1"   - Discrete input  - Выход из VCHTOCH
+"R0VN15RS1"   - Discrete input  - Выход из OCHAMB
+"R0VN23RS1"   - input Register  - Выход из OCHAMB
+"R0VN24RS1"   - Discrete input  - Выход из VCHTOCH
+"R0VN33RS1"   - input Register  - Выход из OCHAMB
+"R0VN34RS1"   - Discrete input  - Выход из VCHTOCH
+"R0VN61LS1"   - Discrete input  - Выход из BOL
+"R0VN65LS1"   - Discrete input  - Выход из ANDN
+"R0VN71LZ1"   - Discrete input  - Выход из BOL 
+"R0VN71LZ2"   - Discrete input  - Выход из BOL
+"R0VN75LZ1"   - Discrete input  - Выход из ANDN
+"R0VN75LZ2"   - Discrete input  - Выход из ANDN

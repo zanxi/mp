@@ -1,0 +1,36 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="fds16" description="Типовой драйвер ФДС16" code="0x04" lenData="32" lenInit="20" header="../dspa/drivers/fds16r.h">
+<!-->
+    need="n" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="K01FDSR" format="1" need="n" address="0"/>
+        <signal name="K02FDSR" format="1" need="n" address="2"/>
+        <signal name="K03FDSR" format="1" need="n" address="4"/>
+        <signal name="K04FDSR" format="1" need="n" address="6"/>
+        <signal name="K05FDSR" format="1" need="n" address="8"/>
+        <signal name="K06FDSR" format="1" need="n" address="10"/>
+        <signal name="K07FDSR" format="1" need="n" address="12"/>
+        <signal name="K08FDSR" format="1" need="n" address="14"/>
+        <signal name="K09FDSR" format="1" need="n" address="16"/>
+        <signal name="K10FDSR" format="1" need="n" address="18"/>
+        <signal name="K11FDSR" format="1" need="n" address="20"/>
+        <signal name="K12FDSR" format="1" need="n" address="22"/>
+        <signal name="K13FDSR" format="1" need="n" address="24"/>
+        <signal name="K14FDSR" format="1" need="n" address="26"/>
+        <signal name="K15FDSR" format="1" need="n" address="28"/>
+        <signal name="K16FDSR" format="1" need="n" address="30"/>
+    </signals>
+    <init type="fds16r_inipar">
+        <signal name="type" format="18" value="0x04" address="0"/>
+        <signal name="BoxLen" format="2" value="0xff" address="1"/>
+        <signal name="vip" format="18" value="8" address="2"/>
+        <signal name="NumCh" format="18" value="8" address="3"/>
+        <signal name="UsMask18" format="18" value="0xff" address="4"/>
+        <signal name="UsMask916" format="18" value="0xff" address="5"/>
+    </init>
+</driver>

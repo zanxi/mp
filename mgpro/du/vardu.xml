@@ -1,0 +1,1277 @@
+<vars>
+<!--
+ BAZ1
+-->
+<var name="R0MD34LP1" description="(R0MD34LP1) Кнопка  Квитировать " format="1"></var>
+<var name="R0EE02LDU" description="(R0EE02LDU) Питание  АКНП  отключить" format="1"></var>
+<var name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал 1" format="1"></var>
+<var name="R0VN62LS1" description="(R0VN62LS1) ПС по мощности канал 2" format="1"></var>
+<var name="R0VN63LS3" description="(R0VN63LS3) ПС по мощности канал 3" format="1"></var>
+<var name="R0VN64LS4" description="(R0VN64LS4) ПС по мощности канал 4" format="1"></var>
+<var name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN66LS2" description="(R0VN66LS2) ПС по периоду разгона канал 2" format="1"></var>
+<var name="R0VN67LS3" description="(R0VN67LS3) ПС по периоду разгона канал 3" format="1"></var>
+<var name="R0VN68LS4" description="(R0VN68LS4) ПС по периоду разгона канал 4" format="1"></var>
+<var name="A0EE04LZ1" description="(A0EE04LZ1) Исправность АКНП4" format="1"></var>
+<var name="A0EE01LZ1" description="(A0EE01LZ1) Исправность АКНП1" format="1"></var>
+<var name="R0VN80LZ1" description="(R0VN80LZ1) АЗ по АС периода разгона РУ" format="1"></var>
+<var name="R0VN70LZ1" description="(R0VN70LZ1) АЗ по АС мощности РУ" format="1"></var>
+<var name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал АЗ" format="1"></var>
+<var name="R0VN79LZ1" description="(R0VN79LZ1) АС по усредненному периоду" format="1"></var>
+<var name="R0VN69LZ1" description="(R0VN69LZ1) ПС по усредненному периоду" format="1"></var>
+<var name="B3VZ11LZ1" description="(B3VZ11LZ1) АЗ от НУП ИС2" format="1"></var>
+<var name="A3VZ11LZ1" description="(A3VZ11LZ1) АЗ от НУП ИС1" format="1"></var>
+<var name="B3VZ31LZ1" description="(B3VZ31LZ1) АЗ от ВУ ИС2" format="1"></var>
+<var name="A3VZ31LZ1" description="(A3VZ31LZ1) АЗ от ВУ ИС1" format="1"></var>
+<var name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал  4" format="1"></var>
+<var name="R0VN77LZ1" description="(R0VN77LZ1) АС по периоду разгона канал  3" format="1"></var>
+<var name="R0VN61LZ1" description="(R0VN61LZ1) ПС по мощности канал 1" format="1"></var>
+<var name="R0VN62LZ1" description="(R0VN62LZ1) ПС по мощности канал 2" format="1"></var>
+<var name="R0VN63LZ1" description="(R0VN63LZ1) ПС по мощности канал 3" format="1"></var>
+<var name="R0VN64LZ1" description="(R0VN64LZ1) ПС по мощности канал 4" format="1"></var>
+<var name="R0VN65LZ1" description="(R0VN65LZ1) ПС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN66LZ1" description="(R0VN66LZ1) ПС по периоду разгона канал 2" format="1"></var>
+<var name="R0VN67LZ1" description="(R0VN67LZ1) ПС по периоду разгона канал 3" format="1"></var>
+<var name="R0VN68LZ1" description="(R0VN68LZ1) ПС по периоду разгона канал 4" format="1"></var>
+<var name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности канал 1" format="1"></var>
+<var name="R0VN72LZ1" description="(R0VN72LZ1) АС по мощности канал 2" format="1"></var>
+<var name="R0VN73LZ1" description="(R0VN73LZ1) АС по мощности канал 3" format="1"></var>
+<var name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4" format="1"></var>
+<var name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN76LZ1" description="(R0VN76LZ1) АС по периоду разгона канал  2" format="1"></var>
+<var name="R7II72LZ1" description="(R7II72LZ1) Сработала АС IУР (датчик 2)" format="1"></var>
+<var name="A0VP73LZ1" description="(A0VP73LZ1) ПС любого давления для АЗ1" format="1"></var>
+<var name="B0VP73LZ1" description="(B0VP73LZ1) ПС давления для АЗ2" format="1"></var>
+<var name="R0VP73LZ1" description="(R0VP73LZ1) ПС давления для РУ" format="1"></var>
+<var name="B0VT61LZ1" description="(B0VT61LZ1) ПС по температуре в АЗ2" format="1"></var>
+<var name="B0VT71LZ1" description="(B0VT71LZ1) АС по температуре в АЗ2" format="1"></var>
+<var name="A1VN71LZ1" description="(A1VN71LZ1) Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="R0VW13LDU" description="(R0VW13LDU) Индикация выбора  АЗ1  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0VW23LDU" description="(R0VW23LDU) Индикация выбора  АЗ2  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
+<var name="R0AD16LDU" description="(R0AD16LDU) Имитация срабатывания верхней АС I УР" format="1"></var>
+<var name="A0EE02LZ1" description="(A0EE02LZ1) Исправность АКНП2" format="1"></var>
+<var name="A0EE03LZ1" description="(A0EE03LZ1) Исправность АКНП3" format="1"></var>
+<var name="A0EE05LZ1" description="(A0EE05LZ1) Исправность сети АКНП1" format="1"></var>
+<var name="A0EE06LZ1" description="(A0EE06LZ1) Исправность сети АКНП2" format="1"></var>
+<var name="A0EE07LZ1" description="(A0EE07LZ1) Исправность сети АКНП3" format="1"></var>
+<var name="A0EE08LZ1" description="(A0EE08LZ1) Исправность сети АКНП4" format="1"></var>
+<var name="A0VZ71LZ1" description="(A0VZ71LZ1) Обобщенный сигнал АС по АЗ1" format="1"></var>
+<var name="A0EE00LZ1" description="(A0EE00LZ1) Исправность АКНП АЗ1" format="1"></var>
+<var name="B0EE00LZ1" description="(B0EE00LZ1) Исправность АКНП АЗ2" format="1"></var>
+<var name="B0VZ71LZ1" description="(B0VZ71LZ1) Обобщенный сигнал АС по АЗ2" format="1"></var>
+<var name="A0VN71LZ1" description="(A0VN71LZ1) АЗ по АС мощности  АЗ1" format="1"></var>
+<var name="B0VN71LZ1" description="(B0VN71LZ1) АЗ по АС мощности  АЗ2" format="1"></var>
+<var name="A0VN81LZ1" description="(A0VN81LZ1) АЗ по АС периода разгона АЗ1" format="1"></var>
+<var name="B0VN81LZ1" description="(B0VN81LZ1) АЗ по АС периода разгона АЗ2" format="1"></var>
+<var name="R7II73LZ1" description="(R7II73LZ1) Сработала АС IIУР" format="1"></var>
+<var name="R7II71LZ1" description="(R7II71LZ1) Сработала АС IУР (датчик 1)" format="1"></var>
+<var name="B0VP51LZ1" description="(B0VP51LZ1) Давление  АЗ2 ниже ПС" format="1"></var>
+<var name="B0VP41LZ1" description="(B0VP41LZ1) Давление АЗ2 ниже АС" format="1"></var>
+<var name="A0VP51LZ1" description="(A0VP51LZ1) Давление АЗ1 ниже ПС" format="1"></var>
+<var name="A0VP41LZ1" description="(A0VP41LZ1) Давление АЗ1 ниже АС" format="1"></var>
+<var name="R0ET01LZ1" description="(R0ET01LZ1) Признак наличия неисправности по температуре  АЗ1" format="1"></var>
+<var name="A2VP81LZ1" description="(A2VP81LZ1) Давление СБРОС РБ1 в норме" format="1"></var>
+<var name="B2VP81LZ1" description="(B2VP81LZ1) Давление СБРОС РБ2 в норме" format="1"></var>
+<var name="B2VP51LZ1" description="(B2VP51LZ1) Давление СБРОС РБ2 ниже ПС" format="1"></var>
+<var name="B2VP41LZ1" description="(B2VP41LZ1) Давление СБРОС РБ2 ниже АС" format="1"></var>
+<var name="A0VT61LZ1" description="(A0VT61LZ1) ПС по температуре в АЗ1" format="1"></var>
+<var name="A0VT71LZ1" description="(A0VT71LZ1) АС по температуре в АЗ1" format="1"></var>
+<var name="A1VP41LZ1" description="(A1VP41LZ1) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var name="A1VP51LZ1" description="(A1VP51LZ1) Давление СБРОС ББ1 ниже ПС" format="1"></var>
+<var name="B1VP41LZ1" description="(B1VP41LZ1) Давление СБРОС ББ2 ниже АС" format="1"></var>
+<var name="B1VP51LZ1" description="(B1VP51LZ1) Давление СБРОС ББ2 ниже ПС" format="1"></var>
+<var name="B1VP81LZ1" description="(B1VP81LZ1) Давление СБРОС ББ2 в норме" format="1"></var>
+<var name="A1VP81LZ1" description="(A1VP81LZ1) Давление СБРОС ББ1 в норме" format="1"></var>
+<var name="A2VP41LZ1" description="(A2VP41LZ1) Давление СБРОС РБ1 ниже АС" format="1"></var>
+<var name="A2VP51LZ1" description="(A2VP51LZ1) Давление СБРОС РБ1 ниже ПС" format="1"></var>
+<var name="B0VP81LZ1" description="(B0VP81LZ1) Давление АЗ2 в норме" format="1"></var>
+<var name="A0VP81LZ1" description="(A0VP81LZ1) Давление  АЗ1 в норме" format="1"></var>
+<var name="R0VP41LZ1" description="(R0VP41LZ1) Давление в СИСТЕМЕ ниже АС" format="1"></var>
+<var name="R0VP51LZ1" description="(R0VP51LZ1) Давление в СИСТЕМЕ ниже ПС" format="1"></var>
+<var name="R0VP81LZ1" description="(R0VP81LZ1) Давление  в СИСТЕМЕ в норме" format="1"></var>
+<var name="R0ET02LZ1" description="(R0ET02LZ1) Признак наличия неисправности по температуре АЗ2" format="1"></var>
+<var name="A0VP71LZ1" description="(A0VP71LZ1) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var name="B0VP71LZ1" description="(B0VP71LZ1) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var name="R7II74RZ1" description="(R7II74RZ1) Уровень радиации в реакторном зале" format="8"></var>
+<var name="R0VR02RZ1" description="(R0VR02RZ1) Усредненная реактивность" format="8"></var>
+<var name="R0VN09RZ1" description="(R0VN09RZ1) Усредненный период разгона" format="8"></var>
+<var name="R0VN06RZ1" description="(R0VN06RZ1) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN07RZ1" description="(R0VN07RZ1) Период разгона по каналу 3" format="8"></var>
+<var name="R0VN08RZ1" description="(R0VN08RZ1) Период разгона по каналу 4" format="8"></var>
+<var name="R0VZ05UZ1" description="(R0VZ05UZ1) Индикатор причины сброса" format="5"></var>
+<var name="R0VN11RZ1" description="(R0VN11RZ1) Средняя мощность по БАЗ1" format="8"></var>
+<var name="B0EP03IZ1" description="(B0EP03IZ1) Индикатор -Давление  АЗ2 ниже ПС" format="2"></var>
+<var name="A0EP03IZ1" description="(A0EP03IZ1) Индикатор -Давление  АЗ1 ниже ПС" format="2"></var>
+<var name="B0CT01IZ1" description="(B0CT01IZ1) Температура АЗ2" format="8"></var>
+<var name="B0CP02RZ1" description="(B0CP02RZ1) Текущее давление АЗ2" format="8"></var>
+<var name="A0CP01RZ1" description="(A0CP01RZ1) Текущее давление  АЗ1" format="8"></var>
+<var name="R0IP00IZ1" description="(R0IP00IZ1) Текущее давление в СИСТЕМЕ" format="3"></var>
+<var name="B0IT01IZ1" description="(B0IT01IZ1) Температура АЗ2" format="3"></var>
+<var name="B2IP01IZ1" description="(B2IP01IZ1) Текущее давление СБРОС РБ2" format="3"></var>
+<var name="A2IP01IZ1" description="(A2IP01IZ1) Текущее давление СБРОС РБ1" format="3"></var>
+<var name="B2CP01RZ1" description="(B2CP01RZ1) Текущее давление СБРОС РБ2" format="8"></var>
+<var name="A0IT01IZ1" description="(A0IT01IZ1) Температура АЗ1" format="3"></var>
+<var name="A0CT01IZ1" description="(A0CT01IZ1) Температура АЗ1" format="8"></var>
+<var name="A1IP01IZ1" description="(A1IP01IZ1) Текущее давление СБРОС ББ1" format="3"></var>
+<var name="B1IP01IZ1" description="(B1IP01IZ1) Текущее давление СБРОС ББ2" format="3"></var>
+<var name="A1CP01RZ1" description="(A1CP01RZ1) Текущее давление СБРОС ББ1" format="8"></var>
+<var name="B1CP01RZ1" description="(B1CP01RZ1) Текущее давление СБРОС ББ2" format="8"></var>
+<var name="A2CP01RZ1" description="(A2CP01RZ1) Текущее давление СБРОС РБ1" format="8"></var>
+<var name="R0VN01RZ1" description="(R0VN01RZ1) Уровень мощности по каналу 1" format="8"></var>
+<var name="R0VN02RZ1" description="(R0VN02RZ1) Уровень мощности по каналу 2" format="8"></var>
+<var name="R0VN03RZ1" description="(R0VN03RZ1) Уровень мощности по каналу 3" format="8"></var>
+<var name="R0VN04RZ1" description="(R0VN04RZ1) Уровень мощности по каналу 4" format="8"></var>
+<var name="R0VN05RZ1" description="(R0VN05RZ1) Период разгона по каналу 1" format="8"></var>
+<var name="A0IP01IZ1" description="(A0IP01IZ1) Текущее давление АЗ1" format="3"></var>
+<var name="B0IP01IZ1" description="(B0IP01IZ1) Текущее давление АЗ2" format="3"></var>
+<var name="R0CP01RZ1" description="(R0CP01RZ1) Текущее давление  в СИСТЕМЕ" format="8"></var>
+<var name="B0EP02IZ1" description="(B0EP02IZ1) Индикатор -Давление  АЗ2 ниже АС" format="2"></var>
+<var name="A0EP02IZ1" description="(A0EP02IZ1) Индикатор -Давление  АЗ1 ниже АС" format="2"></var>
+<var name="R0VN01RS1" description="(R0VN01RS1) Период разгона по каналу 1" format="8"></var>
+<var name="R0VN01RS2" description="(R0VN01RS2) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN01RS3" description="(R0VN01RS3) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN01RS4" description="(R0VN01RS4) Период разгона по каналу 4" format="8"></var>
+<var name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности по каналу 1" format="8"></var>
+<var name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности по каналу 2" format="8"></var>
+<var name="R0VN02RS3" description="(R0VN02RS3) Уровень мощности по каналу 3" format="8"></var>
+<var name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности по каналу 4" format="8"></var>
+<var name="A0UP88RZZ" description="(A0UP88RZZ) Верхняя граница неоднозначности нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP86RZZ" description="(A0UP86RZZ) Нижняя граница нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP03RZZ" description="(A0UP03RZZ) Верхний предел шкалы датчика давления АЗ1,2" format="8"></var>
+<var name="A0UP04RZZ" description="(A0UP04RZZ) Нижний предел шкалы датчика давления АЗ1,2" format="8"></var>
+<var name="R0UP04RZZ" description="(R0UP04RZZ) Нижний предел шкалы датчика давления в СИСТЕМЕ" format="8"></var>
+<var name="R0UP03RZZ" description="(R0UP03RZZ) Верхний предел шкалы датчика давления в СИСТЕМЕ" format="8"></var>
+<var name="R0UP43RZZ" description="(R0UP43RZZ) Уровень срабатывания аварийной сигнализации по давлению  в СИСТЕМЕ" format="8"></var>
+<var name="R0UP53RZZ" description="(R0UP53RZZ) Уровень срабатывания предупредительной по давлению в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP54RZZ" description="(R0UP54RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению в СИСТЕМЕ(МПа)" format="8"></var>
+<var name="R0UP44RZZ" description="(R0UP44RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению в СИСТЕМЕ(МПа)" format="8"></var>
+<var name="R0UP85RZZ" description="(R0UP85RZZ) Нижняя граница неоднозначности нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP88RZZ" description="(R0UP88RZZ) Верхняя граница неоднозначности нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP87RZZ" description="(R0UP87RZZ) Верхняя граница нормализации давления в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP86RZZ" description="(R0UP86RZZ) Нижняя граница нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="A1UP52RZZ" description="(A1UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС ББ(МПа)" format="8"></var>
+<var name="A1UP83RZZ" description="(A1UP83RZZ) Верхняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A2UP52RZZ" description="(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)" format="8"></var>
+<var name="A2UP83RZZ" description="(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A0UP54RZZ" description="(A0UP54RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению АЗ1,2(МПа)" format="8"></var>
+<var name="A0UP87RZZ" description="(A0UP87RZZ) Верхняя граница нормализации давления АЗ1,2 (МПа)" format="8"></var>
+<var name="A1UL11IZZ" description="(A1UL11IZZ) Время задержки АЗ от ВУ ИС1" format="5"></var>
+<var name="A1UL12IZZ" description="(A1UL12IZZ) Время задержки АЗ от НУ ИС1(мс)" format="5"></var>
+<var name="A1UL14IZZ" description="(A1UL14IZZ) Время задержки АЗ от 1-2 УР(мс)" format="8"></var>
+<var name="R0UT02RZZ" description="(R0UT02RZZ) Верхний предел шкалы датчика температуры" format="8"></var>
+<var name="R0UT01RZZ" description="(R0UT01RZZ) Нижний предел шкалы датчика температуры" format="8"></var>
+<var name="A2UP03RZZ" description="(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ" format="8"></var>
+<var name="A2UP04RZZ" description="(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ" format="8"></var>
+<var name="A1UP41RZZ" description="(A1UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС ББ" format="8"></var>
+<var name="A1UP42RZZ" description="(A1UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС ББ (МПа)" format="8"></var>
+<var name="R0UT72RZZ" description="(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)" format="8"></var>
+<var name="R0UT71RZZ" description="(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ" format="8"></var>
+<var name="R0UT62RZZ" description="(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)" format="8"></var>
+<var name="R0UT61RZZ" description="(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ" format="8"></var>
+<var name="A1UP51RZZ" description="(A1UP51RZZ) Уровень срабатывания предупредительной сигнализации по давлению СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP82RZZ" description="(A1UP82RZZ) Нижняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP81RZZ" description="(A1UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP84RZZ" description="(A1UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A2UP41RZZ" description="(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ" format="8"></var>
+<var name="A2UP42RZZ" description="(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP51RZZ" description="(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP81RZZ" description="(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP84RZZ" description="(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP82RZZ" description="(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A0UP53RZZ" description="(A0UP53RZZ) Уровень срабатывания предупредительной по давлению АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP43RZZ" description="(A0UP43RZZ) Уровень срабатывания аварийной сигнализации по давлению  АЗ1,2" format="8"></var>
+<var name="A0UP44RZZ" description="(A0UP44RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP85RZZ" description="(A0UP85RZZ) Нижняя граница неоднозначности нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<!--
+ BAZ2
+-->
+<var name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал 1" format="1"></var>
+<var name="R0VN62LS1" description="(R0VN62LS1) ПС по мощности канал 2" format="1"></var>
+<var name="R0VN63LS3" description="(R0VN63LS3) ПС по мощности канал 3" format="1"></var>
+<var name="R0VN64LS4" description="(R0VN64LS4) ПС по мощности канал 4" format="1"></var>
+<var name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN66LS2" description="(R0VN66LS2) ПС по периоду разгона канал 2" format="1"></var>
+<var name="R0VN67LS3" description="(R0VN67LS3) ПС по периоду разгона канал 3" format="1"></var>
+<var name="R0VN68LS4" description="(R0VN68LS4) ПС по периоду разгона канал 4" format="1"></var>
+<var name="R0EE02LDU" description="(R0EE02LDU) Питание  АКНП  отключить" format="1"></var>
+<var name="R0MD34LP1" description="(R0MD34LP1) Кнопка  Квитировать " format="1"></var>
+<var name="A0VT61LZ2" description="(A0VT61LZ2) ПС по температуре в АЗ1" format="1"></var>
+<var name="A0VT71LZ2" description="(A0VT71LZ2) АС по температуре в АЗ1" format="1"></var>
+<var name="A1VP41LZ2" description="(A1VP41LZ2) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var name="A1VP51LZ2" description="(A1VP51LZ2) Давление СБРОС ББ1 ниже ПС" format="1"></var>
+<var name="B1VP41LZ2" description="(B1VP41LZ2) Давление СБРОС ББ2 ниже АС" format="1"></var>
+<var name="B1VP51LZ2" description="(B1VP51LZ2) Давление СБРОС ББ2 ниже ПС" format="1"></var>
+<var name="B1VP81LZ2" description="(B1VP81LZ2) Давление СБРОС ББ2 в норме" format="1"></var>
+<var name="A1VP81LZ2" description="(A1VP81LZ2) Давление СБРОС ББ1 в норме" format="1"></var>
+<var name="A2VP41LZ2" description="(A2VP41LZ2) Давление СБРОС РБ1 ниже АС" format="1"></var>
+<var name="A2VP51LZ2" description="(A2VP51LZ2) Давление СБРОС РБ1 ниже ПС" format="1"></var>
+<var name="B2VP41LZ2" description="(B2VP41LZ2) Давление СБРОС РБ2 ниже АС" format="1"></var>
+<var name="B2VP51LZ2" description="(B2VP51LZ2) Давление СБРОС РБ2 ниже ПС" format="1"></var>
+<var name="B2VP81LZ2" description="(B2VP81LZ2) Давление СБРОС РБ2 в норме" format="1"></var>
+<var name="A2VP81LZ2" description="(A2VP81LZ2) Давление СБРОС РБ1 в норме" format="1"></var>
+<var name="R0ET01LZ2" description="(R0ET01LZ2) Признак наличия неисправности по температуре  АЗ1" format="1"></var>
+<var name="A0VP41LZ2" description="(A0VP41LZ2) Давление АЗ1 ниже АС" format="1"></var>
+<var name="A0VP51LZ2" description="(A0VP51LZ2) Давление АЗ1 ниже ПС" format="1"></var>
+<var name="B0VP41LZ2" description="(B0VP41LZ2) Давление АЗ2 ниже АС" format="1"></var>
+<var name="B0VP51LZ2" description="(B0VP51LZ2) Давление  АЗ2 ниже ПС" format="1"></var>
+<var name="B0VP81LZ2" description="(B0VP81LZ2) Давление АЗ2 в норме" format="1"></var>
+<var name="A0VP81LZ2" description="(A0VP81LZ2) Давление  АЗ1 в норме" format="1"></var>
+<var name="R0VP41LZ2" description="(R0VP41LZ2) Давление в СИСТЕМЕ ниже АС" format="1"></var>
+<var name="R0VP51LZ2" description="(R0VP51LZ2) Давление в СИСТЕМЕ ниже ПС" format="1"></var>
+<var name="R0VP81LZ2" description="(R0VP81LZ2) Давление  в СИСТЕМЕ в норме" format="1"></var>
+<var name="R0ET02LZ2" description="(R0ET02LZ2) Признак наличия неисправности по температуре АЗ2" format="1"></var>
+<var name="A0VP71LZ2" description="(A0VP71LZ2) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var name="B0VP71LZ2" description="(B0VP71LZ2) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var name="R0VN61LZ2" description="(R0VN61LZ2) ПС по мощности канал 1" format="1"></var>
+<var name="R0VN62LZ2" description="(R0VN62LZ2) ПС по мощности канал 2" format="1"></var>
+<var name="R0VN63LZ2" description="(R0VN63LZ2) ПС по мощности канал 3" format="1"></var>
+<var name="R0VN64LZ2" description="(R0VN64LZ2) ПС по мощности канал 4" format="1"></var>
+<var name="R0VN65LZ2" description="(R0VN65LZ2) ПС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN66LZ2" description="(R0VN66LZ2) ПС по периоду разгона канал 2" format="1"></var>
+<var name="R0VN67LZ2" description="(R0VN67LZ2) ПС по периоду разгона канал 3" format="1"></var>
+<var name="R0VN68LZ2" description="(R0VN68LZ2) ПС по периоду разгона канал 4" format="1"></var>
+<var name="R0VN71LZ2" description="(R0VN71LZ2) АС по мощности канал 1" format="1"></var>
+<var name="R0VN72LZ2" description="(R0VN72LZ2) АС по мощности канал 2" format="1"></var>
+<var name="R0VN73LZ2" description="(R0VN73LZ2) АС по мощности канал 3" format="1"></var>
+<var name="R0VN74LZ2" description="(R0VN74LZ2) АС по мощности канал 4" format="1"></var>
+<var name="R0VN75LZ2" description="(R0VN75LZ2) АС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN76LZ2" description="(R0VN76LZ2) АС по периоду разгона канал  2" format="1"></var>
+<var name="R0VN77LZ2" description="(R0VN77LZ2) АС по периоду разгона канал  3" format="1"></var>
+<var name="R0VN78LZ2" description="(R0VN78LZ2) АС по периоду разгона канал  4" format="1"></var>
+<var name="A3VZ31LZ2" description="(A3VZ31LZ2) АЗ от ВУ ИС1" format="1"></var>
+<var name="B3VZ31LZ2" description="(B3VZ31LZ2) АЗ от ВУ ИС2" format="1"></var>
+<var name="A3VZ11LZ2" description="(A3VZ11LZ2) АЗ от НУП ИС1" format="1"></var>
+<var name="B3VZ11LZ2" description="(B3VZ11LZ2) АЗ от НУП ИС2" format="1"></var>
+<var name="R0VN69LZ2" description="(R0VN69LZ2) ПС по усредненному периоду" format="1"></var>
+<var name="R0VN79LZ2" description="(R0VN79LZ2) АС по усредненному периоду" format="1"></var>
+<var name="R0VZ71LZ2" description="(R0VZ71LZ2) Обобщенный сигнал АЗ" format="1"></var>
+<var name="R0VN70LZ2" description="(R0VN70LZ2) АЗ по АС мощности РУ" format="1"></var>
+<var name="R0VN80LZ2" description="(R0VN80LZ2) АЗ по АС периода разгона РУ" format="1"></var>
+<var name="A0EE01LZ2" description="(A0EE01LZ2) Исправность АКНП1" format="1"></var>
+<var name="A0EE04LZ2" description="(A0EE04LZ2) Исправность АКНП4" format="1"></var>
+<var name="A0EE02LZ2" description="(A0EE02LZ2) Исправность АКНП2" format="1"></var>
+<var name="A0EE03LZ2" description="(A0EE03LZ2) Исправность АКНП3" format="1"></var>
+<var name="A0EE05LZ2" description="(A0EE05LZ2) Исправность сети АКНП1" format="1"></var>
+<var name="A0EE06LZ2" description="(A0EE06LZ2) Исправность сети АКНП2" format="1"></var>
+<var name="A0EE07LZ2" description="(A0EE07LZ2) Исправность сети АКНП3" format="1"></var>
+<var name="A0EE08LZ2" description="(A0EE08LZ2) Исправность сети АКНП4" format="1"></var>
+<var name="A0VZ71LZ2" description="(A0VZ71LZ2) Обобщенный сигнал АС по АЗ1" format="1"></var>
+<var name="A0EE00LZ2" description="(A0EE00LZ2) Исправность АКНП АЗ1" format="1"></var>
+<var name="B0EE00LZ2" description="(B0EE00LZ2) Исправность АКНП АЗ2" format="1"></var>
+<var name="B0VZ71LZ2" description="(B0VZ71LZ2) Обобщенный сигнал АС по АЗ2" format="1"></var>
+<var name="A0VN71LZ2" description="(A0VN71LZ2) АЗ по АС мощности  АЗ1" format="1"></var>
+<var name="B0VN71LZ2" description="(B0VN71LZ2) АЗ по АС мощности  АЗ2" format="1"></var>
+<var name="A0VN81LZ2" description="(A0VN81LZ2) АЗ по АС периода разгона АЗ1" format="1"></var>
+<var name="B0VN81LZ2" description="(B0VN81LZ2) АЗ по АС периода разгона АЗ2" format="1"></var>
+<var name="R7II73LZ2" description="(R7II73LZ2) Сработала АС IIУР" format="1"></var>
+<var name="R7II71LZ2" description="(R7II71LZ2) Сработала АС IУР (датчик 1)" format="1"></var>
+<var name="R7II72LZ2" description="(R7II72LZ2) Сработала АС IУР (датчик 2)" format="1"></var>
+<var name="A0VP73LZ2" description="(A0VP73LZ2) ПС любого давления для АЗ1" format="1"></var>
+<var name="B0VP73LZ2" description="(B0VP73LZ2) ПС давления для АЗ2" format="1"></var>
+<var name="R0VP73LZ2" description="(R0VP73LZ2) ПС давления для РУ" format="1"></var>
+<var name="B0VT61LZ2" description="(B0VT61LZ2) ПС по температуре в АЗ2" format="1"></var>
+<var name="B0VT71LZ2" description="(B0VT71LZ2) АС по температуре в АЗ2" format="1"></var>
+<var name="A1VN71LZ2" description="(A1VN71LZ2) Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="R0VW13LDU" description="(R0VW13LDU) Индикация выбора  АЗ1  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0VW23LDU" description="(R0VW23LDU) Индикация выбора  АЗ2  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
+<var name="R0AD16LDU" description="(R0AD16LDU) Имитация срабатывания верхней АС I УР" format="1"></var>
+<var name="A0IT01IZ2" description="(A0IT01IZ2) Температура АЗ1" format="3"></var>
+<var name="A0CT01IZ2" description="(A0CT01IZ2) Температура АЗ1" format="8"></var>
+<var name="A1IP01IZ2" description="(A1IP01IZ2) Текущее давление СБРОС ББ1" format="3"></var>
+<var name="B1IP01IZ2" description="(B1IP01IZ2) Текущее давление СБРОС ББ2" format="3"></var>
+<var name="A1CP01RZ2" description="(A1CP01RZ2) Текущее давление СБРОС ББ1" format="8"></var>
+<var name="B1CP01RZ2" description="(B1CP01RZ2) Текущее давление СБРОС ББ2" format="8"></var>
+<var name="A2CP01RZ2" description="(A2CP01RZ2) Текущее давление СБРОС РБ1" format="8"></var>
+<var name="B2CP01RZ2" description="(B2CP01RZ2) Текущее давление СБРОС РБ2" format="8"></var>
+<var name="A2IP01IZ2" description="(A2IP01IZ2) Текущее давление СБРОС РБ1" format="3"></var>
+<var name="B2IP01IZ2" description="(B2IP01IZ2) Текущее давление СБРОС РБ2" format="3"></var>
+<var name="B0IT01IZ2" description="(B0IT01IZ2) Температура АЗ2" format="3"></var>
+<var name="R0IP00IZ2" description="(R0IP00IZ2) Текущее давление в СИСТЕМЕ" format="3"></var>
+<var name="A0CP01RZ2" description="(A0CP01RZ2) Текущее давление  АЗ1" format="8"></var>
+<var name="B0CP02RZ2" description="(B0CP02RZ2) Текущее давление АЗ2" format="8"></var>
+<var name="A0IP01IZ2" description="(A0IP01IZ2) Текущее давление АЗ1" format="3"></var>
+<var name="B0IP01IZ2" description="(B0IP01IZ2) Текущее давление АЗ2" format="3"></var>
+<var name="R0CP01RZ2" description="(R0CP01RZ2) Текущее давление  в СИСТЕМЕ" format="8"></var>
+<var name="B0EP02IZ2" description="(B0EP02IZ2) Индикатор -Давление  АЗ2 ниже АС" format="2"></var>
+<var name="A0EP02IZ2" description="(A0EP02IZ2) Индикатор -Давление  АЗ1 ниже АС" format="2"></var>
+<var name="R0VN01RZ2" description="(R0VN01RZ2) Уровень мощности по каналу 1" format="8"></var>
+<var name="R0VN02RZ2" description="(R0VN02RZ2) Уровень мощности по каналу 2" format="8"></var>
+<var name="R0VN03RZ2" description="(R0VN03RZ2) Уровень мощности по каналу 3" format="8"></var>
+<var name="R0VN04RZ2" description="(R0VN04RZ2) Уровень мощности по каналу 4" format="8"></var>
+<var name="R0VN05RZ2" description="(R0VN05RZ2) Период разгона по каналу 1" format="8"></var>
+<var name="R0VN06RZ2" description="(R0VN06RZ2) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN07RZ2" description="(R0VN07RZ2) Период разгона по каналу 3" format="8"></var>
+<var name="R0VN08RZ2" description="(R0VN08RZ2) Период разгона по каналу 4" format="8"></var>
+<var name="R0VN09RZ2" description="(R0VN09RZ2) Усредненный период разгона" format="8"></var>
+<var name="R0VR02RZ2" description="(R0VR02RZ2) Усредненная реактивность" format="8"></var>
+<var name="R7II74RZ2" description="(R7II74RZ2) Уровень радиации в реакторном зале" format="8"></var>
+<var name="R0VZ05UZ2" description="(R0VZ05UZ2) Индикатор причины сброса" format="5"></var>
+<var name="R0VN11RZ2" description="(R0VN11RZ2) Средняя мощность по БАЗ1" format="8"></var>
+<var name="B0EP03IZ2" description="(B0EP03IZ2) Индикатор -Давление  АЗ2 ниже ПС" format="2"></var>
+<var name="A0EP03IZ2" description="(A0EP03IZ2) Индикатор -Давление  АЗ1 ниже ПС" format="2"></var>
+<var name="B0CT01IZ2" description="(B0CT01IZ2) Температура АЗ2" format="8"></var>
+<var name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности по каналу 1" format="8"></var>
+<var name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности по каналу 2" format="8"></var>
+<var name="R0VN02RS3" description="(R0VN02RS3) Уровень мощности по каналу 3" format="8"></var>
+<var name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности по каналу 4" format="8"></var>
+<var name="R0VN01RS1" description="(R0VN01RS1) Период разгона по каналу 1" format="8"></var>
+<var name="R0VN01RS2" description="(R0VN01RS2) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN01RS3" description="(R0VN01RS3) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN01RS4" description="(R0VN01RS4) Период разгона по каналу 4" format="8"></var>
+<var name="R0UT02RZZ" description="(R0UT02RZZ) Верхний предел шкалы датчика температуры" format="8"></var>
+<var name="R0UT01RZZ" description="(R0UT01RZZ) Нижний предел шкалы датчика температуры" format="8"></var>
+<var name="A2UP03RZZ" description="(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ" format="8"></var>
+<var name="A2UP04RZZ" description="(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ" format="8"></var>
+<var name="A1UP41RZZ" description="(A1UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС ББ" format="8"></var>
+<var name="A1UP42RZZ" description="(A1UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС ББ (МПа)" format="8"></var>
+<var name="R0UT72RZZ" description="(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)" format="8"></var>
+<var name="R0UT71RZZ" description="(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ" format="8"></var>
+<var name="R0UT62RZZ" description="(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)" format="8"></var>
+<var name="R0UT61RZZ" description="(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ" format="8"></var>
+<var name="A1UP51RZZ" description="(A1UP51RZZ) Уровень срабатывания предупредительной сигнализации по давлению СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP82RZZ" description="(A1UP82RZZ) Нижняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP81RZZ" description="(A1UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP84RZZ" description="(A1UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A2UP41RZZ" description="(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ" format="8"></var>
+<var name="A2UP42RZZ" description="(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP51RZZ" description="(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP81RZZ" description="(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP84RZZ" description="(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP82RZZ" description="(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A0UP53RZZ" description="(A0UP53RZZ) Уровень срабатывания предупредительной по давлению АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP43RZZ" description="(A0UP43RZZ) Уровень срабатывания аварийной сигнализации по давлению  АЗ1,2" format="8"></var>
+<var name="A0UP44RZZ" description="(A0UP44RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP85RZZ" description="(A0UP85RZZ) Нижняя граница неоднозначности нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP88RZZ" description="(A0UP88RZZ) Верхняя граница неоднозначности нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP86RZZ" description="(A0UP86RZZ) Нижняя граница нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP03RZZ" description="(A0UP03RZZ) Верхний предел шкалы датчика давления АЗ1,2" format="8"></var>
+<var name="A0UP04RZZ" description="(A0UP04RZZ) Нижний предел шкалы датчика давления АЗ1,2" format="8"></var>
+<var name="R0UP04RZZ" description="(R0UP04RZZ) Нижний предел шкалы датчика давления в СИСТЕМЕ" format="8"></var>
+<var name="R0UP03RZZ" description="(R0UP03RZZ) Верхний предел шкалы датчика давления в СИСТЕМЕ" format="8"></var>
+<var name="R0UP43RZZ" description="(R0UP43RZZ) Уровень срабатывания аварийной сигнализации по давлению  в СИСТЕМЕ" format="8"></var>
+<var name="R0UP53RZZ" description="(R0UP53RZZ) Уровень срабатывания предупредительной по давлению в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP54RZZ" description="(R0UP54RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению в СИСТЕМЕ(МПа)" format="8"></var>
+<var name="R0UP44RZZ" description="(R0UP44RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению в СИСТЕМЕ(МПа)" format="8"></var>
+<var name="R0UP85RZZ" description="(R0UP85RZZ) Нижняя граница неоднозначности нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP88RZZ" description="(R0UP88RZZ) Верхняя граница неоднозначности нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP87RZZ" description="(R0UP87RZZ) Верхняя граница нормализации давления в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP86RZZ" description="(R0UP86RZZ) Нижняя граница нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="A1UP52RZZ" description="(A1UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС ББ(МПа)" format="8"></var>
+<var name="A1UP83RZZ" description="(A1UP83RZZ) Верхняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A2UP52RZZ" description="(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)" format="8"></var>
+<var name="A2UP83RZZ" description="(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A0UP54RZZ" description="(A0UP54RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению АЗ1,2(МПа)" format="8"></var>
+<var name="A0UP87RZZ" description="(A0UP87RZZ) Верхняя граница нормализации давления АЗ1,2 (МПа)" format="8"></var>
+<var name="A1UL11IZZ" description="(A1UL11IZZ) Время задержки АЗ от ВУ ИС1" format="5"></var>
+<var name="A1UL12IZZ" description="(A1UL12IZZ) Время задержки АЗ от НУ ИС1(мс)" format="5"></var>
+<var name="A1UL14IZZ" description="(A1UL14IZZ) Время задержки АЗ от 1-2 УР(мс)" format="8"></var>
+
+<!-- OPU
+-->
+
+<var name="OPULCON" description="ОПУ-1 сигнал наличия связи" format="1"></var>
+<var name="OPURCON" description="ОПУ-2 сигнал наличия связи" format="1"></var>
+<var name="RPUCON" description="РПУ сигнал наличия связи" format="1"></var>
+<var name="SRVCON" description="Сервер сигнал наличия связи" format="1"></var>
+<var name="OPULREADY" description="ОПУ-1 работоспособен" format="1"></var>
+<var name="OPURREADY" description="ОПУ-2 работоспособен" format="1"></var>
+<var name="RPURREADY" description="РПУ работоспособен" format="1"></var>
+<var name="SRVRREADY" description="Сервер работоспособен" format="1"></var>
+<var name="OPULSTATUS" description="ОПУ-1 статус" format="2"></var>
+<var name="OPURSTATUS" description="ОПУ-2 статус" format="2"></var>
+<var name="RPUSTATUS" description="РПУ статус" format="2"></var>
+<var name="SRVSTATUS" description="Сервер статус" format="2"></var>
+<var name="OPULLIVE" description="ОПУ-1 счетчик жизни" format="2"></var>
+<var name="OPURLIVE" description="ОПУ-2 счетчик жизни" format="2"></var>
+<var name="RPULIVE" description="РПУ счетчик жизни" format="2"></var>
+<var name="SRVLIVE" description="Сервер счетчик жизни" format="2"></var>
+<var name="OPULERROR" description="ОПУ-1 код состояния" format="2"></var>
+<var name="OPURERROR" description="ОПУ-2 код состояния" format="2"></var>
+<var name="RPUERROR" description="РПУ код состояния" format="2"></var>
+<var name="SRVERROR" description="Сервер код состояния" format="2"></var>
+<var name="FR" description="Частота для щелкуна" format="2"></var>
+<var name="THR" description="Системное время часы" format="2"></var>
+<var name="TMM" description="Системное время минуты" format="2"></var>
+<var name="TSEC" description="Системное время секунды" format="2"></var>
+
+<!-- DU
+-->
+
+<var name="R0MW13LP2" description="(R0MW13LP2) Переключатель «СЕТЬ»" format="1"></var>
+<var name="R0MD32LP1" description="(R0MD32LP1) Кнопка «СПУСК»" format="1"></var>
+<var name="R0MD31LP1" description="(R0MD31LP1) Кнопка «СТОП»" format="1"></var>
+<var name="R4MD11LP2" description="(R4MD11LP2) Кнопка «ВПЕРЁД»  (тележки)" format="1"></var>
+<var name="R4MD31LP2" description="(R4MD31LP2) Кнопка «СТОП»  (тележки)" format="1"></var>
+<var name="R4MD21LP2" description="(R4MD21LP2) Кнопка «НАЗАД»  (тележки)" format="1"></var>
+<var name="A0VN71LZ2" description="(A0VN71LZ2) АЗ по АС мощности для АЗ1" format="1"></var>
+<var name="A0VN71LZ1" description="(A0VN71LZ1) АЗ по АС мощности для АЗ1" format="1"></var>
+<var name="B0VN71LZ1" description="(B0VN71LZ1) АЗ по АС мощности для АЗ2" format="1"></var>
+<var name="B0VN71LZ2" description="(B0VN71LZ2) АЗ по АС мощности для АЗ2" format="1"></var>
+<var name="R0MD11LP1" description="(R0MD11LP1) Кнопка «ПУСК»" format="1"></var>
+<var name="R0MD01LC1" description="(R0MD01LC1) Ручное управление ОРР" format="1"></var>
+<var name="C2MD31LP1" description="(C2MD31LP1) Кнопка «СБРОС РБ»" format="1"></var>
+<var name="C1MD31LP1" description="(C1MD31LP1) Кнопка «СБРОС ББ»" format="1"></var>
+<var name="C1MD31LP2" description="(C1MD31LP2) Кнопка «СБРОС ББ»" format="1"></var>
+<var name="R0MD11LP2" description="(R0MD11LP2) Кнопка  Пуск проверки схем сброса " format="1"></var>
+<var name="R8AD21LDU" description="(R8AD21LDU) Запуск системы инициирования" format="1"></var>
+<var name="R0AD13LDU" description="(R0AD13LDU) Имитация прихода на ВУ ИС" format="1"></var>
+<var name="A3MD12LP1" description="(A3MD12LP1) Переключатель «РАЗРЕШИТЬ» ИС1" format="1"></var>
+<var name="A3MD11LP1" description="(A3MD11LP1) Кнопка «ПУСК ИС1»" format="1"></var>
+<var name="R0MD33LP1" description="(R0MD33LP1) Переключатель «РАЗРЕШИТЬ» МДЗ" format="1"></var>
+<var name="A1MD12LP1" description="(A1MD12LP1) Переключатель «РАЗРЕШИТЬ» ББ1" format="1"></var>
+<var name="A1MD11LP1" description="(A1MD11LP1) Кнопка «ПУСК ББ1»" format="1"></var>
+<var name="R0MW17LP1" description="(R0MW17LP1) Переключатель «АВТ/Р»" format="1"></var>
+<var name="B1MD11LP1" description="(B1MD11LP1) Кнопка «ПУСК ББ2»" format="1"></var>
+<var name="B1MD12LP1" description="(B1MD12LP1) Переключатель «РАЗРЕШИТЬ» ББ2" format="1"></var>
+<var name="B2MD11LP1" description="(B2MD11LP1) Кнопка «ПУСК РБ2»" format="1"></var>
+<var name="B2MD12LP1" description="(B2MD12LP1) Переключатель «РАЗРЕШИТЬ» РБ2" format="1"></var>
+<var name="A2MD11LP1" description="(A2MD11LP1) Кнопка «ПУСК РБ1»" format="1"></var>
+<var name="A2MD12LP1" description="(A2MD12LP1) Переключатель «РАЗРЕШИТЬ» РБ1" format="1"></var>
+<var name="R0MD34LP1" description="(R0MD34LP1) Кнопка «Квитировать»" format="1"></var>
+<var name="A7AS31LDU" description="(A7AS31LDU) Клапан «Обдув АЗ1» открыт (обесточен)" format="1"></var>
+<var name="B7AS31LDU" description="(B7AS31LDU) Клапан «Обдув АЗ1» открыт (обесточен)" format="1"></var>
+<var name="B3MD12LP1" description="(B3MD12LP1) Переключатель «РАЗРЕШИТЬ» ИС2" format="1"></var>
+<var name="B3MD11LP1" description="(B3MD11LP1) Кнопка «ПУСК ИС2»" format="1"></var>
+<var name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал АЗ 1канала" format="1"></var>
+<var name="A2IS33LDU" description="(A2IS33LDU) Клапан «Подъём РБ1» открыт (обесточен)" format="1"></var>
+<var name="A3IS31LDU" description="(A3IS31LDU) Клапан «СПУСК ИС1» открыт (обесточен)" format="1"></var>
+<var name="A3IS33LDU" description="(A3IS33LDU) Клапан «ВЫСТРЕЛ ИС1» открыт (обесточен)" format="1"></var>
+<var name="A3IS35LDU" description="(A3IS35LDU) Клапан «ВПИС1» открыт (обесточен)" format="1"></var>
+<var name="A4IS10LDU" description="(A4IS10LDU) Клапан «Подъём НИ1» открыт (обесточен)" format="1"></var>
+<var name="B2IS33LDU" description="(B2IS33LDU) Клапан «Подъём РБ2» открыт (обесточен)" format="1"></var>
+<var name="B3IS31LDU" description="(B3IS31LDU) Клапан «СПУСК ИС2» открыт (обесточен)" format="1"></var>
+<var name="B3IS33LDU" description="(B3IS33LDU) Клапан «ВЫСТРЕЛ ИС2» открыт (обесточен)" format="1"></var>
+<var name="B3IS35LDU" description="(B3IS35LDU) Клапан «ВПИС2» открыт (обесточен)" format="1"></var>
+<var name="B4IS10LDU" description="(B4IS10LDU) Клапан «Подъём НИ2» открыт (обесточен)" format="1"></var>
+<var name="R6IS31LDU" description="(R6IS31LDU) контроль задней двери ШС" format="1"></var>
+<var name="R6IS32LDU" description="(R6IS32LDU) контроль передней двери ШС" format="1"></var>
+<var name="R6IS42LDU" description="(R6IS42LDU) контроль передней двери ШЭП" format="1"></var>
+<var name="R6IS41LDU" description="(R6IS41LDU) контроль задней двери ШЭП" format="1"></var>
+<var name="R6IS52LDU" description="(R6IS52LDU) контроль передней двери ШПУ" format="1"></var>
+<var name="R6IS51LDU" description="(R6IS51LDU) контроль задней двери ШПУ" format="1"></var>
+<var name="R3AD10LDU" description="(R3AD10LDU) Гомогенные двери-1 открыть" format="1"></var>
+<var name="R3AD20LDU" description="(R3AD20LDU) Гомогенные двери-1 закрыть" format="1"></var>
+<var name="R3AD11LDU" description="(R3AD11LDU) Гомогенные двери-2 открыть" format="1"></var>
+<var name="R3AD21LDU" description="(R3AD21LDU) Гомогенные двери-2 закрыть" format="1"></var>
+<var name="B1MC01LC1" description="(B1MC01LC1) Настроить энкодер ББ2" format="1"></var>
+<var name="B1MC01LC2" description="(B1MC01LC2) Настроить энкодер ББ2" format="1"></var>
+<var name="A1MC01LC1" description="(A1MC01LC1) Настроить энкодер ББ1" format="1"></var>
+<var name="A1MC01LC2" description="(A1MC01LC2) Настроить энкодер ББ1" format="1"></var>
+<var name="B2MC01LC1" description="(B2MC01LC1) Настроить энкодер РБ2" format="1"></var>
+<var name="B2MC01LC2" description="(B2MC01LC2) Настроить энкодер РБ2" format="1"></var>
+<var name="A2MC01LC1" description="(A2MC01LC1) Настроить энкодер РБ1" format="1"></var>
+<var name="A2MC01LC2" description="(A2MC01LC2) Настроить энкодер РБ1" format="1"></var>
+<var name="B3MC01LC1" description="(B3MC01LC1) Настроить энкодер ИС2" format="1"></var>
+<var name="B3MC01LC2" description="(B3MC01LC2) Настроить энкодер ИС2" format="1"></var>
+<var name="A3MC01LC1" description="(A3MC01LC1) Настроить энкодер ИС1" format="1"></var>
+<var name="A3MC01LC2" description="(A3MC01LC2) Настроить энкодер ИС1" format="1"></var>
+<var name="B8MC01LC1" description="(B8MC01LC1) Настроить энкодер АЗ2" format="1"></var>
+<var name="B8MC01LC2" description="(B8MC01LC2) Настроить энкодер АЗ2" format="1"></var>
+<var name="A8MC01LC1" description="(A8MC01LC1) Настроить энкодер ДС2" format="1"></var>
+<var name="A8MC01LC2" description="(A8MC01LC2) Настроить энкодер ДС2" format="1"></var>
+<var name="A2UV01CDU" description="(A2UV01CDU) Скорость 1-го диапазона РБ вперёд (вверх)" format="1"></var>
+<var name="A2UV02CDU" description="(A2UV02CDU) Скорость 2-го диапазона РБ вперёд (вверх)" format="1"></var>
+<var name="A2UV03CDU" description="(A2UV03CDU) Скорость 1-го диапазона РБ назад (вниз)" format="1"></var>
+<var name="A1UV01CDU" description="(A1UV01CDU) Скорость 1-го диапазона ББ вперёд (вверх)" format="1"></var>
+<var name="A1UV02CDU" description="(A1UV02CDU) Скорость 2-го диапазона ББ вперёд (вверх)" format="1"></var>
+<var name="A1UV03CDU" description="(A1UV03CDU) Скорость1-го диапазона ББ назад (вниз)" format="1"></var>
+<var name="A3UV01CDU" description="(A3UV01CDU) Скорость ИС для 1-го диапазона вперёд (вверх)" format="1"></var>
+<var name="A3UV02CDU" description="(A3UV02CDU) Скорость ИС для 1-го диапазона назад (вниз)" format="1"></var>
+<var name="A1IS21LDU" description="(A1IS21LDU) Приход на НУ ББ1" format="1"></var>
+<var name="A2IS21LDU" description="(A2IS21LDU) Приход на НУ РБ1-СС" format="1"></var>
+<var name="A3IS21LDU" description="(A3IS21LDU) Приход на НУ ИС1" format="1"></var>
+<var name="B1IS21LDU" description="(B1IS21LDU) Приход на НУ ББ2" format="1"></var>
+<var name="B2IS21LDU" description="(B2IS21LDU) Приход на НУ РБ2-СС" format="1"></var>
+<var name="B3IS21LDU" description="(B3IS21LDU) Приход на НУ ИС2" format="1"></var>
+<var name="R0ES01LDU" description="(R0ES01LDU) ОРР не в исходном состоянии" format="1"></var>
+<var name="A1AZ03LDU" description="(A1AZ03LDU) Сброс ББ1: Несанкционированное перемещение ББ1" format="1"></var>
+<var name="B1AZ03LDU" description="(B1AZ03LDU) Сброс ББ2: Несанкционированное перемещение ББ2" format="1"></var>
+<var name="B2AZ03LDU" description="(B2AZ03LDU) Несанкционированное перемещение РБ2" format="1"></var>
+<var name="A2AZ03LDU" description="(A2AZ03LDU) Несанкционированное перемещение РБ1" format="1"></var>
+<var name="A3AZ03LDU" description="(A3AZ03LDU) Несанкционированное перемещение ИС1" format="1"></var>
+<var name="B3AZ03LDU" description="(B3AZ03LDU) Несанкционированное перемещение ИС2" format="1"></var>
+<var name="A7AZ03LDU" description="(A7AZ03LDU) Несанкционированное включение обдува АЗ1" format="1"></var>
+<var name="B4AZ03LDU" description="(B4AZ03LDU) Несанкционированное перемещение НИ1" format="1"></var>
+<var name="A5AZ03LDU" description="(A5AZ03LDU) Несанкционированное перемещение НЛ1" format="1"></var>
+<var name="B5AZ03LDU" description="(B5AZ03LDU) Несанкционированное перемещение НЛ2" format="1"></var>
+<var name="A6AZ03LDU" description="(A6AZ03LDU) Несанкционированное перемещение БЗ1" format="1"></var>
+<var name="B6AZ03LDU" description="(B6AZ03LDU) Несанкционированное перемещение БЗ2" format="1"></var>
+<var name="A4AZ03LDU" description="(A4AZ03LDU) Несанкционированное перемещение НИ1" format="1"></var>
+<var name="B7AZ03LDU" description="(B7AZ03LDU) Несанкционированное включение обдува АЗ2" format="1"></var>
+<var name="B8AZ03LDU" description="(B8AZ03LDU) Несанкционированное перемещение АЗ2" format="1"></var>
+<var name="A8AZ03LDU" description="(A8AZ03LDU) Несанкционированное перемещение ДС2" format="1"></var>
+<var name="A9AZ03LDU" description="(A9AZ03LDU) Несанкционированное перемещение НИ ДС1" format="1"></var>
+<var name="B9AZ03LDU" description="(B9AZ03LDU) Несанкционированное перемещение НИ ДС1" format="1"></var>
+<var name="R1AZ03LDU" description="(R1AZ03LDU) Несанкционированное перемещение МДЗ1" format="1"></var>
+<var name="R2AZ03LDU" description="(R2AZ03LDU) Несанкционированное перемещение МДЗ2" format="1"></var>
+<var name="R4AZ03LDU" description="(R4AZ03LDU) Несанкционированное перемещение тележки" format="1"></var>
+<var name="R0AZ03LDU" description="(R0AZ03LDU) Несанкционированное перемещение механизма" format="1"></var>
+<var name="A6IS11LDU" description="(A6IS11LDU) Приход на ВУ БЗ1" format="1"></var>
+<var name="A6IS21LDU" description="(A6IS21LDU) Приход на НУ БЗ1" format="1"></var>
+<var name="B6IS11LDU" description="(B6IS11LDU) Приход на ВУ БЗ2" format="1"></var>
+<var name="B6IS21LDU" description="(B6IS21LDU) Приход на НУ БЗ2" format="1"></var>
+<var name="A6VS22LDU" description="(A6VS22LDU) Движение створок БЗ1  к «ЗАКРЫТА»" format="1"></var>
+<var name="A6VS12LDU" description="(A6VS12LDU) Движение створок БЗ1  к  «ОТКРЫТА»" format="1"></var>
+<var name="B6VS22LDU" description="(B6VS22LDU) Движение створок БЗ2  к «ЗАКРЫТА»" format="1"></var>
+<var name="B6VS12LDU" description="(B6VS12LDU) Движение створок БЗ2  к  «ОТКРЫТА»" format="1"></var>
+<var name="A6AD10LDU" description="(A6AD10LDU) Открыть БЗ1" format="1"></var>
+<var name="A6AD20LDU" description="(A6AD20LDU) Закрыть БЗ1" format="1"></var>
+<var name="B6AD10LDU" description="(B6AD10LDU) Открыть БЗ2" format="1"></var>
+<var name="B6AD20LDU" description="(B6AD20LDU) Закрыть БЗ2" format="1"></var>
+<var name="A6AB01LDU" description="(A6AB01LDU) Блокировка движения БЗ1 - Превышение времени движения" format="1"></var>
+<var name="A6AB02LDU" description="(A6AB02LDU) Блокировка БЗ1 - Нет перемещения" format="1"></var>
+<var name="B6AB01LDU" description="(B6AB01LDU) Блокировка движения БЗ2 - Превышение времени движения" format="1"></var>
+<var name="B6AB02LDU" description="(B6AB02LDU) Блокировка БЗ2 - Нет перемещения" format="1"></var>
+<var name="A6AB04LDU" description="(A6AB04LDU) Блокировка БЗ1 -Ошибка в направлении  движения" format="1"></var>
+<var name="B6AB04LDU" description="(B6AB04LDU) Блокировка БЗ2 -Ошибка в направлении  движения" format="1"></var>
+<var name="R4AB01LDU" description="(R4AB01LDU)  Блокировка тележки - АНИ не установлен " format="1"></var>
+<var name="R8IS11LDU" description="(R8IS11LDU) Аварийный НИ установлен" format="1"></var>
+<var name="R6IS21LDU" description="(R6IS21LDU) Кран-балка в нерабочем положении" format="1"></var>
+<var name="R0NE01LDU" description="(R0NE01LDU) Потеря связи с БАЗ1" format="1"></var>
+<var name="R0NE02LDU" description="(R0NE02LDU) Потеря связи с БАЗ2" format="1"></var>
+<var name="R4AB02LDU" description="(R4AB02LDU) Блокировка тележки - Потеря связи с БАЗ, ОПУ" format="1"></var>
+<var name="R0NE08LDU" description="(R0NE08LDU) Потеря связи с ОПУ" format="1"></var>
+<var name="R4IS21LDU" description="(R4IS21LDU) Приход на НУ тележки" format="1"></var>
+<var name="R4IS22LDU" description="(R4IS22LDU) Приход на механический НУ тележки" format="1"></var>
+<var name="R4IS12LDU" description="(R4IS12LDU) Приход на механический ВУ тележки" format="1"></var>
+<var name="R4VS22LDU" description="(R4VS22LDU) Движение реактора к «У ЗАЩИТЫ»" format="1"></var>
+<var name="R4VS12LDU" description="(R4VS12LDU) Движение реактора  к «У ОБРАЗЦОВ»" format="1"></var>
+<var name="R4AB03LDU" description="(R4AB03LDU) Блокировка тележки - Самоход любого механизма" format="1"></var>
+<var name="R1IS21LDU" description="(R1IS21LDU) Приход на НУ МДЗ1" format="1"></var>
+<var name="R2IS21LDU" description="(R2IS21LDU) Приход на НУ МДЗ2" format="1"></var>
+<var name="R4AB04LDU" description="(R4AB04LDU) Блокировка тележки - Превышение времени движения" format="1"></var>
+<var name="R4AB05LDU" description="(R4AB05LDU) Блокировка тележки - Нет перемещения тележки" format="1"></var>
+<var name="R4AB06LDU" description="(R4AB06LDU) Блокировка тележки - Ошибка в  направлении перемещения" format="1"></var>
+<var name="R4AB07LDU" description="(R4AB07LDU) Блокировка тележки - ОРР не в исходном состоянии" format="1"></var>
+<var name="R4AB08LDU" description="(R4AB08LDU) Блокировка тележки - А32 или ДС2 не на НУ(координата 1500 мм)" format="1"></var>
+<var name="R4AB09LDU" description="(R4AB09LDU) Блокировка тележки - АЗ по мощности от любого канала" format="1"></var>
+<var name="R4AB10LDU" description="(R4AB10LDU) Блокировка тележки - не открыта биологическая защита" format="1"></var>
+<var name="R4AB11LDU" description="(R4AB11LDU) Блокировка тележки - МДЗ1,2 не находятся на НУ" format="1"></var>
+<var name="R4AB12LDU" description="(R4AB12LDU) Блокировка тележки - НИ не в положении ВУ" format="1"></var>
+<var name="A4IS11LDU" description="(A4IS11LDU) Приход на ВУ НИ1" format="1"></var>
+<var name="B4IS11LDU" description="(B4IS11LDU) Приход на ВУ НИ2" format="1"></var>
+<var name="R4AB13LDU" description="(R4AB13LDU) Блокировка тележки - НЛ не в положении ВУ" format="1"></var>
+<var name="A5IS11LDU" description="(A5IS11LDU) Приход на ВУ НЛ1" format="1"></var>
+<var name="B5IS11LDU" description="(B5IS11LDU) Приход на ВУ НЛ2" format="1"></var>
+<var name="R4AB14LDU" description="(R4AB14LDU) Блокировка тележки - Кран - балка не в безопасном положении" format="1"></var>
+<var name="R4AB15LDU" description="(R4AB15LDU) Блокировка тележки - ворота в пом. 0041 не в положении  Открыто " format="1"></var>
+<var name="R5IS11LDU" description="(R5IS11LDU) Приход на ВУ ворот отстойной зоны" format="1"></var>
+<var name="R4AB16LDU" description="(R4AB16LDU) Блокировка тележки - Гомогенные двери не в положении  Открыто " format="1"></var>
+<var name="R3IS31LDU" description="(R3IS31LDU) Приход на ВУ гомогенных дверей-2" format="1"></var>
+<var name="R4AB17LDU" description="(R4AB17LDU) Блокировка движения тележки вперёд - тележка на верхних механических упорах реактора" format="1"></var>
+<var name="R4AB18LDU" description="(R4AB18LDU) Блокировка движения тележки назад - тележка на нижних механических упорах реактора" format="1"></var>
+<var name="R4AD10LDU" description="(R4AD10LDU) Перемещение тележки вперед" format="1"></var>
+<var name="R4AD20LDU" description="(R4AD20LDU) Перемещение тележки назад" format="1"></var>
+<var name="A5VS22LDU" description="(A5VS22LDU) Движение НЛ1 в сторону НУ" format="1"></var>
+<var name="A5VS12LDU" description="(A5VS12LDU) Движение НЛ1 в сторону ВУ" format="1"></var>
+<var name="B5VS22LDU" description="(B5VS22LDU) Движение НЛ2 в сторону НУ" format="1"></var>
+<var name="B5VS12LDU" description="(B5VS12LDU) Движение НЛ2 в сторону ВУ" format="1"></var>
+<var name="B5AD10LDU" description="(B5AD10LDU) Поднять НЛ2" format="1"></var>
+<var name="B5AD20LDU" description="(B5AD20LDU) Опустить НЛ2" format="1"></var>
+<var name="A5AD10LDU" description="(A5AD10LDU) Поднять НЛ1" format="1"></var>
+<var name="A5AD20LDU" description="(A5AD20LDU) Опустить НЛ1" format="1"></var>
+<var name="A5IS21LDU" description="(A5IS21LDU) Приход на НУ НЛ1" format="1"></var>
+<var name="B5IS21LDU" description="(B5IS21LDU) Приход на НУ НЛ2" format="1"></var>
+<var name="A5AB01LDU" description="(A5AB01LDU) Блокировка движения НЛ1 - Превышение времени движения" format="1"></var>
+<var name="A5AB02LDU" description="(A5AB02LDU) Блокировка НЛ1 - Нет перемещения" format="1"></var>
+<var name="B5AB01LDU" description="(B5AB01LDU) Блокировка движения НЛ2 - Превышение времени движения" format="1"></var>
+<var name="B5AB02LDU" description="(B5AB02LDU) Блокировка НЛ2 - Нет перемещения" format="1"></var>
+<var name="A4IS21LDU" description="(A4IS21LDU) Приход на НУ НИ1" format="1"></var>
+<var name="B4IS21LDU" description="(B4IS21LDU) Приход на НУ НИ2" format="1"></var>
+<var name="B4AD10LDU" description="(B4AD10LDU) Открыть клапан  Подъем НИ2 " format="1"></var>
+<var name="A4AD10LDU" description="(A4AD10LDU) Открыть клапан  Подъем НИ1 " format="1"></var>
+<var name="A4AB01LDU" description="(A4AB01LDU) Блокировка движения НИ ДС1 - Превышение времени движения" format="1"></var>
+<var name="A4AB02LDU" description="(A4AB02LDU) Блокировка НИ1 - Нет перемещения" format="1"></var>
+<var name="B4AB01LDU" description="(B4AB01LDU) Блокировка движения НИ2 - Превышение времени движения" format="1"></var>
+<var name="B4AB02LDU" description="(B4AB02LDU) Блокировка НИ2 - Нет перемещения" format="1"></var>
+<var name="A5AB04LDU" description="(A5AB04LDU) Блокировка НЛ1 -Ошибка в направлении  движения" format="1"></var>
+<var name="B5AB04LDU" description="(B5AB04LDU) Блокировка НЛ2 -Ошибка в направлении  движения" format="1"></var>
+<var name="A1IS12LDU" description="(A1IS12LDU) Магнит ББ1 зацеплен" format="1"></var>
+<var name="A2IS12LDU" description="(A2IS12LDU) Магнит РБ1 зацеплен" format="1"></var>
+<var name="B1IS12LDU" description="(B1IS12LDU) Магнит ББ2 зацеплен" format="1"></var>
+<var name="B2IS12LDU" description="(B2IS12LDU) Магнит РБ2 зацеплен" format="1"></var>
+<var name="R4IS11LDU" description="(R4IS11LDU) Приход на ВУ тележки" format="1"></var>
+<var name="A4VP42LDU" description="(A4VP42LDU) Давление ПОДЪЁМ НИ1 ниже АС" format="1"></var>
+<var name="A4AB06LDU" description="(A4AB06LDU) Блокировка движения НИ1 - Давление ПОДЪЁМ НИ1 ниже АС" format="1"></var>
+<var name="B4VP42LDU" description="(B4VP42LDU) Давление ПОДЪЁМ НИ2 ниже АС" format="1"></var>
+<var name="B4AB06LDU" description="(B4AB06LDU) Блокировка движения НИ2 - Давление ПОДЪЁМ НИ2 ниже АС" format="1"></var>
+<var name="A6AB06LDU" description="(A6AB06LDU) Блокировка открытия БЗ1 - ОРР не в исходном состоянии" format="1"></var>
+<var name="A6AB07LDU" description="(A6AB07LDU) Блокировка открытия БЗ1 - АЗ2 находится не на упорах  1,5м " format="1"></var>
+<var name="A6AB08LDU" description="(A6AB08LDU) Блокировка открытия БЗ1 - ДС2 находится не на упорах  1,5м " format="1"></var>
+<var name="A6AB09LDU" description="(A6AB09LDU) Блокировка открытия БЗ1 -ворота отстойной зоны не открыты" format="1"></var>
+<var name="B6AB06LDU" description="(B6AB06LDU) Блокировка открытия БЗ2 - ОРР не в исходном состоянии" format="1"></var>
+<var name="B6AB07LDU" description="(B6AB07LDU) Блокировка открытия БЗ2 - АЗ2 находится не на упорах  1,5м " format="1"></var>
+<var name="B6AB08LDU" description="(B6AB08LDU) Блокировка открытия БЗ2 - ДС2 находится не на упорах  1,5м " format="1"></var>
+<var name="B6AB09LDU" description="(B6AB09LDU) Блокировка открытия БЗ2 -ворота отстойной зоны не открыты" format="1"></var>
+<var name="A6AB05LDU" description="(A6AB05LDU) Блокировка открытия БЗ1 - АНИ не установлен" format="1"></var>
+<var name="B8VS12LDU" description="(B8VS12LDU) Движение АЗ2 в сторону ВУ" format="1"></var>
+<var name="B8AB06LDU" description="(B8AB06LDU) Блокировка движения АЗ2 нет перемещения АЗ2" format="1"></var>
+<var name="B8AB07LDU" description="(B8AB07LDU) Блокировка движения АЗ2: превышение заданной скорости" format="1"></var>
+<var name="B8AB05LDU" description="(B8AB05LDU) Блокировка движения АЗ2: скорость перемещения менее заданной" format="1"></var>
+<var name="B8VS22LDU" description="(B8VS22LDU) Движение АЗ2 в сторону НУ" format="1"></var>
+<var name="B8AD10LDU" description="(B8AD10LDU) Перемещение АЗ2 вперед" format="1"></var>
+<var name="B8AD20LDU" description="(B8AD20LDU) Перемещение АЗ2 назад" format="1"></var>
+<var name="B8IS12LDU" description="(B8IS12LDU) Приход на механический ВУ АЗ2" format="1"></var>
+<var name="B8AB01LDU" description="(B8AB01LDU) Блокировка движения АЗ2 - Превышение времени движения" format="1"></var>
+<var name="B8AB04LDU" description="(B8AB04LDU) Блокировка АЗ2 -Ошибка в направлении  движения" format="1"></var>
+<var name="B8AB08LDU" description="(B8AB08LDU) Блокировка движения ДС2 Гомогенные двери не закрыты" format="1"></var>
+<var name="B8AB09LDU" description="(B8AB09LDU) Блокировка  - АЗ2 по мощности от любого канала" format="1"></var>
+<var name="R3IS21LDU" description="(R3IS21LDU) Приход на НУ гомогенных дверей-1" format="1"></var>
+<var name="B8AB10LDU" description="(B8AB10LDU) Блокировка движения АЗ2 - тележка не на верхних механических упорах реактора" format="1"></var>
+<var name="B8AB11LDU" description="(B8AB11LDU) Блокировка движения АЗ2 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="B8AB12LDU" description="(B8AB12LDU) Блокировка движения АЗ2 - НИ не в положении ВУ" format="1"></var>
+<var name="B8AB13LDU" description="(B8AB13LDU) Блокировка движения АЗ2 - ОРР не в исходном состоянии" format="1"></var>
+<var name="B8AB14LDU" description="(B8AB14LDU) Блокировка движения АЗ2 - Самоход любого механизма" format="1"></var>
+<var name="B8AB02LDU" description="(B8AB02LDU)  Блокировка движения АЗ2- АНИ не установлен " format="1"></var>
+<var name="A8VS12LDU" description="(A8VS12LDU) Движение ДС2 в сторону ВУ" format="1"></var>
+<var name="A8AB06LDU" description="(A8AB06LDU) Блокировка движения ДС2 нет перемещения ДС2" format="1"></var>
+<var name="A8AB07LDU" description="(A8AB07LDU) Блокировка движения ДС2: превышение заданной скорости" format="1"></var>
+<var name="A8AB05LDU" description="(A8AB05LDU) Блокировка движения ДС2: скорость перемещения менее заданной" format="1"></var>
+<var name="A8VS22LDU" description="(A8VS22LDU) Движение ДС2 в сторону НУ" format="1"></var>
+<var name="A8AD10LDU" description="(A8AD10LDU) Перемещение ДС2 вперед" format="1"></var>
+<var name="A8AD20LDU" description="(A8AD20LDU) Перемещение ДС2 назад" format="1"></var>
+<var name="B8IS22LDU" description="(B8IS22LDU) Приход на механический НУ АЗ2" format="1"></var>
+<var name="A8IS12LDU" description="(A8IS12LDU) Приход на механический ВУ ДС2" format="1"></var>
+<var name="A8AB04LDU" description="(A8AB04LDU) Блокировка ДС2 -Ошибка в направлении  движения" format="1"></var>
+<var name="A8IS22LDU" description="(A8IS22LDU) Приход на механический НУ ДС2" format="1"></var>
+<var name="A8AB08LDU" description="(A8AB08LDU) Блокировка движения ДС2 Гомогенные двери не закрыты" format="1"></var>
+<var name="A8AB09LDU" description="(A8AB09LDU) Блокировка  - ДС2 по мощности от любого канала" format="1"></var>
+<var name="A8AB10LDU" description="(A8AB10LDU) Блокировка движения ДС2 - тележка не на верхних механических упорах реактора" format="1"></var>
+<var name="A8AB11LDU" description="(A8AB11LDU) Блокировка движения ДС2 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="A8AB12LDU" description="(A8AB12LDU) Блокировка движения ДС2 - НИ не в положении ВУ" format="1"></var>
+<var name="A8AB13LDU" description="(A8AB13LDU) Блокировка движения ДС2 - ОРР не в исходном состоянии" format="1"></var>
+<var name="A8AB14LDU" description="(A8AB14LDU) Блокировка движения ДС2 - Самоход любого механизма" format="1"></var>
+<var name="A8AB02LDU" description="(A8AB02LDU) Блокировка движения ДС2- АНИ не установлен" format="1"></var>
+<var name="A8AB01LDU" description="(A8AB01LDU) Блокировка ДС2 -Превышение времени перемещения" format="1"></var>
+<var name="A2VS12LDU" description="(A2VS12LDU) Движение РБ1-СТР в сторону ВУ" format="1"></var>
+<var name="A2AB04LDU" description="(A2AB04LDU) Блокировка движения РБ1 нет перемещения  РБ1" format="1"></var>
+<var name="A2AB02LDU" description="(A2AB02LDU) Блокировка движения РБ1: превышение заданной скорости" format="1"></var>
+<var name="A2AB01LDU" description="(A2AB01LDU) Блокировка движения РБ1: скорость перемещения менее заданной" format="1"></var>
+<var name="A2VS22LDU" description="(A2VS22LDU) Движение РБ1-СС в сторону НУ" format="1"></var>
+<var name="A2AD11LDU" description="(A2AD11LDU) Сигнал на перемещение РБ1 вверх" format="1"></var>
+<var name="A2AD21LDU" description="(A2AD21LDU) Сигнал на перемещение РБ1 вниз" format="1"></var>
+<var name="A2AD02LDU" description="(A2AD02LDU) 0-й бит скорости РБ1" format="1"></var>
+<var name="A2AD03LDU" description="(A2AD03LDU) 1-й бит скорости РБ1" format="1"></var>
+<var name="A2AD04LDU" description="(A2AD04LDU) 2-й бит скорости РБ1" format="1"></var>
+<var name="A2AD05LDU" description="(A2AD05LDU) паритет команды на РБ1" format="1"></var>
+<var name="A2AB07LDU" description="(A2AB07LDU) Блокировка подъёма РБ1 Гомогенные двери не закрыты" format="1"></var>
+<var name="A2AB08LDU" description="(A2AB08LDU) Блокировка подъёма РБ1 - реактор не на рабочем месте" format="1"></var>
+<var name="A2AB05LDU" description="(A2AB05LDU) Блокировка подъёма РБ1 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="A2AB06LDU" description="(A2AB06LDU) Блокировка подъёма РБ1 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var name="A2AB09LDU" description="(A2AB09LDU) Блокировка подъёма РБ1- АНИ не установлен" format="1"></var>
+<var name="A2AB10LDU" description="(A2AB10LDU) Блокировка подъёма РБ1- есть сигнал общего сброса" format="1"></var>
+<var name="A2AB11LDU" description="(A2AB11LDU) Блокировка подъёма РБ1- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var name="A2AB12LDU" description="(A2AB12LDU) Блокировка подъёма РБ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ" format="1"></var>
+<var name="A0ES01LDU" description="(A0ES01LDU) ОРР АЗ1 не в исходном состоянии" format="1"></var>
+<var name="B0ES01LDU" description="(B0ES01LDU) ОРР АЗ2 не в исходном состоянии" format="1"></var>
+<var name="A2AB13LDU" description="(A2AB13LDU) Блокировка подъёма РБ1- давление в пневмосистеме РБ ниже значения заданного предупредительной уставкой" format="1"></var>
+<var name="A2AB14LDU" description="(A2AB14LDU) Блокировка подъёма РБ1- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
+<var name="A2AB15LDU" description="(A2AB15LDU) Блокировка на подъем РБ1 в режимах  Калибровка ,  Импульс ,  Статический : после команды  Сброс РБ  прошло менее 3,5 мин" format="1"></var>
+<var name="A2AB16LDU" description="(A2AB16LDU) Блокировка перемещения РБ1: выполняется программа 200 с" format="1"></var>
+<var name="A2AB17LDU" description="(A2AB17LDU) Блокировка перемещения РБ1: выполняется программа 20 мин" format="1"></var>
+<var name="A2AD01LDU" description="(A2AD01LDU) Разрешение движения РБ1" format="1"></var>
+<var name="B2AB04LDU" description="(B2AB04LDU) Блокировка движения РБ2 нет перемещения  РБ2" format="1"></var>
+<var name="B2AB02LDU" description="(B2AB02LDU) Блокировка движения РБ2: превышение заданной скорости" format="1"></var>
+<var name="B2AB01LDU" description="(B2AB01LDU) Блокировка движения РБ2: скорость перемещения менее заданной" format="1"></var>
+<var name="B2AD11LDU" description="(B2AD11LDU) Сигнал на перемещение РБ2 вверх" format="1"></var>
+<var name="B2AD21LDU" description="(B2AD21LDU) Сигнал на перемещение РБ2 вниз" format="1"></var>
+<var name="B2AD02LDU" description="(B2AD02LDU) 0-й бит скорости РБ2" format="1"></var>
+<var name="B2AD03LDU" description="(B2AD03LDU) 1-й бит скорости РБ2" format="1"></var>
+<var name="B2AD04LDU" description="(B2AD04LDU) 2-й бит скорости РБ2" format="1"></var>
+<var name="B2AD05LDU" description="(B2AD05LDU) паритет команды на РБ2" format="1"></var>
+<var name="B2AD01LDU" description="(B2AD01LDU) Разрешение движения РБ2" format="1"></var>
+<var name="B2AB07LDU" description="(B2AB07LDU) Блокировка подъёма РБ2 Гомогенные двери не закрыты" format="1"></var>
+<var name="B2AB08LDU" description="(B2AB08LDU) Блокировка подъёма РБ2 - реактор не на рабочем месте" format="1"></var>
+<var name="B2AB05LDU" description="(B2AB05LDU) Блокировка подъёма РБ2 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="B2AB06LDU" description="(B2AB06LDU) Блокировка подъёма РБ2 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var name="B2AB09LDU" description="(B2AB09LDU) Блокировка подъёма РБ2- АНИ не установлен" format="1"></var>
+<var name="B2AB10LDU" description="(B2AB10LDU) Блокировка подъёма РБ2- есть сигнал общего сброса" format="1"></var>
+<var name="B2AB11LDU" description="(B2AB11LDU) Блокировка подъёма РБ2- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var name="B2AB12LDU" description="(B2AB12LDU) Блокировка подъёма РБ2- при работе с АЗ2 органы СУЗ АЗ1 не на НУ" format="1"></var>
+<var name="B2AB13LDU" description="(B2AB13LDU) Блокировка подъёма РБ2- давление в пневмосистеме РБ ниже значения заданного предупредительной уставкой" format="1"></var>
+<var name="B2AB14LDU" description="(B2AB14LDU) Блокировка подъёма РБ2- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
+<var name="B2AB15LDU" description="(B2AB15LDU) Блокировка на подъем РБ2 в режимах  Калибровка ,  Импульс ,  Статический : после команды  Сброс РБ  прошло менее 3,5 мин" format="1"></var>
+<var name="B2AB16LDU" description="(B2AB16LDU) Блокировка перемещения РБ2: выполняется программа 200 с" format="1"></var>
+<var name="B2AB17LDU" description="(B2AB17LDU) Блокировка перемещения РБ2: выполняется программа 20 мин" format="1"></var>
+<var name="R1AB01LDU" description="(R1AB01LDU) Блокировка движения МДЗ1 - Превышение времени движения" format="1"></var>
+<var name="R1AB02LDU" description="(R1AB02LDU) Блокировка МДЗ1 - Нет перемещения" format="1"></var>
+<var name="R2AB01LDU" description="(R2AB01LDU) Блокировка движения МДЗ2 - Превышение времени движения" format="1"></var>
+<var name="R2AB02LDU" description="(R2AB02LDU) Блокировка МДЗ2 - Нет перемещения" format="1"></var>
+<var name="R1AB04LDU" description="(R1AB04LDU) Блокировка МДЗ1 -Ошибка в направлении  движения" format="1"></var>
+<var name="R2AB04LDU" description="(R2AB04LDU) Блокировка МДЗ2 -Ошибка в направлении  движения" format="1"></var>
+<var name="R1AD10LDU" description="(R1AD10LDU) Опустить МДЗ1 в зону облучения" format="1"></var>
+<var name="R1AD20LDU" description="(R1AD20LDU) Поднять МДЗ1" format="1"></var>
+<var name="R1IS11LDU" description="(R1IS11LDU) Приход на ВУ МДЗ1" format="1"></var>
+<var name="R1VS22LDU" description="(R1VS22LDU) Движение МДЗ1 в сторону НУ" format="1"></var>
+<var name="R2AD20LDU" description="(R2AD20LDU) Поднять МДЗ2" format="1"></var>
+<var name="R2AD10LDU" description="(R2AD10LDU) Опустить МДЗ2 в зону облучения" format="1"></var>
+<var name="R2VS22LDU" description="(R2VS22LDU) Движение МДЗ2 в сторону НУ" format="1"></var>
+<var name="R2VS12LDU" description="(R2VS12LDU) Движение МДЗ2 в сторону ВУ" format="1"></var>
+<var name="R1VS12LDU" description="(R1VS12LDU) Движение МДЗ1 в сторону ВУ" format="1"></var>
+<var name="R2IS11LDU" description="(R2IS11LDU) Приход на ВУ МДЗ2" format="1"></var>
+<var name="A1VS12LDU" description="(A1VS12LDU) Движение ББ1 в сторону ВУ" format="1"></var>
+<var name="A1AB04LDU" description="(A1AB04LDU) Блокировка движения ББ1 нет перемещения  ББ1" format="1"></var>
+<var name="A1AB02LDU" description="(A1AB02LDU) Блокировка движения ББ1: превышение заданной скорости" format="1"></var>
+<var name="A1AB01LDU" description="(A1AB01LDU) Блокировка движения ББ1: скорость перемещения менее заданной" format="1"></var>
+<var name="A1VS22LDU" description="(A1VS22LDU) Движение ББ1 в сторону НУ" format="1"></var>
+<var name="A1AD11LDU" description="(A1AD11LDU) Сигнал на перемещение ББ1 вверх" format="1"></var>
+<var name="A1AD21LDU" description="(A1AD21LDU) Сигнал на перемещение ББ1 вниз" format="1"></var>
+<var name="A1AD02LDU" description="(A1AD02LDU) 0-й бит скорости ББ1" format="1"></var>
+<var name="A1AD03LDU" description="(A1AD03LDU) 1-й бит скорости ББ1" format="1"></var>
+<var name="A1AD04LDU" description="(A1AD04LDU) 2-й бит скорости ББ1" format="1"></var>
+<var name="A1AD05LDU" description="(A1AD05LDU) паритет команды на ББ1" format="1"></var>
+<var name="A1AD01LDU" description="(A1AD01LDU) Разрешение движения ББ1" format="1"></var>
+<var name="A1AB07LDU" description="(A1AB07LDU) Блокировка подъёма ББ1 Гомогенные двери не закрыты" format="1"></var>
+<var name="A1AB08LDU" description="(A1AB08LDU) Блокировка подъёма ББ1 - реактор не на рабочем месте" format="1"></var>
+<var name="A1AB05LDU" description="(A1AB05LDU) Блокировка подъёма ББ1 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="A1AB06LDU" description="(A1AB06LDU) Блокировка подъёма ББ1 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var name="A1AB09LDU" description="(A1AB09LDU) Блокировка подъёма ББ1- АНИ не установлен" format="1"></var>
+<var name="A1AB10LDU" description="(A1AB10LDU) Блокировка подъёма ББ1- есть сигнал общего сброса" format="1"></var>
+<var name="A1AB11LDU" description="(A1AB11LDU) Блокировка подъёма ББ1- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var name="A1AB12LDU" description="(A1AB12LDU) Блокировка подъёма ББ1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ" format="1"></var>
+<var name="A1AB13LDU" description="(A1AB13LDU) Блокировка подъёма ББ1- давление в пневмосистеме ББ1 ниже значения заданного предупредительной уставкой" format="1"></var>
+<var name="A1AB14LDU" description="(A1AB14LDU) Блокировка подъёма ББ1- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
+<var name="A1AB15LDU" description="(A1AB15LDU) Блокировка на подъем ББ1 в режимах  Калибровка ,  Импульс ,  Статический : после команды  Сброс РБ  прошло менее 3,5 мин" format="1"></var>
+<var name="A1AB16LDU" description="(A1AB16LDU) Блокировка перемещения ББ1: выполняется программа 200 с" format="1"></var>
+<var name="A1AB17LDU" description="(A1AB17LDU) Блокировка перемещения ББ1: выполняется программа 20 мин" format="1"></var>
+<var name="A1AB18LDU" description="(A1AB18LDU) Блокировка подъёма ББ1- РБ-СТР не на 80 мм" format="1"></var>
+<var name="B1VS12LDU" description="(B1VS12LDU) Движение ББ2 в сторону ВУ" format="1"></var>
+<var name="B1AB04LDU" description="(B1AB04LDU) Блокировка движения ББ2 нет перемещения  ББ2" format="1"></var>
+<var name="B1AB02LDU" description="(B1AB02LDU) Блокировка движения ББ2: превышение заданной скорости" format="1"></var>
+<var name="B1AB01LDU" description="(B1AB01LDU) Блокировка движения ББ2: скорость перемещения менее заданной" format="1"></var>
+<var name="B1VS22LDU" description="(B1VS22LDU) Движение ББ2 в сторону НУ" format="1"></var>
+<var name="B1AD11LDU" description="(B1AD11LDU) Сигнал на перемещение ББ2 вверх" format="1"></var>
+<var name="B1AD21LDU" description="(B1AD21LDU) Сигнал на перемещение ББ2 вниз" format="1"></var>
+<var name="B1AD02LDU" description="(B1AD02LDU) 0-й бит скорости ББ2" format="1"></var>
+<var name="B1AD03LDU" description="(B1AD03LDU) 1-й бит скорости ББ2" format="1"></var>
+<var name="B1AD04LDU" description="(B1AD04LDU) 2-й бит скорости ББ2" format="1"></var>
+<var name="B1AD05LDU" description="(B1AD05LDU) паритет команды на ББ2" format="1"></var>
+<var name="B1AD01LDU" description="(B1AD01LDU) Разрешение движения ББ2" format="1"></var>
+<var name="B1AB07LDU" description="(B1AB07LDU) Блокировка подъёма ББ2 Гомогенные двери не закрыты" format="1"></var>
+<var name="B1AB08LDU" description="(B1AB08LDU) Блокировка подъёма ББ2 - реактор не на рабочем месте" format="1"></var>
+<var name="B1AB05LDU" description="(B1AB05LDU) Блокировка подъёма ББ2 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="B1AB06LDU" description="(B1AB06LDU) Блокировка подъёма ББ2 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var name="B1AB09LDU" description="(B1AB09LDU) Блокировка подъёма ББ2- АНИ не установлен" format="1"></var>
+<var name="B1AB10LDU" description="(B1AB10LDU) Блокировка подъёма ББ2- есть сигнал общего сброса" format="1"></var>
+<var name="B1AB11LDU" description="(B1AB11LDU) Блокировка подъёма ББ2- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var name="B1AB12LDU" description="(B1AB12LDU) Блокировка подъёма ББ2- при работе с АЗ1 органы СУЗ АЗ2 не на НУ" format="1"></var>
+<var name="B1AB13LDU" description="(B1AB13LDU) Блокировка подъёма ББ2- давление в пневмосистеме ББ2 ниже значения заданного предупредительной уставкой" format="1"></var>
+<var name="B1AB14LDU" description="(B1AB14LDU) Блокировка подъёма ББ2- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
+<var name="B1AB15LDU" description="(B1AB15LDU) Блокировка на подъем ББ2 в режимах  Калибровка ,  Импульс ,  Статический : после команды  Сброс РБ  прошло менее 3,5 мин" format="1"></var>
+<var name="B1AB16LDU" description="(B1AB16LDU) Блокировка перемещения ББ2: выполняется программа 200 с" format="1"></var>
+<var name="B1AB17LDU" description="(B1AB17LDU) Блокировка перемещения ББ2: выполняется программа 20 мин" format="1"></var>
+<var name="B1AB18LDU" description="(B1AB18LDU) Блокировка подъёма ББ2- РБ-СТР не на 80 мм" format="1"></var>
+<var name="A3VS12LDU" description="(A3VS12LDU) Движение ИС1 в сторону ВУ" format="1"></var>
+<var name="A3AB04LDU" description="(A3AB04LDU) Блокировка движения ИС1 нет перемещения  ИС1" format="1"></var>
+<var name="A3AB02LDU" description="(A3AB02LDU) Блокировка движения ИС1: превышение заданной скорости" format="1"></var>
+<var name="A3AB01LDU" description="(A3AB01LDU) Блокировка движения ИС1: скорость перемещения менее заданной" format="1"></var>
+<var name="A3VS22LDU" description="(A3VS22LDU) Движение ИС1 в сторону НУ" format="1"></var>
+<var name="A3AD11LDU" description="(A3AD11LDU) Сигнал на перемещение ИС1 вверх" format="1"></var>
+<var name="A3AD21LDU" description="(A3AD21LDU) Сигнал на перемещение ИС1 вниз" format="1"></var>
+<var name="A3AD02LDU" description="(A3AD02LDU) 0-й бит скорости ИС1" format="1"></var>
+<var name="A3AD03LDU" description="(A3AD03LDU) 1-й бит скорости ИС1" format="1"></var>
+<var name="A3AD04LDU" description="(A3AD04LDU) 2-й бит скорости ИС1" format="1"></var>
+<var name="A3AD05LDU" description="(A3AD05LDU) паритет команды на ИС1" format="1"></var>
+<var name="A3AD01LDU" description="(A3AD01LDU) Разрешение движения ИС1" format="1"></var>
+<var name="A3AB07LDU" description="(A3AB07LDU) Блокировка подъёма ИС1 Гомогенные двери не закрыты" format="1"></var>
+<var name="A3AB08LDU" description="(A3AB08LDU) Блокировка подъёма ИС1 - реактор не на рабочем месте" format="1"></var>
+<var name="A3AB05LDU" description="(A3AB05LDU) Блокировка подъёма ИС1 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="A3AB06LDU" description="(A3AB06LDU) Блокировка подъёма ИС1 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var name="A3AB09LDU" description="(A3AB09LDU) Блокировка подъёма ИС1- АНИ не установлен" format="1"></var>
+<var name="A3AB10LDU" description="(A3AB10LDU) Блокировка подъёма ИС1- есть сигнал общего сброса" format="1"></var>
+<var name="A3AB11LDU" description="(A3AB11LDU) Блокировка подъёма ИС1- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var name="A3AB12LDU" description="(A3AB12LDU) Блокировка подъёма ИС1- при работе с АЗ1 органы СУЗ АЗ2 не на НУ" format="1"></var>
+<var name="A3AB13LDU" description="(A3AB13LDU) Блокировка подъёма ИС1- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой" format="1"></var>
+<var name="A3AB14LDU" description="(A3AB14LDU) Блокировка подъёма ИС1- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
+<var name="A3AB15LDU" description="(A3AB15LDU) Блокировка на подъем ИС1 в режимах  Калибровка ,  Импульс ,  Статический : после команды  Сброс РБ  прошло менее 3,5 мин" format="1"></var>
+<var name="A3AB16LDU" description="(A3AB16LDU) Блокировка перемещения ИС1: выполняется программа 200 с" format="1"></var>
+<var name="A3AB17LDU" description="(A3AB17LDU) Блокировка перемещения ИС1: выполняется программа 20 мин" format="1"></var>
+<var name="A3AB18LDU" description="(A3AB18LDU) Блокировка подъёма ИС1- РБ-СТР не на 80 мм" format="1"></var>
+<var name="A3AB19LDU" description="(A3AB19LDU) Блокировка пневматического подъема ИС1: режим статический" format="1"></var>
+<var name="A3AB20LDU" description="(A3AB20LDU) Блокировка выстрела ИС1 - клапан  ВПИС1  закрыт" format="1"></var>
+<var name="B3VS12LDU" description="(B3VS12LDU) Движение ИС2 в сторону ВУ" format="1"></var>
+<var name="B3AB04LDU" description="(B3AB04LDU) Блокировка движения ИС2 нет перемещения  ИС1" format="1"></var>
+<var name="B3AB02LDU" description="(B3AB02LDU) Блокировка движения ИС2: превышение заданной скорости" format="1"></var>
+<var name="B3AB01LDU" description="(B3AB01LDU) Блокировка движения ИС2: скорость перемещения менее заданной" format="1"></var>
+<var name="B3VS22LDU" description="(B3VS22LDU) Движение ИС2 в сторону НУ" format="1"></var>
+<var name="B3AD11LDU" description="(B3AD11LDU) Сигнал на перемещение ИС2 вверх" format="1"></var>
+<var name="B3AD21LDU" description="(B3AD21LDU) Сигнал на перемещение ИС2 вниз" format="1"></var>
+<var name="B3AD02LDU" description="(B3AD02LDU) 0-й бит скорости ИС2" format="1"></var>
+<var name="B3AD03LDU" description="(B3AD03LDU) 1-й бит скорости ИС2" format="1"></var>
+<var name="B3AD04LDU" description="(B3AD04LDU) 2-й бит скорости ИС2" format="1"></var>
+<var name="B3AD05LDU" description="(B3AD05LDU) паритет команды на ИС2" format="1"></var>
+<var name="B3AD01LDU" description="(B3AD01LDU) Разрешение движения ИС2" format="1"></var>
+<var name="B3AB07LDU" description="(B3AB07LDU) Блокировка подъёма ИС2 Гомогенные двери не закрыты" format="1"></var>
+<var name="B3AB08LDU" description="(B3AB08LDU) Блокировка подъёма ИС2 - реактор не на рабочем месте" format="1"></var>
+<var name="B3AB05LDU" description="(B3AB05LDU) Блокировка подъёма ИС2 -нет сигнала готовности СУЗ" format="1"></var>
+<var name="B3AB06LDU" description="(B3AB06LDU) Блокировка подъёма ИС2 - НИ не в положении ВУ,режим работы не проверочный" format="1"></var>
+<var name="B3AB09LDU" description="(B3AB09LDU) Блокировка подъёма ИС2- АНИ не установлен" format="1"></var>
+<var name="B3AB10LDU" description="(B3AB10LDU) Блокировка подъёма ИС2- есть сигнал общего сброса" format="1"></var>
+<var name="B3AB11LDU" description="(B3AB11LDU) Блокировка подъёма ИС2- АЗ2 или ДС2 не на заданной координате" format="1"></var>
+<var name="B3AB12LDU" description="(B3AB12LDU) Блокировка подъёма ИС2- при работе с АЗ2 органы СУЗ АЗ1 не на НУ" format="1"></var>
+<var name="B3AB13LDU" description="(B3AB13LDU) Блокировка подъёма ИС2- давление в пневмосистеме ИС ниже значения заданного предупредительной уставкой" format="1"></var>
+<var name="B3AB14LDU" description="(B3AB14LDU) Блокировка подъёма ИС2- в режимах Калибровка, Статический мощность больше заданной" format="1"></var>
+<var name="B3AB15LDU" description="(B3AB15LDU) Блокировка на подъем ИС2 в режимах  Калибровка ,  Импульс ,  Статический : после команды  Сброс РБ  прошло менее 3,5 мин" format="1"></var>
+<var name="B3AB16LDU" description="(B3AB16LDU) Блокировка перемещения ИС2: выполняется программа 200 с" format="1"></var>
+<var name="B3AB17LDU" description="(B3AB17LDU) Блокировка перемещения ИС2: выполняется программа 20 мин" format="1"></var>
+<var name="B3AB18LDU" description="(B3AB18LDU) Блокировка подъёма ИС2- РБ-СТР не на 80 мм" format="1"></var>
+<var name="B3AB19LDU" description="(B3AB19LDU) Блокировка пневматического подъема ИС2: режим статический" format="1"></var>
+<var name="B3AD34LDU" description="(B3AD34LDU) Клапан  ВПИС ИС2   открыть (обесточить)" format="1"></var>
+<var name="B3AB20LDU" description="(B3AB20LDU) Блокировка выстрела ИС2 - клапан  ВПИС2  закрыт" format="1"></var>
+<var name="A2AD31LDU" description="(A2AD31LDU) Клапан «Сброс РБ1» открыть (обесточить)" format="1"></var>
+<var name="B2AD31LDU" description="(B2AD31LDU) Клапан «Сброс РБ2» открыть (обесточить)" format="1"></var>
+<var name="A1AD31LDU" description="(A1AD31LDU) Клапан «Сброс ББ1» открыть (обесточить)" format="1"></var>
+<var name="B1AD31LDU" description="(B1AD31LDU) Клапан «Сброс ББ2» открыть (обесточить)" format="1"></var>
+<var name="A2AD32LDU" description="(A2AD32LDU) Обесточить ЭМ РБ1" format="1"></var>
+<var name="B2AD32LDU" description="(B2AD32LDU) Обесточить ЭМ РБ2" format="1"></var>
+<var name="A1AD32LDU" description="(A1AD32LDU) Обесточить ЭМ ББ1" format="1"></var>
+<var name="B1AD32LDU" description="(B1AD32LDU) Обесточить ЭМ ББ2" format="1"></var>
+<var name="R0VX01LDU" description="(R0VX01LDU) ДО ИМПУЛЬСА" format="1"></var>
+<var name="B3AD33LDU" description="(B3AD33LDU) Клапан «ВЫСТРЕЛ ИС2» закрыть (обесточить)" format="1"></var>
+<var name="B3IS11LDU" description="(B3IS11LDU) Приход на ВУ ИС2" format="1"></var>
+<var name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
+<var name="R0AB04LDU" description="(R0AB04LDU) Нарушение времени срабатывания верхней АС II УР" format="1"></var>
+<var name="R0AB06LDU" description="(R0AB06LDU) Нарушение времени задержки от ВУ РБ" format="1"></var>
+<var name="R0AB02LDU" description="(R0AB02LDU) Нарушение времени задержки ИНИ" format="1"></var>
+<var name="R0AB03LDU" description="(R0AB03LDU) Нарушение времени срабатывания АЗ от ВУ ИС" format="1"></var>
+<var name="R0AD15LDU" description="(R0AD15LDU) Имитация ухода с НУП ИС" format="1"></var>
+<var name="R0AB05LDU" description="(R0AB05LDU) Нарушение времени срабатывания АЗ от НУП ИС" format="1"></var>
+<var name="R0VX02LDU" description="(R0VX02LDU) Импульс разрешен" format="1"></var>
+<var name="R0VX03LDU" description="(R0VX03LDU) Готовность 2 мин" format="1"></var>
+<var name="A1VS31LDU" description="(A1VS31LDU) Индикация  Стоп ББ1 " format="1"></var>
+<var name="B1VS31LDU" description="(B1VS31LDU) Индикация  Стоп ББ2 " format="1"></var>
+<var name="A3VS31LDU" description="(A3VS31LDU) Индикация  Стоп ИС1 " format="1"></var>
+<var name="B3VS31LDU" description="(B3VS31LDU) Индикация  Стоп ИС2 " format="1"></var>
+<var name="A2VS31LDU" description="(A2VS31LDU) Индикация  Стоп РБ1 " format="1"></var>
+<var name="A2VS23LDU" description="(A2VS23LDU) Приход РБ1-СС на 80 мм" format="1"></var>
+<var name="A2VS13LDU" description="(A2VS13LDU) Приход РБ1-СТР на 80мм" format="1"></var>
+<var name="A2VS14LDU" description="(A2VS14LDU) Движение РБ1-СТР в сторону 80мм" format="1"></var>
+<var name="A2VS24LDU" description="(A2VS24LDU) Движение РБ1-СС в сторону 80 мм" format="1"></var>
+<var name="A4VS12LDU" description="(A4VS12LDU) Движение НИ1 в сторону ВУ" format="1"></var>
+<var name="A4VS22LDU" description="(A4VS22LDU) Движение НИ1 в сторону НУ" format="1"></var>
+<var name="B4VS12LDU" description="(B4VS12LDU) Движение НИ2 в сторону ВУ" format="1"></var>
+<var name="B4VS22LDU" description="(B4VS22LDU) Движение НИ2 в сторону НУ" format="1"></var>
+<var name="R5AD10LDU" description="(R5AD10LDU) Открыть ворота отстойной зоны" format="1"></var>
+<var name="R5AD20LDU" description="(R5AD20LDU) Закрыть ворота отстойной зоны" format="1"></var>
+<var name="R5IS21LDU" description="(R5IS21LDU) Приход на НУ ворот отстойной зоны" format="1"></var>
+<var name="R5AZ03LDU" description="(R5AZ03LDU) Несанкционированное перемещение ворот отстойной зоны" format="1"></var>
+<var name="R5AB01LDU" description="(R5AB01LDU) Блокировка движения ворот отстойной зоны - Превышение времени движения" format="1"></var>
+<var name="R5AB02LDU" description="(R5AB02LDU) Блокировка ворот отстойной зоны - Нет перемещения" format="1"></var>
+<var name="R5AB04LDU" description="(R5AB04LDU) Блокировка ворот отстойной зоны -Ошибка в направлении  движения" format="1"></var>
+<var name="A9IS11LDU" description="(A9IS11LDU) Приход на ВУ НИ ДС1" format="1"></var>
+<var name="A9IS21LDU" description="(A9IS21LDU) Приход на НУ НИ ДС1" format="1"></var>
+<var name="B9IS11LDU" description="(B9IS11LDU) Приход на ВУ НИ ДС2" format="1"></var>
+<var name="B9IS21LDU" description="(B9IS21LDU) Приход на НУ НИ ДС2" format="1"></var>
+<var name="B9AD10LDU" description="(B9AD10LDU) Открыть клапан  Подъем НИ ДС2 " format="1"></var>
+<var name="A9AD10LDU" description="(A9AD10LDU) Открыть клапан  Подъем НИ ДС1 " format="1"></var>
+<var name="A9AB01LDU" description="(A9AB01LDU) Блокировка движения НИ ДС1 - Превышение времени движения" format="1"></var>
+<var name="A9AB02LDU" description="(A9AB02LDU) Блокировка НИ ДС1 - Нет перемещения" format="1"></var>
+<var name="B9AB01LDU" description="(B9AB01LDU) Блокировка движения НИ ДС2 - Превышение времени движения" format="1"></var>
+<var name="B9AB02LDU" description="(B9AB02LDU) Блокировка НИ ДС2 - Нет перемещения" format="1"></var>
+<var name="A9VS12LDU" description="(A9VS12LDU) Движение НИ ДС1 в сторону ВУ" format="1"></var>
+<var name="A9VS22LDU" description="(A9VS22LDU) Движение НИ ДС1 в сторону НУ" format="1"></var>
+<var name="B9VS12LDU" description="(B9VS12LDU) Движение НИ ДС2 в сторону ВУ" format="1"></var>
+<var name="B9VS22LDU" description="(B9VS22LDU) Движение НИ ДС2 в сторону НУ" format="1"></var>
+<var name="R0AB01LDU" description="(R0AB01LDU) Режим проверки разрешён" format="1"></var>
+<var name="A3IS22LDU" description="(A3IS22LDU) Приход на НУП ИС1" format="1"></var>
+<var name="B3IS22LDU" description="(B3IS22LDU) Приход на НУП ИС2" format="1"></var>
+<var name="A2AD33LDU" description="(A2AD33LDU) Клапан «Подъем РБ1» открыть (обесточить)" format="1"></var>
+<var name="A3AD33LDU" description="(A3AD33LDU) Клапан «ВЫСТРЕЛ ИС1» открыть (обесточить)" format="1"></var>
+<var name="A3AD34LDU" description="(A3AD34LDU) Клапан  ВПИС1   открыть (обесточить)" format="1"></var>
+<var name="A3AD31LDU" description="(A3AD31LDU) Клапан «СПУСК ИС1» открыть (обесточить)" format="1"></var>
+<var name="B3AD31LDU" description="(B3AD31LDU) Клапан «СПУСК ИС2» открыть (обесточить)" format="1"></var>
+<var name="A2IS11LDU" description="(A2IS11LDU) Приход на ВУ РБ1-СТР" format="1"></var>
+<var name="B2IS11LDU" description="(B2IS11LDU) Приход на ВУ РБ2-СТР" format="1"></var>
+<var name="A7AP31LDU" description="(A7AP31LDU) Клапан «Обдув АЗ1» открыть (обесточить)" format="1"></var>
+<var name="B7AP31LDU" description="(B7AP31LDU) Клапан «Обдув АЗ2» открыть (обесточить)" format="1"></var>
+<var name="R0VW13LDU" description="(R0VW13LDU) Индикация выбора  АЗ1  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0VW23LDU" description="(R0VW23LDU) Индикация выбора  АЗ2  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0VX09LDU" description="(R0VX09LDU) Индикация регулятор мощности включен/отключен" format="1"></var>
+<var name="R0VS17LDU" description="(R0VS17LDU) Индикация выбора АВТОМАТ" format="1"></var>
+<var name="R5VS12LDU" description="(R5VS12LDU) Движение ворот к открыты" format="1"></var>
+<var name="R5VS22LDU" description="(R5VS22LDU) Движение ворот к закрыты" format="1"></var>
+<var name="A2VS32LDU" description="(A2VS32LDU) Индикация  «СБРОС РБ1»" format="1"></var>
+<var name="B2VS32LDU" description="(B2VS32LDU) Индикация  «СБРОС РБ2»" format="1"></var>
+<var name="A3VX01LDU" description="(A3VX01LDU) Индикация  Выстрел ИС1 " format="1"></var>
+<var name="A3IS11LDU" description="(A3IS11LDU) Приход на ВУ ИС1" format="1"></var>
+<var name="R0EE02LDU" description="(R0EE02LDU) Питание  АКНП отключить" format="1"></var>
+<var name="B3VX01LDU" description="(B3VX01LDU) Индикация  Выстрел ИС2 " format="1"></var>
+<var name="A6VS23LDU" description="(A6VS23LDU) Движение створок БЗ  к «ЗАКРЫТА»" format="1"></var>
+<var name="A6VS13LDU" description="(A6VS13LDU) Движение створок БЗ  к  «ОТКРЫТА»" format="1"></var>
+<var name="A6VS14LDU" description="(A6VS14LDU) БЗ  «ОТКРЫТА»" format="1"></var>
+<var name="A6VS24LDU" description="(A6VS24LDU) БЗ  «ЗАКРЫТА»" format="1"></var>
+<var name="R0VS18LDU" description="(R0VS18LDU) Индикация  «Проверка» схем сброса" format="1"></var>
+<var name="R0VP73LZ1" description="(R0VP73LZ1) ПС давления для РУ" format="1"></var>
+<var name="R0VP73LZ2" description="(R0VP73LZ2) ПС давления для РУ" format="1"></var>
+<var name="R0VP73LDU" description="(R0VP73LDU) ПС давления для РУ" format="1"></var>
+<var name="A0VT71LZ1" description="(A0VT71LZ1) АС по температуре в АЗ1" format="1"></var>
+<var name="B0VT71LZ1" description="(B0VT71LZ1) АС по температуре в АЗ2" format="1"></var>
+<var name="A0VT71LZ2" description="(A0VT71LZ2) АС по температуре в АЗ1" format="1"></var>
+<var name="B0VT71LZ2" description="(B0VT71LZ2) АС по температуре в АЗ2" format="1"></var>
+<var name="R0VS11LDU" description="(R0VS11LDU) РУ не готова к работе" format="1"></var>
+<var name="B2VS12LDU" description="(B2VS12LDU) Движение РБ2-СТР в сторону ВУ" format="1"></var>
+<var name="B2VS22LDU" description="(B2VS22LDU) Движение РБ2-СС в сторону НУ" format="1"></var>
+<var name="B2VS31LDU" description="(B2VS31LDU) Индикация  Стоп РБ2 " format="1"></var>
+<var name="B2VS23LDU" description="(B2VS23LDU) Приход РБ2-СС на 80 мм" format="1"></var>
+<var name="B2VS13LDU" description="(B2VS13LDU) Приход РБ2-СТР на 80мм" format="1"></var>
+<var name="B2VS14LDU" description="(B2VS14LDU) Движение РБ2-СТР в сторону 80мм" format="1"></var>
+<var name="B2VS24LDU" description="(B2VS24LDU) Движение РБ2-СС в сторону 80 мм" format="1"></var>
+<var name="R0VZ71LDU" description="(R0VZ71LDU) Обобщенный сигнал АЗ" format="1"></var>
+<var name="A1VN71LZ1" description="(A1VN71LZ1) Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="A1VN71LZ2" description="(A1VN71LZ2) Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="A1AB19LDU" description="(A1AB19LDU) Блокировка автоматического подъёма ББ-превышение нейтронного потока" format="1"></var>
+<var name="R7VZ73LZ1" description="(R7VZ73LZ1) Имитация срабатывания АЗ от II УР" format="1"></var>
+<var name="R7VZ73LZ2" description="(R7VZ73LZ2) Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
+<var name="A3VZ23LZ2" description="(A3VZ23LZ2) Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
+<var name="A3VZ23LZ1" description="(A3VZ23LZ1) Имитация срабатывания АЗ от ВУ ИС" format="1"></var>
+<var name="A3VZ25LZ1" description="(A3VZ25LZ1) Имитация срабатывания АЗ от НУП ИС" format="1"></var>
+<var name="A3VZ25LZ2" description="(A3VZ25LZ2) Имитация срабатывания АЗ от НУП ИС" format="1"></var>
+<var name="R3IS11LDU" description="(R3IS11LDU) Приход на ВУ гомогенных дверей-1" format="1"></var>
+<var name="R3AZ03LDU" description="(R3AZ03LDU) Несанкционированное перемещение гомогенных дверей" format="1"></var>
+<var name="R3AB01LDU" description="(R3AB01LDU) Блокировка движения гомогенных дверей - Превышение времени движения" format="1"></var>
+<var name="R3AB02LDU" description="(R3AB02LDU) Блокировка гомогенных дверей - Нет перемещения" format="1"></var>
+<var name="R3AB04LDU" description="(R3AB04LDU) Блокировка гомогенных дверей -Ошибка в направлении  движения" format="1"></var>
+<var name="R3VS22LDU" description="(R3VS22LDU) Движение дверей к закрыто" format="1"></var>
+<var name="R3AZ13LDU" description="(R3AZ13LDU) Несанкционированное перемещение гомогенных дверей-2" format="1"></var>
+<var name="R3AB11LDU" description="(R3AB11LDU) Блокировка движения гомогенных дверей-2 - Превышение времени движения" format="1"></var>
+<var name="R3AB12LDU" description="(R3AB12LDU) Блокировка гомогенных дверей-2 - Нет перемещения" format="1"></var>
+<var name="R3AB14LDU" description="(R3AB14LDU) Блокировка гомогенных дверей-2 -Ошибка в направлении  движения" format="1"></var>
+<var name="R3IS41LDU" description="(R3IS41LDU) Приход на НУ гомогенных дверей-2" format="1"></var>
+<var name="R3VS11LDU" description="(R3VS11LDU) Гомогенные двери   «ОТКРЫТЫ»" format="1"></var>
+<var name="R3VS21LDU" description="(R3VS21LDU) Гомогенные двери   «ЗАКРЫТЫ»" format="1"></var>
+<var name="R3VS12LDU" description="(R3VS12LDU) Движение дверейк открыто" format="1"></var>
+<var name="B1IS11LDU" description="(B1IS11LDU) Приход на ВУ ББ2" format="1"></var>
+<var name="A1IS11LDU" description="(A1IS11LDU) Приход на ВУ ББ1" format="1"></var>
+<var name="A2VP42LDU" description="(A2VP42LDU) Давление ПОДЪЁМ РБ1 ниже АС" format="1"></var>
+<var name="A2VP52LDU" description="(A2VP52LDU) Давление ПОДЪЁМ РБ1 ниже ПС" format="1"></var>
+<var name="B2VP42LDU" description="(B2VP42LDU) Давление ПОДЪЁМ РБ2 ниже АС" format="1"></var>
+<var name="B2VP52LDU" description="(B2VP52LDU) Давление ПОДЪЁМ РБ2 ниже ПС" format="1"></var>
+<var name="B2VP82LDU" description="(B2VP82LDU) Давление ПОДЪЁМ РБ2 в норме" format="1"></var>
+<var name="A2VP82LDU" description="(A2VP82LDU) Давление ПОДЪЁМ РБ1 в норме" format="1"></var>
+<var name="A3VP41LDU" description="(A3VP41LDU) Давление СПУСК ИС1 ниже АС" format="1"></var>
+<var name="A3VP51LDU" description="(A3VP51LDU) Давление СПУСК ИС1 ниже ПС" format="1"></var>
+<var name="B3VP41LDU" description="(B3VP41LDU) Давление СПУСК ИС2 ниже АС" format="1"></var>
+<var name="B3VP51LDU" description="(B3VP51LDU) Давление СПУСК ИС2 ниже ПС" format="1"></var>
+<var name="B3VP81LDU" description="(B3VP81LDU) Давление СПУСК ИС2 в норме" format="1"></var>
+<var name="A3VP81LDU" description="(A3VP81LDU) Давление СПУСК ИС1 в норме" format="1"></var>
+<var name="A3VP42LDU" description="(A3VP42LDU) Давление ПОДЪЁМ ИС1 ниже АС" format="1"></var>
+<var name="A3VP52LDU" description="(A3VP52LDU) Давление ПОДЪЁМ ИС1 ниже ПС" format="1"></var>
+<var name="B3VP42LDU" description="(B3VP42LDU) Давление ПОДЪЁМ ИС2 ниже АС" format="1"></var>
+<var name="B3VP52LDU" description="(B3VP52LDU) Давление ПОДЪЁМ ИС2 ниже ПС" format="1"></var>
+<var name="B3VP82LDU" description="(B3VP82LDU) Давление ПОДЪЁМ ИС2 в норме" format="1"></var>
+<var name="A3VP82LDU" description="(A3VP82LDU) Давление ПОДЪЁМ ИС1 в норме" format="1"></var>
+<var name="A4VP52LDU" description="(A4VP52LDU) Давление ПОДЪЁМ НИ1 ниже ПС" format="1"></var>
+<var name="B4VP52LDU" description="(B4VP52LDU) Давление ПОДЪЁМ НИ2 ниже ПС" format="1"></var>
+<var name="B4VP82LDU" description="(B4VP82LDU) Давление ПОДЪЁМ НИ2 в норме" format="1"></var>
+<var name="A4VP82LDU" description="(A4VP82LDU) Давление ПОДЪЁМ НИ1 в норме" format="1"></var>
+<var name="A1IE01LDU" description="(A1IE01LDU) Исправность БУШД ББ1" format="1"></var>
+<var name="B1IE01LDU" description="(B1IE01LDU) Исправность БУШД ББ2" format="1"></var>
+<var name="A3IE01LDU" description="(A3IE01LDU) Исправность БУШД ИС1" format="1"></var>
+<var name="A2IE01LDU" description="(A2IE01LDU) Исправность БУШД РБ1" format="1"></var>
+<var name="B2IE01LDU" description="(B2IE01LDU) Исправность БУШД РБ2" format="1"></var>
+<var name="B3IE01LDU" description="(B3IE01LDU) Исправность БУШД ИС2" format="1"></var>
+<var name="R0IE02LDU" description="(R0IE02LDU) Исправность ИП 24 В-1" format="1"></var>
+<var name="R0IE01LDU" description="(R0IE01LDU) Исправность ИП 24 В-2" format="1"></var>
+<var name="A1IE02LDU" description="(A1IE02LDU) Исправность ИП ББ1" format="1"></var>
+<var name="B1IE02LDU" description="(B1IE02LDU) Исправность ИП ББ2" format="1"></var>
+<var name="A6IE01LDU" description="(A6IE01LDU) Исправность ИП БЗ1" format="1"></var>
+<var name="B6IE01LDU" description="(B6IE01LDU) Исправность ИП БЗ2" format="1"></var>
+<var name="A8IE01LDU" description="(A8IE01LDU) Исправность ИП ДС2" format="1"></var>
+<var name="A3IE02LDU" description="(A3IE02LDU) Исправность ИП ИС1" format="1"></var>
+<var name="B5IE01LDU" description="(B5IE01LDU) Исправность ИП НЛ2" format="1"></var>
+<var name="A5IE02LDU" description="(A5IE02LDU) Исправность ИП НЛ1" format="1"></var>
+<var name="B3IE02LDU" description="(B3IE02LDU) Исправность ИП ИС2" format="1"></var>
+<var name="R1IE01LDU" description="(R1IE01LDU) Исправность ИП МДЗ1" format="1"></var>
+<var name="R2IE01LDU" description="(R2IE01LDU) Исправность ИП МДЗ2" format="1"></var>
+<var name="A2IE02LDU" description="(A2IE02LDU) Исправность ИП РБ1" format="1"></var>
+<var name="B2IE02LDU" description="(B2IE02LDU) Исправность ИП РБ2" format="1"></var>
+<var name="A0VE01LDU" description="(A0VE01LDU) Напряжение в системы АЗ1 подано" format="1"></var>
+<var name="B0VE01LDU" description="(B0VE01LDU) Напряжение в системы АЗ2 подано" format="1"></var>
+<var name="A0VP01LDU" description="(A0VP01LDU) Давление в системы АЗ1 подано" format="1"></var>
+<var name="B0VP01LDU" description="(B0VP01LDU) Давление в системы АЗ2 подано" format="1"></var>
+<var name="A0EE01LZ1" description="(A0EE01LZ1) Исправность АКНП1" format="1"></var>
+<var name="A0EE03LZ1" description="(A0EE03LZ1) Исправность АКНП3" format="1"></var>
+<var name="A0EE02LZ1" description="(A0EE02LZ1) Исправность АКНП2" format="1"></var>
+<var name="A0EE04LZ1" description="(A0EE04LZ1) Исправность АКНП4" format="1"></var>
+<var name="A0VN01LDU" description="(A0VN01LDU) Каналы АЗ1 проверены" format="1"></var>
+<var name="B0VN01LDU" description="(B0VN01LDU) Каналы АЗ2 проверены" format="1"></var>
+<var name="A0EE01LZ2" description="(A0EE01LZ2) Исправность АКНП1" format="1"></var>
+<var name="A0EE03LZ2" description="(A0EE03LZ2) Исправность АКНП3" format="1"></var>
+<var name="A0EE02LZ2" description="(A0EE02LZ2) Исправность АКНП2" format="1"></var>
+<var name="A0EE04LZ2" description="(A0EE04LZ2) Исправность АКНП4" format="1"></var>
+<var name="A0VP71LZ1" description="(A0VP71LZ1) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var name="A0VP71LZ2" description="(A0VP71LZ2) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var name="B0VP71LZ1" description="(B0VP71LZ1) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var name="B0VP71LZ2" description="(B0VP71LZ2) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var name="A0VS11LDU" description="(A0VS11LDU) АЗ1 готова к работе" format="1"></var>
+<var name="B0VS11LDU" description="(B0VS11LDU) АЗ2 готова к работе" format="1"></var>
+<var name="R6IS64LDU" description="(R6IS64LDU) Исправность ВИП ССДИ-35 1канал" format="1"></var>
+<var name="R6IS62LDU" description="(R6IS62LDU) Исправность ВИП ССДИ-39 1канал" format="1"></var>
+<var name="R6IS65LDU" description="(R6IS65LDU) Исправность ВИП ССДИ-35 2канал" format="1"></var>
+<var name="R6IS63LDU" description="(R6IS63LDU) Исправность ВИП ССДИ-39 2канал" format="1"></var>
+<var name="R6IS61LDU" description="(R6IS61LDU) Исправность 3-х  фазной сети" format="1"></var>
+<var name="B8CV01RDU" description="(B8CV01RDU) Измеренная скорость перемещения АЗ2" format="8"></var>
+<var name="B8VC02IDU" description="(B8VC02IDU) Координата штатной остановки АЗ2" format="3"></var>
+<var name="B8VC01UDU" description="(B8VC01UDU) Координата АЗ2, 0.01 мм" format="5"></var>
+<var name="A8CV01RDU" description="(A8CV01RDU) Измеренная скорость перемещения ДС2" format="8"></var>
+<var name="A8VC02IDU" description="(A8VC02IDU) Координата штатной остановки ДС2" format="3"></var>
+<var name="A8VC01UDU" description="(A8VC01UDU) Координата ДС2, 0.01 мм" format="5"></var>
+<var name="A2CV01RDU" description="(A2CV01RDU) Измеренная скорость перемещения РБ1" format="8"></var>
+<var name="A2VC02IDU" description="(A2VC02IDU) Координата штатной остановки РБ1" format="3"></var>
+<var name="A2VC01UDU" description="(A2VC01UDU) Координата РБ1, 0.01 мм" format="5"></var>
+<var name="A2CV02RDU" description="(A2CV02RDU) Заданная скорость перемещения РБ1" format="8"></var>
+<var name="B2CV01RDU" description="(B2CV01RDU) Измеренная скорость перемещения РБ2" format="8"></var>
+<var name="B2VC02IDU" description="(B2VC02IDU) Координата штатной остановки РБ2" format="3"></var>
+<var name="B2VC01UDU" description="(B2VC01UDU) Координата РБ2, 0.01 мм" format="5"></var>
+<var name="B2CV02RDU" description="(B2CV02RDU) Заданная скорость перемещения РБ2" format="8"></var>
+<var name="A1CV01RDU" description="(A1CV01RDU) Измеренная скорость перемещения ББ1" format="8"></var>
+<var name="A1IL01UDU" description="(A1IL01UDU) Время между 2 показаниями энкодера ББ1" format="5"></var>
+<var name="A1VC02IDU" description="(A1VC02IDU) Координата штатной остановки ББ1" format="3"></var>
+<var name="A1VC01UDU" description="(A1VC01UDU) Координата ББ1, 0.01 мм" format="5"></var>
+<var name="A1CV02RDU" description="(A1CV02RDU) Заданная скорость перемещения ББ1" format="8"></var>
+<var name="B1CV01RDU" description="(B1CV01RDU) Измеренная скорость перемещения ББ2" format="8"></var>
+<var name="B1VC02IDU" description="(B1VC02IDU) Координата штатной остановки ББ2" format="3"></var>
+<var name="B1VC01UDU" description="(B1VC01UDU) Координата ББ2, 0.01 мм" format="5"></var>
+<var name="B1CV02RDU" description="(B1CV02RDU) Заданная скорость перемещения ББ2" format="8"></var>
+<var name="A3CV01RDU" description="(A3CV01RDU) Измеренная скорость перемещения ИС1" format="8"></var>
+<var name="A3VC02IDU" description="(A3VC02IDU) Координата штатной остановки ИС1" format="3"></var>
+<var name="A3VC01UDU" description="(A3VC01UDU) Координата ИС1, 0.01 мм" format="5"></var>
+<var name="A3CV02RDU" description="(A3CV02RDU) Заданная скорость перемещения ИС1" format="8"></var>
+<var name="B3CV01RDU" description="(B3CV01RDU) Измеренная скорость перемещения ИС2" format="8"></var>
+<var name="B3VC02IDU" description="(B3VC02IDU) Координата штатной остановки ИС2" format="3"></var>
+<var name="B3VC01UDU" description="(B3VC01UDU) Координата ИС2, 0.01 мм" format="5"></var>
+<var name="B3CV02RDU" description="(B3CV02RDU) Заданная скорость перемещения ИС2" format="8"></var>
+<var name="R0VL01IDU" description="(R0VL01IDU) До импульса минут" format="2"></var>
+<var name="R0VL11IDU" description="(R0VL11IDU) До импульса секунд" format="2"></var>
+<var name="R0VL06RDU" description="(R0VL06RDU) Индикация  Время задержки от ВУ РБ " format="8"></var>
+<var name="R0VL02RDU" description="(R0VL02RDU) Индикация  Время задержки ИНИ " format="8"></var>
+<var name="R0VL04RDU" description="(R0VL04RDU) Индикация  Время срабатывания верхней АС II УР " format="8"></var>
+<var name="R0VL03RDU" description="(R0VL03RDU) Индикация  Время срабатывания АЗ от ВУ ИС " format="8"></var>
+<var name="R0VL05RDU" description="(R0VL05RDU) Индикация  Время срабатывания АЗ от НУП ИС " format="8"></var>
+<var name="R0VL21IDU" description="(R0VL21IDU) Декатрон" format="2"></var>
+<var name="R0VS21IDU" description="(R0VS21IDU) Индикация ВИД ПРОВЕРКИ" format="2"></var>
+<var name="A1VS00IDU" description="(A1VS00IDU) Готовность к управлению ББ1" format="2"></var>
+<var name="B1VS00IDU" description="(B1VS00IDU) Готовность к управлению ББ2" format="2"></var>
+<var name="A3VS00IDU" description="(A3VS00IDU) Готовность к управлению ИС1" format="2"></var>
+<var name="B3VS00IDU" description="(B3VS00IDU) Готовность к управлению ИС2" format="2"></var>
+<var name="A2VS01IDU" description="(A2VS01IDU) Готовность к управлению РБ1-СС" format="2"></var>
+<var name="A2VS02IDU" description="(A2VS02IDU) Готовность к управлению РБ1-СТР" format="2"></var>
+<var name="A4VS00IDU" description="(A4VS00IDU) Готовность к управлению НИ1" format="2"></var>
+<var name="B4VS00IDU" description="(B4VS00IDU) Готовность к управлению НИ2" format="2"></var>
+<var name="A5VS00IDU" description="(A5VS00IDU) Готовность к управлению НЛ1" format="2"></var>
+<var name="B5VS00IDU" description="(B5VS00IDU) Готовность к управлению НЛ2" format="2"></var>
+<var name="A6VS00IDU" description="(A6VS00IDU) Готовность к управлению БЗ" format="2"></var>
+<var name="R4VS00IDU" description="(R4VS00IDU) Готовность к управлению тележкой реактора" format="2"></var>
+<var name="R5VS00IDU" description="(R5VS00IDU) Готовность к управлению ворот отстойной зоны" format="2"></var>
+<var name="R2VS00IDU" description="(R2VS00IDU) Готовность к управлению МДЗ2" format="2"></var>
+<var name="R1VS00IDU" description="(R1VS00IDU) Готовность к управлению МДЗ1" format="2"></var>
+<var name="A9VS00IDU" description="(A9VS00IDU) Готовность к управлению НИ ДС1" format="2"></var>
+<var name="B9VS00IDU" description="(B9VS00IDU) Готовность к управлению НИ ДС2" format="2"></var>
+<var name="R0VX08IDU" description="(R0VX08IDU) Индикация Режим" format="3"></var>
+<var name="B2VS01IDU" description="(B2VS01IDU) Готовность к управлению РБ2-СС" format="2"></var>
+<var name="B2VS02IDU" description="(B2VS02IDU) Готовность к управлению РБ2-СТР" format="2"></var>
+<var name="R0VL01RDU" description="(R0VL01RDU) Индикация  Время задержки " format="8"></var>
+<var name="R3VS00IDU" description="(R3VS00IDU) Готовность к управлению гомогенных дверей" format="2"></var>
+<var name="R0EC03IDU" description="(R0EC03IDU) Индикатор неисправности по энкодерам" format="2"></var>
+<var name="B1IC01UDU" description="(B1IC01UDU) Координата штока ББ2 (дел.энк)" format="5"></var>
+<var name="A2IC01UDU" description="(A2IC01UDU) Координата штока РБ1 (дел.энк)" format="5"></var>
+<var name="B2IC01UDU" description="(B2IC01UDU) Координата штока РБ2 (дел.энк)" format="5"></var>
+<var name="A3IC01UDU" description="(A3IC01UDU) Координата штока ИС1 (дел.энк)" format="5"></var>
+<var name="B3IC01UDU" description="(B3IC01UDU) Координата штока ИС2 (дел.энк)" format="5"></var>
+<var name="A8IC01UDU" description="(A8IC01UDU) Координата ДС2 (дел.энк)" format="5"></var>
+<var name="B8IC01UDU" description="(B8IC01UDU) Координата АЗ2 (дел.энк)" format="5"></var>
+<var name="A1IC01UDU" description="(A1IC01UDU) Координата штока ББ1 (дел.энк)" format="5"></var>
+<var name="A2CP02RDU" description="(A2CP02RDU) Текущее давление ПОДЪЁМ РБ1" format="8"></var>
+<var name="B2CP02RDU" description="(B2CP02RDU) Текущее давление ПОДЪЁМ РБ2" format="8"></var>
+<var name="A2IP02IDU" description="(A2IP02IDU) Текущее давление ПОДЪЁМ РБ1" format="3"></var>
+<var name="B2IP02IDU" description="(B2IP02IDU) Текущее давление ПОДЪЁМ РБ2" format="3"></var>
+<var name="A3CP01RDU" description="(A3CP01RDU) Текущее давление СПУСК ИС1" format="8"></var>
+<var name="B3CP01RDU" description="(B3CP01RDU) Текущее давление СПУСК ИС2" format="8"></var>
+<var name="A3IP01IDU" description="(A3IP01IDU) Текущее давление СПУСК ИС1" format="3"></var>
+<var name="B3IP01IDU" description="(B3IP01IDU) Текущее давление СПУСК ИС2" format="3"></var>
+<var name="A3CP02RDU" description="(A3CP02RDU) Текущее давление ПОДЪЁМ ИС1" format="8"></var>
+<var name="B3CP02RDU" description="(B3CP02RDU) Текущее давление ПОДЪЁМ ИС2" format="8"></var>
+<var name="A3IP02IDU" description="(A3IP02IDU) Текущее давление ВЫСТРЕЛ ИС1" format="3"></var>
+<var name="B3IP02IDU" description="(B3IP02IDU) Текущее давление ВЫСТРЕЛ ИС2" format="3"></var>
+<var name="A4CP02RDU" description="(A4CP02RDU) Текущее давление ПОДЪЁМ НИ1" format="8"></var>
+<var name="B4CP02RDU" description="(B4CP02RDU) Текущее давление ПОДЪЁМ НИ2" format="8"></var>
+<var name="A4IP02IDU" description="(A4IP02IDU) Текущее давление ПОДЪЁМ НИ1" format="3"></var>
+<var name="B4IP02IDU" description="(B4IP02IDU) Текущее давление ПОДЪЁМ НИ2" format="3"></var>
+<var name="R0EE01IDU" description="(R0EE01IDU) Индикатор неисправности оборудования" format="2"></var>
+<var name="R0ES01IDU" description="(R0ES01IDU) Индикатор неисправности БУШД , ИП АЗ1" format="2"></var>
+<var name="R0ES03UDU" description="(R0ES03UDU) Индикатор неисправности  источников питания" format="5"></var>
+<var name="R0ES02IDU" description="(R0ES02IDU) Индикатор неисправности БУШД , ИП АЗ2" format="2"></var>
+<var name="A0EP02IDU" description="(A0EP02IDU) Индикатор -Давление  АЗ1 ниже АС" format="2"></var>
+<var name="B0EP02IDU" description="(B0EP02IDU) Индикатор -Давление  АЗ2 ниже АС" format="2"></var>
+<var name="A0EE01IDU" description="(A0EE01IDU) Индикатор неготовности АЗ1" format="2"></var>
+<var name="B0EE01IDU" description="(B0EE01IDU) Индикатор неготовности АЗ2" format="2"></var>
+<var name="R0MW15IP1" description="(R0MW15IP1) Переключатель «МОЩНОСТЬ В СТАТИЧЕСКОМ РЕЖИМЕ»" format="3"></var>
+<var name="R0MW14IP1" description="(R0MW14IP1) Переключатель «ПРОГРАММЫ»" format="3"></var>
+<var name="R0MW12IP1" description="(R0MW12IP1) Переключатель «РЕЖИМ РАБОТЫ»" format="3"></var>
+<var name="R0MW13IP1" description="(R0MW13IP1) Переключатель «ВЫБОР ЗОН»" format="3"></var>
+<var name="R0MW16IP1" description="(R0MW16IP1) Переключатель «ВИД ПРОВЕРКИ»" format="3"></var>
+<var name="R0MW11IP1" description="(R0MW11IP1) Переключатель «ВЫСТРЕЛ»" format="3"></var>
+<var name="R0MW11IP2" description="(R0MW11IP2) Переключатель «ПРОВЕРКА СХЕМ СБРОСА»" format="3"></var>
+<var name="B8MC01IP2" description="(B8MC01IP2) Заданная координата АЗ2" format="3"></var>
+<var name="R0VN11RZ1" description="(R0VN11RZ1) Средняя мощность по BAZ1" format="8"></var>
+<var name="R0VN11RZ2" description="(R0VN11RZ2) Средняя мощность по BAZ2" format="8"></var>
+<var name="A1MC01IP1" description="(A1MC01IP1) Заданная координата положения ББ1" format="3"></var>
+<var name="B1MC01IP1" description="(B1MC01IP1) Заданная координата положения ББ2" format="3"></var>
+<var name="A3MC01IP1" description="(A3MC01IP1) Заданная координата положения ИС1" format="3"></var>
+<var name="B3MC01IP1" description="(B3MC01IP1) Заданная координата положения ИС2" format="3"></var>
+<var name="R0MW14IP2" description="(R0MW14IP2) Переключатель «Обдув»" format="3"></var>
+<var name="R0MW12IP2" description="(R0MW12IP2) Переключатель «ВРЕМЯ СРАБАТЫВАНИЯ от ВУ РБ»" format="2"></var>
+<var name="A1UC03RDU" description="(A1UC03RDU) Коэффициент преобразования показаний энкодера ББ, мм/дел.энкодера" format="8"></var>
+<var name="A1UC05UDU" description="(A1UC05UDU) Верхняя граница показания энкодера ББ, деления энкодера" format="5"></var>
+<var name="A1UC06UDU" description="(A1UC06UDU) Нижняя граница показания энкодера ББ, деления энкодера" format="5"></var>
+<var name="A2UC06UDU" description="(A2UC06UDU) Нижняя граница показания энкодера РБ, деления энкодера" format="5"></var>
+<var name="A2UC05UDU" description="(A2UC05UDU) Верхняя граница показания энкодера РБ, деления энкодера" format="5"></var>
+<var name="A2UC03RDU" description="(A2UC03RDU) Коэффициент преобразования показаний энкодера РБ, мм/дел.энкодера" format="8"></var>
+<var name="A3UC06UDU" description="(A3UC06UDU) Нижняя граница показания энкодера ИС, деления энкодера" format="5"></var>
+<var name="A3UC05UDU" description="(A3UC05UDU) Верхняя граница показания энкодера ИС, деления энкодера" format="5"></var>
+<var name="A3UC03RDU" description="(A3UC03RDU) Коэффициент преобразования показаний энкодера ИС, мм/дел.энкодера" format="8"></var>
+<var name="A8UC06UDU" description="(A8UC06UDU) Нижняя граница показания энкодера АЗ2, деления энкодера" format="5"></var>
+<var name="A8UC03RDU" description="(A8UC03RDU) Коэффициент преобразования показаний энкодера АЗ2/ДС2, мм/дел.энкодера" format="8"></var>
+<var name="A8UC05UDU" description="(A8UC05UDU) Верхняя граница показания энкодера АЗ2/ДС2, деления энкодера" format="5"></var>
+<var name="R0UV81RDU" description="(R0UV81RDU) 1-я частота двигателя (шагов/секунду)" format="8"></var>
+<var name="R0UV82RDU" description="(R0UV82RDU) 3-я частота двигателя (шагов/секунду)" format="8"></var>
+<var name="R0UV83RDU" description="(R0UV83RDU) 4-я частота двигателя (шагов/секунду)" format="8"></var>
+<var name="R0UV84RDU" description="(R0UV84RDU) 5-я частота двигателя (шагов/секунду)" format="8"></var>
+<var name="R0UV86RDU" description="(R0UV86RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
+<var name="R0UV85RDU" description="(R0UV85RDU) 6-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
+<var name="R0UV87RDU" description="(R0UV87RDU) 7-я скорость перемещения ББ (шагов/секунду)" format="8"></var>
+<var name="A2UP03RDU" description="(A2UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ" format="8"></var>
+<var name="A2UP04RDU" description="(A2UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ" format="8"></var>
+<var name="A2UP43RDU" description="(A2UP43RDU) Уровень срабатывания аварийной сигнализации по давлению ПОДЪЁМ РБ" format="8"></var>
+<var name="A2UP44RDU" description="(A2UP44RDU) Граница неоднозначности срабатывания аварийной сигнализации по давлению ПОДЪЁМ РБ (МПа)" format="8"></var>
+<var name="A2UP53RDU" description="(A2UP53RDU) Уровень срабатывания предупредительной по давлению ПОДЪЁМ РБ (МПа)" format="8"></var>
+<var name="A2UP85RDU" description="(A2UP85RDU) Нижняя граница неоднозначности нормализации давления ПОДЪЁМ РБ (МПа)" format="8"></var>
+<var name="A2UP88RDU" description="(A2UP88RDU) Верхняя граница неоднозначности нормализации давления ПОДЪЁМ РБ (МПа)" format="8"></var>
+<var name="A2UP86RDU" description="(A2UP86RDU) Нижняя граница нормализации давления ПОДЪЁМ РБ (МПа)" format="8"></var>
+<var name="A3UP03RDU" description="(A3UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
+<var name="A3UP04RDU" description="(A3UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс ИС" format="8"></var>
+<var name="A3UP43RDU" description="(A3UP43RDU) Уровень срабатывания аварийной сигнализации по давлению ПОДЪЁМ ИС" format="8"></var>
+<var name="A3UP44RDU" description="(A3UP44RDU) Граница неоднозначности срабатывания аварийной сигнализации по давлению ПОДЪЁМ ИС (МПа)" format="8"></var>
+<var name="A3UP53RDU" description="(A3UP53RDU) Уровень срабатывания предупредительной по давлению ПОДЪЁМ ИС (МПа)" format="8"></var>
+<var name="A3UP85RDU" description="(A3UP85RDU) Нижняя граница неоднозначности нормализации давления ПОДЪЁМ ИС (МПа)" format="8"></var>
+<var name="A3UP88RDU" description="(A3UP88RDU) Верхняя граница неоднозначности нормализации давления ПОДЪЁМ ИС (МПа)" format="8"></var>
+<var name="A3UP86RDU" description="(A3UP86RDU) Нижняя граница нормализации давления ПОДЪЁМ ИС (МПа)" format="8"></var>
+<var name="A3UP51RDU" description="(A3UP51RDU) Уровень срабатывания предупредительной по давлению СПУСК ИС (МПа)" format="8"></var>
+<var name="A3UP41RDU" description="(A3UP41RDU) Уровень срабатывания аварийной сигнализации по давлению СПУСК ИС" format="8"></var>
+<var name="A3UP42RDU" description="(A3UP42RDU) Граница неоднозначности срабатывания аварийной сигнализации по давлению СПУСК ИС (МПа)" format="8"></var>
+<var name="A3UP81RDU" description="(A3UP81RDU) Нижняя граница неоднозначности нормализации давления СПУСК ИС (МПа)" format="8"></var>
+<var name="A3UP84RDU" description="(A3UP84RDU) Верхняя граница неоднозначности нормализации давления СПУСК ИС (МПа)" format="8"></var>
+<var name="A3UP82RDU" description="(A3UP82RDU) Нижняя граница нормализации давления СПУСК ИС (МПа)" format="8"></var>
+<var name="A4UP53RDU" description="(A4UP53RDU) Уровень срабатывания предупредительной по давлению ПОДЪЁМ НИ (МПа)" format="8"></var>
+<var name="A4UP43RDU" description="(A4UP43RDU) Уровень срабатывания аварийной сигнализации по давлению ПОДЪЁМ НИ" format="8"></var>
+<var name="A4UP44RDU" description="(A4UP44RDU) Граница неоднозначности срабатывания аварийной сигнализации по давлению ПОДЪЁМ НИ (МПа)" format="8"></var>
+<var name="A4UP85RDU" description="(A4UP85RDU) Нижняя граница неоднозначности нормализации давления ПОДЪЁМ НИ (МПа)" format="8"></var>
+<var name="A4UP88RDU" description="(A4UP88RDU) Верхняя граница неоднозначности нормализации давления ПОДЪЁМ НИ (МПа)" format="8"></var>
+<var name="A4UP86RDU" description="(A4UP86RDU) Нижняя граница нормализации давления ПОДЪЁМ НИ (МПа)" format="8"></var>
+<var name="A4UP03RDU" description="(A4UP03RDU) Верхний предел шкалы датчика давления на подъем/сброс НИ" format="8"></var>
+<var name="A4UP04RDU" description="(A4UP04RDU) Нижний предел шкалы датчика давления на подъем/сброс НИ" format="8"></var>
+<var name="R4UZ03LDU" description="(R4UZ03LDU) Время задержки блокировки тележки по самоходу (10мс)" format="3"></var>
+<var name="R4UZ04LDU" description="(R4UZ04LDU) Время задержки блокировки тележки по превышению времени движения (10мс)" format="5"></var>
+<var name="R4UZ05LDU" description="(R4UZ05LDU) Время задержки блокировки тележки по недвижению (10мс)" format="3"></var>
+<var name="A4UZ03LDU" description="(A4UZ03LDU) Время задержки блокировки НИ по самоходу (10мс)" format="3"></var>
+<var name="A4UZ04LDU" description="(A4UZ04LDU) Время задержки блокировки НИ по превышению времени движения (10мс)" format="5"></var>
+<var name="A4UZ05LDU" description="(A4UZ05LDU) Время задержки блокировки НИ по недвижению (10мс)" format="3"></var>
+<var name="A5UZ03LDU" description="(A5UZ03LDU) Время задержки блокировки гомогеннных дверей по самоходу (10мс)" format="3"></var>
+<var name="A6UZ03LDU" description="(A6UZ03LDU) Время задержки блокировки БЗ по самоходу (10мс)" format="3"></var>
+<var name="A6UZ04LDU" description="(A6UZ04LDU) Время задержки блокировки БЗ по превышению времени движения (10мс)" format="5"></var>
+<var name="A6UZ05LDU" description="(A6UZ05LDU) Время задержки блокировки БЗ по недвижению (10мс)" format="3"></var>
+<var name="A5UZ04LDU" description="(A5UZ04LDU) Время задержки блокировки НЛ по превышению времени движения (10мс)" format="5"></var>
+<var name="A5UZ05LDU" description="(A5UZ05LDU) Время задержки блокировки НЛ по недвижению (10мс)" format="3"></var>
+<var name="B8UV01RDU" description="(B8UV01RDU) Допустимое превышение заданной скорости АЗ2,ДС2 мм/с" format="8"></var>
+<var name="B8UV02RDU" description="(B8UV02RDU) Допустимое отклонение скорости АЗ2,ДС2 от заданной в меньшую сторону, м/мин" format="8"></var>
+<var name="B8UL01IDU" description="(B8UL01IDU) Время нахождения координаты АЗ2,ДС2 в зоне возврата, после которого происходит расширение зоны нечувствительности, мс" format="3"></var>
+<var name="B8UC01IDU" description="(B8UC01IDU) Зона нечувствительности при наведении АЗ2,ДС2 0.01 мм" format="3"></var>
+<var name="B8UC02IDU" description="(B8UC02IDU) Зона возврата при наведении АЗ2,ДС2 0.01 мм" format="3"></var>
+<var name="B8UV03RDU" description="(B8UV03RDU) Номинальная скорость перемещения АЗ2,ДС2 мм/с" format="8"></var>
+<var name="B8UL03IDU" description="(B8UL03IDU) Задержка определения самохода АЗ2,ДС2 после останова (достижения скорости 0), 10 мс" format="3"></var>
+<var name="B8UL04LDU" description="(B8UL04LDU) Время задержки блокировки АЗ2,ДС2 по превышению времени движения (10мс)" format="5"></var>
+<var name="B8UL05LDU" description="(B8UL05LDU) Время задержки блокировки АЗ2,ДС2 по недвижению (10мс)" format="3"></var>
+<var name="B8UL07LDU" description="(B8UL07LDU) Время задержки блокировки по превышению/снижению скорости АЗ2,ДС2" format="3"></var>
+<var name="B8UC05IDU" description="(B8UC05IDU) Минимальное перемещение для измерения скорости АЗ-ДС(для блокировок по направлению и отсутствию движения), 0.01 мм" format="3"></var>
+<var name="B8UC06IDU" description="(B8UC06IDU) Уставка определения самохода АЗ-ДС, 0.01 мм" format="3"></var>
+<var name="B8UL04IDU" description="(B8UL04IDU) Задержка определения самохода АЗ-ДС после команды на останов, 10 мс" format="3"></var>
+<var name="A2UC01IDU" description="(A2UC01IDU) Граница 1-го диапазона РБ вперёд (вверх)" format="3"></var>
+<var name="A2UC02IDU" description="(A2UC02IDU) Граница 2-го диапазона РБ вперёд (вверх)" format="3"></var>
+<var name="A2UC03IDU" description="(A2UC03IDU) Граница 1-го диапазона РБ назад (вниз)" format="3"></var>
+<var name="R0UN01IDU" description="(R0UN01IDU) Ограничение 1 по мощности" format="3"></var>
+<var name="R0UN02IDU" description="(R0UN02IDU) Ограничение 2 по мощности" format="3"></var>
+<var name="R0UN03IDU" description="(R0UN03IDU) Ограничение 3 по мощности" format="3"></var>
+<var name="R0UN04IDU" description="(R0UN04IDU) Ограничение 4 по мощности" format="3"></var>
+<var name="R0UN05IDU" description="(R0UN05IDU) Ограничение 5 по мощности" format="3"></var>
+<var name="R0UN06IDU" description="(R0UN06IDU) Ограничение 6 по мощности" format="3"></var>
+<var name="R0UN07IDU" description="(R0UN07IDU) Ограничение 7 по мощности" format="3"></var>
+<var name="R0UN08IDU" description="(R0UN08IDU) Ограничение 8 по мощности" format="3"></var>
+<var name="A2UL01LDU" description="(A2UL01LDU) Время задержки подъёма ОРР после сброса (10мс)" format="3"></var>
+<var name="A2UC05IDU" description="(A2UC05IDU) Минимальное перемещение для измерения скорости РБ(для блокировок по направлению и отсутствию движения), 0.01 мм" format="3"></var>
+<var name="A2UC06IDU" description="(A2UC06IDU) Уставка определения самохода РБ1 0.01 мм" format="3"></var>
+<var name="A2UL04IDU" description="(A2UL04IDU) Задержка определения самохода РБ после команды на останов, 10 мс" format="3"></var>
+<var name="A2UX01RDU" description="(A2UX01RDU) Коэффициент преобразования частота-скорость(м/мин)" format="8"></var>
+<var name="A2UL01IDU" description="(A2UL01IDU) Время нахождения координаты ОРР в зоне возврата, после которого происходит расширение зоны нечувствительности, мс" format="3"></var>
+<var name="A2UC07IDU" description="(A2UC07IDU) Зона возврата при наведении РБ 0.01 мм" format="3"></var>
+<var name="A2UC08IDU" description="(A2UC08IDU) Зона нечувствительности при наведении ОРР 0.01 мм" format="3"></var>
+<var name="A2UV01RDU" description="(A2UV01RDU) Допустимое превышение заданной скорости ОРР мм/с" format="8"></var>
+<var name="A2UV02RDU" description="(A2UV02RDU) Допустимое отклонение скорости ОРР от заданной в меньшую сторону, м/мин" format="8"></var>
+<var name="A2UL03IDU" description="(A2UL03IDU) Задержка определения самохода ОРР после останова (достижения скорости 0), 10 мс" format="3"></var>
+<var name="A2UL05LDU" description="(A2UL05LDU) Время задержки блокировки ОРР по недвижению (10мс)" format="3"></var>
+<var name="A2UL02LDU" description="(A2UL02LDU) Время задержки блокировки по превышению/снижению скорости ОРР" format="3"></var>
+<var name="R1UZ03LDU" description="(R1UZ03LDU) Время задержки блокировки НЛ по самоходу (10мс)" format="3"></var>
+<var name="R1UZ05LDU" description="(R1UZ05LDU) Время задержки блокировки НЛ по недвижению (10мс)" format="3"></var>
+<var name="R1UZ04LDU" description="(R1UZ04LDU) Время задержки блокировки МДЗ по превышению времени движения (10мс)" format="5"></var>
+<var name="A1UL01IDU" description="(A1UL01IDU) Время нахождения координаты ОРР в зоне возврата, после которого происходит расширение зоны нечувствительности, мс" format="3"></var>
+<var name="A1UX01RDU" description="(A1UX01RDU) Коэффициент преобразования частота-скорость(м/мин) ББ" format="8"></var>
+<var name="A1UC08IDU" description="(A1UC08IDU) Зона нечувствительности при наведении ОРР 0.01 мм" format="3"></var>
+<var name="A1UC07IDU" description="(A1UC07IDU) Зона возврата при наведении ОРР 0.01 мм" format="3"></var>
+<var name="A1UC01IDU" description="(A1UC01IDU) Граница 1-го диапазона ББ вперёд (вверх)" format="3"></var>
+<var name="A1UC02IDU" description="(A1UC02IDU) Граница 2-го диапазона ББ вперёд (вверх)" format="3"></var>
+<var name="A1UC03IDU" description="(A1UC03IDU) Граница 1-го диапазона ББ назад (вниз)" format="3"></var>
+<var name="A1UV01RDU" description="(A1UV01RDU) Допустимое превышение заданной скорости ОРР мм/с" format="8"></var>
+<var name="A1UV02RDU" description="(A1UV02RDU) Допустимое отклонение скорости ОРР от заданной в меньшую сторону, м/мин" format="8"></var>
+<var name="A1UL05LDU" description="(A1UL05LDU) Время задержки блокировки ОРР по недвижению (10мс)" format="3"></var>
+<var name="A1UL03IDU" description="(A1UL03IDU) Задержка определения самохода ОРР после останова (достижения скорости 0), 10 мс" format="3"></var>
+<var name="A1UL02LDU" description="(A1UL02LDU) Время задержки блокировки по превышению/снижению скорости ОРР" format="3"></var>
+<var name="A1UC06IDU" description="(A1UC06IDU) Уставка определения самохода ББ 0.01 мм" format="3"></var>
+<var name="A1UC05IDU" description="(A1UC05IDU) Минимальное перемещение для измерения скорости ББ(для блокировок по направлению и отсутствию движения), 0.01 мм" format="3"></var>
+<var name="A1UL04IDU" description="(A1UL04IDU) Задержка определения самохода ББ после команды на останов, 10 мс" format="3"></var>
+<var name="A3UC01IDU" description="(A3UC01IDU) Граница 1-го диапазона ИС вперёд (вверх)" format="3"></var>
+<var name="A3UC02IDU" description="(A3UC02IDU) Граница 1-го диапазона ИС назад (вниз)" format="3"></var>
+<var name="A3UV01RDU" description="(A3UV01RDU) Допустимое превышение заданной скорости ИС мм/с" format="8"></var>
+<var name="A3UV02RDU" description="(A3UV02RDU) Допустимое отклонение скорости ИС от заданной в меньшую сторону, м/мин" format="8"></var>
+<var name="A3UC06IDU" description="(A3UC06IDU) Уставка определения самохода ИС1 0.01 мм" format="3"></var>
+<var name="A3UC05IDU" description="(A3UC05IDU) Минимальное перемещение для измерения скорости ИС(для блокировок по направлению и отсутствию движения), 0.01 мм" format="3"></var>
+<var name="A3UL04IDU" description="(A3UL04IDU) Задержка определения самохода ИС после команды на останов, 10 мс" format="3"></var>
+<var name="A3UL05LDU" description="(A3UL05LDU) Время задержки блокировки ИС по недвижению (10мс)" format="3"></var>
+<var name="A3UL03IDU" description="(A3UL03IDU) Задержка определения самохода ИС после останова (достижения скорости 0), 10 мс" format="3"></var>
+<var name="A3UL02LDU" description="(A3UL02LDU) Время задержки блокировки по превышению/снижению скорости ИС" format="3"></var>
+<var name="A3UL01IDU" description="(A3UL01IDU) Время нахождения координаты ИС в зоне возврата, после которого происходит расширение зоны нечувствительности, мс" format="3"></var>
+<var name="A3UC07IDU" description="(A3UC07IDU) Зона возврата при наведении ИС 0.01 мм" format="3"></var>
+<var name="A3UX01RDU" description="(A3UX01RDU) Коэффициент преобразования частота-скорость (м/мин) ИС" format="8"></var>
+<var name="A3UC08IDU" description="(A3UC08IDU) Зона нечувствительности при наведении ИС 0.01 мм" format="3"></var>
+<var name="A3UP54RDU" description="(A3UP54RDU) Граница неоднозначности срабатывания предупредительной сигнализации по давлению ПОДЪЁМ ИС(МПа)" format="8"></var>
+<var name="A3UP52RDU" description="(A3UP52RDU) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СПУСК ИС(МПа)" format="8"></var>
+<var name="A3UP87RDU" description="(A3UP87RDU) Верхняя граница нормализации давления ПОДЪЁМ ИС (МПа)" format="8"></var>
+<var name="A3UP83RDU" description="(A3UP83RDU) Верхняя граница нормализации давления СПУСК ИС (МПа)" format="8"></var>
+<var name="A2UP54RDU" description="(A2UP54RDU) Граница неоднозначности срабатывания предупредительной сигнализации по давлению ПОДЪЁМ РБ(МПа)" format="8"></var>
+<var name="A2UP87RDU" description="(A2UP87RDU) Верхняя граница нормализации давления ПОДЪЁМ РБ (МПа)" format="8"></var>
+<var name="A4UP54RDU" description="(A4UP54RDU) Граница неоднозначности срабатывания предупредительной сигнализации по давлению ПОДЪЁМ НИ(МПа)" format="8"></var>
+<var name="A4UP87RDU" description="(A4UP87RDU) Верхняя граница нормализации давления ПОДЪЁМ НИ (МПа)" format="8"></var>
+<var name="R3UZ03LDU" description="(R3UZ03LDU) Время задержки блокировки гомогеннных дверей по самоходу (10мс)" format="3"></var>
+<var name="A9UZ03LDU" description="(A9UZ03LDU) Время задержки блокировки НИ  ДС по самоходу (10мс)" format="3"></var>
+<var name="A9UZ04LDU" description="(A9UZ04LDU) Время задержки блокировки НИ ДС по превышению времени движения (10мс)" format="5"></var>
+<var name="A9UZ05LDU" description="(A9UZ05LDU) Время задержки блокировки НИ ДС по недвижению (10мс)" format="3"></var>
+<var name="A3UP34IDU" description="(A3UP34IDU) Время заполнения ресивера ИС (в 10 мс)" format="3"></var>
+<var name="A2UL11IP2" description="(A2UL11IP2) Время срабатывания ИС до ВУ от ВУ РБ - 1" format="3"></var>
+<var name="A2UL12IP2" description="(A2UL12IP2) Время срабатывания ИС до ВУ от ВУ РБ - 2" format="3"></var>
+<var name="A2UL13IP2" description="(A2UL13IP2) Время срабатывания ИС до ВУ от ВУ РБ - 3" format="3"></var>
+<var name="A2UL14IP2" description="(A2UL14IP2) Время срабатывания ИС до ВУ от ВУ РБ - 4" format="3"></var>
+<var name="A2UL16IP2" description="(A2UL16IP2) Время срабатывания ИС до ВУ от ВУ РБ - 6" format="3"></var>
+<var name="A2UL17IP2" description="(A2UL17IP2) Время срабатывания ИС до ВУ от ВУ РБ - 7" format="3"></var>
+<var name="A2UL18IP2" description="(A2UL18IP2) Время срабатывания ИС до ВУ от ВУ РБ - 8" format="3"></var>
+<var name="R3UZ04IDU" description="(R3UZ04IDU) Время задержки блокировки гомогенных дверей по недвижению (10мс)" format="8"></var>
+</vars>

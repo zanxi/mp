@@ -1,0 +1,18 @@
+<assign>
+    <DOUT01>
+        <def name="R0MW13LP2">K01FDSR</def>
+        <def name="R0MD32LP1">K02FDSR</def>
+    </DOUT01>
+    <DOUT02>
+        <def name="R0MW13LP2">K01FDSR</def>
+        <def name="R0MD32LP1">K02FDSR</def>
+    </DOUT02>
+	<DINP01>
+        <def name="R0MW13LP2">K01VDSR</def>
+        <def name="R0MD32LP1">K02VDSR</def>
+	</DINP01>
+	<AOUT01>
+		<def name="B0EP03IZ1">K01VASR</def>
+		<def name="A0EP02IZ2">K04VASR</def>
+	</AOUT01>
+</assign>

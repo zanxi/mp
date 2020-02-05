@@ -1,0 +1,31 @@
+<!-->
+Описание драйвера по умолчанию
+
+-->
+<driver name="sbk" description="Типовой драйвер Контроллера Шкафа" code="0x01" lenData="26" lenInit="4" header="../dspa/drivers/sbkfp7.h">
+<!-->
+    need="n" - обязатльное назначение имени переменной
+        ="n"  - можно не назначать   
+-->
+    <signals>
+        <signal name="POWER1" format="1" need="n" address="0"/>
+        <signal name="POWER2" format="1" need="n" address="2"/>
+        <signal name="DOOR" format="1" need="n" address="4"/>
+        <signal name="T43" format="1" need="n" address="6"/>
+        <signal name="T53" format="1" need="n" address="8"/>
+        <signal name="BP124" format="1" need="n" address="10"/>
+        <signal name="BP15" format="1" need="n" address="12"/>
+        <signal name="BP224" format="1" need="n" address="14"/>
+        <signal name="BP25" format="1" need="n" address="16"/>
+        <signal name="MPBP124" format="1" need="n" address="18"/>
+        <signal name="MPBP15" format="1" need="n" address="20"/>
+        <signal name="MPBP224" format="1" need="n" address="22"/>
+        <signal name="MPBP25" format="1" need="n" address="24"/>
+    </signals>
+    <init type="sbk_inipar">
+        <signal name="type" format="18" value="0xc2" address="0"/>
+        <signal name="BoxLen" format="2" value="0xff" address="1"/>
+        <signal name="vip" format="18" value="8" address="2"/>
+        <signal name="NumCh" format="18" value="8" address="3"/>
+    </init>
+</driver>

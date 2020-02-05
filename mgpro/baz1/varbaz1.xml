@@ -1,0 +1,183 @@
+<vars>
+<var name="R0MD34LP1" description="(R0MD34LP1) Кнопка  Квитировать " format="1"></var>
+<var name="R0EE02LDU" description="(R0EE02LDU) Питание  АКНП  отключить" format="1"></var>
+<var name="R0VN61LS1" description="(R0VN61LS1) ПС по мощности канал 1" format="1"></var>
+<var name="R0VN62LS1" description="(R0VN62LS1) ПС по мощности канал 2" format="1"></var>
+<var name="R0VN63LS3" description="(R0VN63LS3) ПС по мощности канал 3" format="1"></var>
+<var name="R0VN64LS4" description="(R0VN64LS4) ПС по мощности канал 4" format="1"></var>
+<var name="R0VN65LS1" description="(R0VN65LS1) ПС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN66LS2" description="(R0VN66LS2) ПС по периоду разгона канал 2" format="1"></var>
+<var name="R0VN67LS3" description="(R0VN67LS3) ПС по периоду разгона канал 3" format="1"></var>
+<var name="R0VN68LS4" description="(R0VN68LS4) ПС по периоду разгона канал 4" format="1"></var>
+<var name="A0EE04LZ1" description="(A0EE04LZ1) Исправность АКНП4" format="1"></var>
+<var name="A0EE01LZ1" description="(A0EE01LZ1) Исправность АКНП1" format="1"></var>
+<var name="R0VN80LZ1" description="(R0VN80LZ1) АЗ по АС периода разгона РУ" format="1"></var>
+<var name="R0VN70LZ1" description="(R0VN70LZ1) АЗ по АС мощности РУ" format="1"></var>
+<var name="R0VZ71LZ1" description="(R0VZ71LZ1) Обобщенный сигнал АЗ" format="1"></var>
+<var name="R0VN79LZ1" description="(R0VN79LZ1) АС по усредненному периоду" format="1"></var>
+<var name="R0VN69LZ1" description="(R0VN69LZ1) ПС по усредненному периоду" format="1"></var>
+<var name="B3VZ11LZ1" description="(B3VZ11LZ1) АЗ от НУП ИС2" format="1"></var>
+<var name="A3VZ11LZ1" description="(A3VZ11LZ1) АЗ от НУП ИС1" format="1"></var>
+<var name="B3VZ31LZ1" description="(B3VZ31LZ1) АЗ от ВУ ИС2" format="1"></var>
+<var name="A3VZ31LZ1" description="(A3VZ31LZ1) АЗ от ВУ ИС1" format="1"></var>
+<var name="R0VN78LZ1" description="(R0VN78LZ1) АС по периоду разгона канал  4" format="1"></var>
+<var name="R0VN77LZ1" description="(R0VN77LZ1) АС по периоду разгона канал  3" format="1"></var>
+<var name="R0VN61LZ1" description="(R0VN61LZ1) ПС по мощности канал 1" format="1"></var>
+<var name="R0VN62LZ1" description="(R0VN62LZ1) ПС по мощности канал 2" format="1"></var>
+<var name="R0VN63LZ1" description="(R0VN63LZ1) ПС по мощности канал 3" format="1"></var>
+<var name="R0VN64LZ1" description="(R0VN64LZ1) ПС по мощности канал 4" format="1"></var>
+<var name="R0VN65LZ1" description="(R0VN65LZ1) ПС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN66LZ1" description="(R0VN66LZ1) ПС по периоду разгона канал 2" format="1"></var>
+<var name="R0VN67LZ1" description="(R0VN67LZ1) ПС по периоду разгона канал 3" format="1"></var>
+<var name="R0VN68LZ1" description="(R0VN68LZ1) ПС по периоду разгона канал 4" format="1"></var>
+<var name="R0VN71LZ1" description="(R0VN71LZ1) АС по мощности канал 1" format="1"></var>
+<var name="R0VN72LZ1" description="(R0VN72LZ1) АС по мощности канал 2" format="1"></var>
+<var name="R0VN73LZ1" description="(R0VN73LZ1) АС по мощности канал 3" format="1"></var>
+<var name="R0VN74LZ1" description="(R0VN74LZ1) АС по мощности канал 4" format="1"></var>
+<var name="R0VN75LZ1" description="(R0VN75LZ1) АС по периоду разгона канал 1" format="1"></var>
+<var name="R0VN76LZ1" description="(R0VN76LZ1) АС по периоду разгона канал  2" format="1"></var>
+<var name="R7II72LZ1" description="(R7II72LZ1) Сработала АС IУР (датчик 2)" format="1"></var>
+<var name="A0VP73LZ1" description="(A0VP73LZ1) ПС любого давления для АЗ1" format="1"></var>
+<var name="B0VP73LZ1" description="(B0VP73LZ1) ПС давления для АЗ2" format="1"></var>
+<var name="R0VP73LZ1" description="(R0VP73LZ1) ПС давления для РУ" format="1"></var>
+<var name="B0VT61LZ1" description="(B0VT61LZ1) ПС по температуре в АЗ2" format="1"></var>
+<var name="B0VT71LZ1" description="(B0VT71LZ1) АС по температуре в АЗ2" format="1"></var>
+<var name="A1VN71LZ1" description="(A1VN71LZ1) Блокировка автоматического подъёма ББ" format="1"></var>
+<var name="R0VW13LDU" description="(R0VW13LDU) Индикация выбора  АЗ1  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0VW23LDU" description="(R0VW23LDU) Индикация выбора  АЗ2  или  АЗ1+АЗ2 " format="1"></var>
+<var name="R0AD14LDU" description="(R0AD14LDU) Имитация срабатывания верхней АС II УР" format="1"></var>
+<var name="R0AD16LDU" description="(R0AD16LDU) Имитация срабатывания верхней АС I УР" format="1"></var>
+<var name="A0EE02LZ1" description="(A0EE02LZ1) Исправность АКНП2" format="1"></var>
+<var name="A0EE03LZ1" description="(A0EE03LZ1) Исправность АКНП3" format="1"></var>
+<var name="A0EE05LZ1" description="(A0EE05LZ1) Исправность сети АКНП1" format="1"></var>
+<var name="A0EE06LZ1" description="(A0EE06LZ1) Исправность сети АКНП2" format="1"></var>
+<var name="A0EE07LZ1" description="(A0EE07LZ1) Исправность сети АКНП3" format="1"></var>
+<var name="A0EE08LZ1" description="(A0EE08LZ1) Исправность сети АКНП4" format="1"></var>
+<var name="A0VZ71LZ1" description="(A0VZ71LZ1) Обобщенный сигнал АС по АЗ1" format="1"></var>
+<var name="A0EE00LZ1" description="(A0EE00LZ1) Исправность АКНП АЗ1" format="1"></var>
+<var name="B0EE00LZ1" description="(B0EE00LZ1) Исправность АКНП АЗ2" format="1"></var>
+<var name="B0VZ71LZ1" description="(B0VZ71LZ1) Обобщенный сигнал АС по АЗ2" format="1"></var>
+<var name="A0VN71LZ1" description="(A0VN71LZ1) АЗ по АС мощности  АЗ1" format="1"></var>
+<var name="B0VN71LZ1" description="(B0VN71LZ1) АЗ по АС мощности  АЗ2" format="1"></var>
+<var name="A0VN81LZ1" description="(A0VN81LZ1) АЗ по АС периода разгона АЗ1" format="1"></var>
+<var name="B0VN81LZ1" description="(B0VN81LZ1) АЗ по АС периода разгона АЗ2" format="1"></var>
+<var name="R7II73LZ1" description="(R7II73LZ1) Сработала АС IIУР" format="1"></var>
+<var name="R7II71LZ1" description="(R7II71LZ1) Сработала АС IУР (датчик 1)" format="1"></var>
+<var name="B0VP51LZ1" description="(B0VP51LZ1) Давление  АЗ2 ниже ПС" format="1"></var>
+<var name="B0VP41LZ1" description="(B0VP41LZ1) Давление АЗ2 ниже АС" format="1"></var>
+<var name="A0VP51LZ1" description="(A0VP51LZ1) Давление АЗ1 ниже ПС" format="1"></var>
+<var name="A0VP41LZ1" description="(A0VP41LZ1) Давление АЗ1 ниже АС" format="1"></var>
+<var name="R0ET01LZ1" description="(R0ET01LZ1) Признак наличия неисправности по температуре  АЗ1" format="1"></var>
+<var name="A2VP81LZ1" description="(A2VP81LZ1) Давление СБРОС РБ1 в норме" format="1"></var>
+<var name="B2VP81LZ1" description="(B2VP81LZ1) Давление СБРОС РБ2 в норме" format="1"></var>
+<var name="B2VP51LZ1" description="(B2VP51LZ1) Давление СБРОС РБ2 ниже ПС" format="1"></var>
+<var name="B2VP41LZ1" description="(B2VP41LZ1) Давление СБРОС РБ2 ниже АС" format="1"></var>
+<var name="A0VT61LZ1" description="(A0VT61LZ1) ПС по температуре в АЗ1" format="1"></var>
+<var name="A0VT71LZ1" description="(A0VT71LZ1) АС по температуре в АЗ1" format="1"></var>
+<var name="A1VP41LZ1" description="(A1VP41LZ1) Давление СБРОС ББ1 ниже АС" format="1"></var>
+<var name="A1VP51LZ1" description="(A1VP51LZ1) Давление СБРОС ББ1 ниже ПС" format="1"></var>
+<var name="B1VP41LZ1" description="(B1VP41LZ1) Давление СБРОС ББ2 ниже АС" format="1"></var>
+<var name="B1VP51LZ1" description="(B1VP51LZ1) Давление СБРОС ББ2 ниже ПС" format="1"></var>
+<var name="B1VP81LZ1" description="(B1VP81LZ1) Давление СБРОС ББ2 в норме" format="1"></var>
+<var name="A1VP81LZ1" description="(A1VP81LZ1) Давление СБРОС ББ1 в норме" format="1"></var>
+<var name="A2VP41LZ1" description="(A2VP41LZ1) Давление СБРОС РБ1 ниже АС" format="1"></var>
+<var name="A2VP51LZ1" description="(A2VP51LZ1) Давление СБРОС РБ1 ниже ПС" format="1"></var>
+<var name="B0VP81LZ1" description="(B0VP81LZ1) Давление АЗ2 в норме" format="1"></var>
+<var name="A0VP81LZ1" description="(A0VP81LZ1) Давление  АЗ1 в норме" format="1"></var>
+<var name="R0VP41LZ1" description="(R0VP41LZ1) Давление в СИСТЕМЕ ниже АС" format="1"></var>
+<var name="R0VP51LZ1" description="(R0VP51LZ1) Давление в СИСТЕМЕ ниже ПС" format="1"></var>
+<var name="R0VP81LZ1" description="(R0VP81LZ1) Давление  в СИСТЕМЕ в норме" format="1"></var>
+<var name="R0ET02LZ1" description="(R0ET02LZ1) Признак наличия неисправности по температуре АЗ2" format="1"></var>
+<var name="A0VP71LZ1" description="(A0VP71LZ1) АЗ по АС любого давления для АЗ1" format="1"></var>
+<var name="B0VP71LZ1" description="(B0VP71LZ1) АЗ по АС любого давления для АЗ2" format="1"></var>
+<var name="R7II74RZ1" description="(R7II74RZ1) Уровень радиации в реакторном зале" format="8"></var>
+<var name="R0VR02RZ1" description="(R0VR02RZ1) Усредненная реактивность" format="8"></var>
+<var name="R0VN09RZ1" description="(R0VN09RZ1) Усредненный период разгона" format="8"></var>
+<var name="R0VN06RZ1" description="(R0VN06RZ1) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN07RZ1" description="(R0VN07RZ1) Период разгона по каналу 3" format="8"></var>
+<var name="R0VN08RZ1" description="(R0VN08RZ1) Период разгона по каналу 4" format="8"></var>
+<var name="R0VZ05UZ1" description="(R0VZ05UZ1) Индикатор причины сброса" format="5"></var>
+<var name="R0VN11RZ1" description="(R0VN11RZ1) Средняя мощность по БАЗ1" format="8"></var>
+<var name="B0EP03IZ1" description="(B0EP03IZ1) Индикатор -Давление  АЗ2 ниже ПС" format="2"></var>
+<var name="A0EP03IZ1" description="(A0EP03IZ1) Индикатор -Давление  АЗ1 ниже ПС" format="2"></var>
+<var name="B0CT01IZ1" description="(B0CT01IZ1) Температура АЗ2" format="8"></var>
+<var name="B0CP02RZ1" description="(B0CP02RZ1) Текущее давление АЗ2" format="8"></var>
+<var name="A0CP01RZ1" description="(A0CP01RZ1) Текущее давление  АЗ1" format="8"></var>
+<var name="R0IP00IZ1" description="(R0IP00IZ1) Текущее давление в СИСТЕМЕ" format="3"></var>
+<var name="B0IT01IZ1" description="(B0IT01IZ1) Температура АЗ2" format="3"></var>
+<var name="B2IP01IZ1" description="(B2IP01IZ1) Текущее давление СБРОС РБ2" format="3"></var>
+<var name="A2IP01IZ1" description="(A2IP01IZ1) Текущее давление СБРОС РБ1" format="3"></var>
+<var name="B2CP01RZ1" description="(B2CP01RZ1) Текущее давление СБРОС РБ2" format="8"></var>
+<var name="A0IT01IZ1" description="(A0IT01IZ1) Температура АЗ1" format="3"></var>
+<var name="A0CT01IZ1" description="(A0CT01IZ1) Температура АЗ1" format="8"></var>
+<var name="A1IP01IZ1" description="(A1IP01IZ1) Текущее давление СБРОС ББ1" format="3"></var>
+<var name="B1IP01IZ1" description="(B1IP01IZ1) Текущее давление СБРОС ББ2" format="3"></var>
+<var name="A1CP01RZ1" description="(A1CP01RZ1) Текущее давление СБРОС ББ1" format="8"></var>
+<var name="B1CP01RZ1" description="(B1CP01RZ1) Текущее давление СБРОС ББ2" format="8"></var>
+<var name="A2CP01RZ1" description="(A2CP01RZ1) Текущее давление СБРОС РБ1" format="8"></var>
+<var name="R0VN01RZ1" description="(R0VN01RZ1) Уровень мощности по каналу 1" format="8"></var>
+<var name="R0VN02RZ1" description="(R0VN02RZ1) Уровень мощности по каналу 2" format="8"></var>
+<var name="R0VN03RZ1" description="(R0VN03RZ1) Уровень мощности по каналу 3" format="8"></var>
+<var name="R0VN04RZ1" description="(R0VN04RZ1) Уровень мощности по каналу 4" format="8"></var>
+<var name="R0VN05RZ1" description="(R0VN05RZ1) Период разгона по каналу 1" format="8"></var>
+<var name="A0IP01IZ1" description="(A0IP01IZ1) Текущее давление АЗ1" format="3"></var>
+<var name="B0IP01IZ1" description="(B0IP01IZ1) Текущее давление АЗ2" format="3"></var>
+<var name="R0CP01RZ1" description="(R0CP01RZ1) Текущее давление  в СИСТЕМЕ" format="8"></var>
+<var name="B0EP02IZ1" description="(B0EP02IZ1) Индикатор -Давление  АЗ2 ниже АС" format="2"></var>
+<var name="A0EP02IZ1" description="(A0EP02IZ1) Индикатор -Давление  АЗ1 ниже АС" format="2"></var>
+<var name="R0VN01RS1" description="(R0VN01RS1) Период разгона по каналу 1" format="8"></var>
+<var name="R0VN01RS2" description="(R0VN01RS2) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN01RS3" description="(R0VN01RS3) Период разгона по каналу 2" format="8"></var>
+<var name="R0VN01RS4" description="(R0VN01RS4) Период разгона по каналу 4" format="8"></var>
+<var name="R0VN02RS1" description="(R0VN02RS1) Уровень мощности по каналу 1" format="8"></var>
+<var name="R0VN02RS2" description="(R0VN02RS2) Уровень мощности по каналу 2" format="8"></var>
+<var name="R0VN02RS3" description="(R0VN02RS3) Уровень мощности по каналу 3" format="8"></var>
+<var name="R0VN02RS4" description="(R0VN02RS4) Уровень мощности по каналу 4" format="8"></var>
+<var name="A0UP88RZZ" description="(A0UP88RZZ) Верхняя граница неоднозначности нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP86RZZ" description="(A0UP86RZZ) Нижняя граница нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP03RZZ" description="(A0UP03RZZ) Верхний предел шкалы датчика давления АЗ1,2" format="8"></var>
+<var name="A0UP04RZZ" description="(A0UP04RZZ) Нижний предел шкалы датчика давления АЗ1,2" format="8"></var>
+<var name="R0UP04RZZ" description="(R0UP04RZZ) Нижний предел шкалы датчика давления в СИСТЕМЕ" format="8"></var>
+<var name="R0UP03RZZ" description="(R0UP03RZZ) Верхний предел шкалы датчика давления в СИСТЕМЕ" format="8"></var>
+<var name="R0UP43RZZ" description="(R0UP43RZZ) Уровень срабатывания аварийной сигнализации по давлению  в СИСТЕМЕ" format="8"></var>
+<var name="R0UP53RZZ" description="(R0UP53RZZ) Уровень срабатывания предупредительной по давлению в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP54RZZ" description="(R0UP54RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению в СИСТЕМЕ(МПа)" format="8"></var>
+<var name="R0UP44RZZ" description="(R0UP44RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению в СИСТЕМЕ(МПа)" format="8"></var>
+<var name="R0UP85RZZ" description="(R0UP85RZZ) Нижняя граница неоднозначности нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP88RZZ" description="(R0UP88RZZ) Верхняя граница неоднозначности нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP87RZZ" description="(R0UP87RZZ) Верхняя граница нормализации давления в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="R0UP86RZZ" description="(R0UP86RZZ) Нижняя граница нормализации давления  в СИСТЕМЕ (МПа)" format="8"></var>
+<var name="A1UP52RZZ" description="(A1UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС ББ(МПа)" format="8"></var>
+<var name="A1UP83RZZ" description="(A1UP83RZZ) Верхняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A2UP52RZZ" description="(A2UP52RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению СБРОС РБ(МПа)" format="8"></var>
+<var name="A2UP83RZZ" description="(A2UP83RZZ) Верхняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A0UP54RZZ" description="(A0UP54RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по давлению АЗ1,2(МПа)" format="8"></var>
+<var name="A0UP87RZZ" description="(A0UP87RZZ) Верхняя граница нормализации давления АЗ1,2 (МПа)" format="8"></var>
+<var name="A1UL11IZZ" description="(A1UL11IZZ) Время задержки АЗ от ВУ ИС1" format="5"></var>
+<var name="A1UL12IZZ" description="(A1UL12IZZ) Время задержки АЗ от НУ ИС1(мс)" format="5"></var>
+<var name="A1UL14IZZ" description="(A1UL14IZZ) Время задержки АЗ от 1-2 УР(мс)" format="8"></var>
+<var name="R0UT02RZZ" description="(R0UT02RZZ) Верхний предел шкалы датчика температуры" format="8"></var>
+<var name="R0UT01RZZ" description="(R0UT01RZZ) Нижний предел шкалы датчика температуры" format="8"></var>
+<var name="A2UP03RZZ" description="(A2UP03RZZ) Верхний предел шкалы датчика давления на подъем/сброс РБ,ББ" format="8"></var>
+<var name="A2UP04RZZ" description="(A2UP04RZZ) Нижний предел шкалы датчика давления на подъем/сброс РБ.ББ" format="8"></var>
+<var name="A1UP41RZZ" description="(A1UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС ББ" format="8"></var>
+<var name="A1UP42RZZ" description="(A1UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС ББ (МПа)" format="8"></var>
+<var name="R0UT72RZZ" description="(R0UT72RZZ) Граница неоднозначности срабатывания аварийной сигнализации по температуре АЗ (град)" format="8"></var>
+<var name="R0UT71RZZ" description="(R0UT71RZZ) Уровень срабатывания аварийной сигнализации по температуре АЗ" format="8"></var>
+<var name="R0UT62RZZ" description="(R0UT62RZZ) Граница неоднозначности срабатывания предупредительной сигнализации по температуре АЗ (град)" format="8"></var>
+<var name="R0UT61RZZ" description="(R0UT61RZZ) Уровень срабатывания предупредительной сигнализации по температуре АЗ" format="8"></var>
+<var name="A1UP51RZZ" description="(A1UP51RZZ) Уровень срабатывания предупредительной сигнализации по давлению СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP82RZZ" description="(A1UP82RZZ) Нижняя граница нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP81RZZ" description="(A1UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A1UP84RZZ" description="(A1UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС ББ (МПа)" format="8"></var>
+<var name="A2UP41RZZ" description="(A2UP41RZZ) Уровень срабатывания аварийной сигнализации по давлению СБРОС РБ" format="8"></var>
+<var name="A2UP42RZZ" description="(A2UP42RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP51RZZ" description="(A2UP51RZZ) Уровень срабатывания предупредительной по давлению СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP81RZZ" description="(A2UP81RZZ) Нижняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP84RZZ" description="(A2UP84RZZ) Верхняя граница неоднозначности нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A2UP82RZZ" description="(A2UP82RZZ) Нижняя граница нормализации давления СБРОС РБ (МПа)" format="8"></var>
+<var name="A0UP53RZZ" description="(A0UP53RZZ) Уровень срабатывания предупредительной по давлению АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP43RZZ" description="(A0UP43RZZ) Уровень срабатывания аварийной сигнализации по давлению  АЗ1,2" format="8"></var>
+<var name="A0UP44RZZ" description="(A0UP44RZZ) Граница неоднозначности срабатывания аварийной сигнализации по давлению  АЗ1,2 (МПа)" format="8"></var>
+<var name="A0UP85RZZ" description="(A0UP85RZZ) Нижняя граница неоднозначности нормализации давления  АЗ1,2 (МПа)" format="8"></var>
+</vars>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variable>
+    <format>
+        <fields>
+            <field description="Имя" name="name" type="S">
+                <validators>&lt;L=1 50&gt;&lt;R=\w+^^Имя может содержать только латинские буквы, цифры и символы подчеркивания&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Описание" name="description" type="S">
+                <validators>&lt;L=1 200&gt;&lt;R=[^\p{Cntrl}]*^^Описание может содержать только печатные символы&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Формат" name="format" type="I">
+                <selectionValues>
+                    <option description="1-Boolean">1</option>
+                    <option description="2-байтный Int Unsigned">2</option>
+                    <option description="2-байтный Int Signed">3</option>
+                    <option description="4-байтный Int Unsigned">4</option>
+                    <option description="4-байтный Int Signed">5</option>
+                    <option description="4-байтный Int Unsigned Swapped">6</option>
+                    <option description="4-байтный Int Signed Swapped">7</option>
+                    <option description="4-байтный Float">8</option>
+                    <option description="4-байтный Float Swapped">9</option>
+                    <option description="8-байтный Int Signed">11</option>
+                    <option description="8-байтный IntSignedSwapped">13</option>
+                    <option description="8-байтный Float">14</option>
+                    <option description="8-байтный FloatSwapped">15</option>
+                    <option description="2-байтный Byte Bcd">16</option>
+                    <option description="4-байтный Bcd">17</option>
+                    <option description="Символьный">18</option>
+                    <option description="Строковый">19</option>
+                </selectionValues>
+                <defaultValue>1</defaultValue>
+            </field>
+            <field description="Адрес в буфере переменных (десятичный)"
+                name="address" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Размер" name="size" type="I">
+                <validators>&lt;L=1 255&gt;</validators>
+                <defaultValue>1</defaultValue>
+            </field>
+        </fields>
+    </format>
+    <records>
+        <record>
+            <value name="name">R0MD34LP1</value>
+            <value name="description">(R0MD34LP1) Кнопка "Квитировать"</value>
+        </record>
+        <record>
+            <value name="name">R0EE02LDU</value>
+            <value name="description">(R0EE02LDU) Питание  АКНП  отключить</value>
+            <value name="address">1</value>
+        </record>
+        <record>
+            <value name="name">R0VN61LS1</value>
+            <value name="description">(R0VN61LS1) ПС по мощности канал 1</value>
+            <value name="address">2</value>
+        </record>
+        <record>
+            <value name="name">R0VN62LS1</value>
+            <value name="description">(R0VN62LS1) ПС по мощности канал 2</value>
+            <value name="address">3</value>
+        </record>
+        <record>
+            <value name="name">R0VN63LS3</value>
+            <value name="description">(R0VN63LS3) ПС по мощности канал 3</value>
+            <value name="address">4</value>
+        </record>
+        <record>
+            <value name="name">R0VN64LS4</value>
+            <value name="description">(R0VN64LS4) ПС по мощности канал 4</value>
+            <value name="address">5</value>
+        </record>
+        <record>
+            <value name="name">R0VN65LS1</value>
+            <value name="description">(R0VN65LS1) ПС по периоду разгона канал 1</value>
+            <value name="address">6</value>
+        </record>
+        <record>
+            <value name="name">R0VN66LS2</value>
+            <value name="description">(R0VN66LS2) ПС по периоду разгона канал 2</value>
+            <value name="address">7</value>
+        </record>
+        <record>
+            <value name="name">R0VN67LS3</value>
+            <value name="description">(R0VN67LS3) ПС по периоду разгона канал 3</value>
+            <value name="address">8</value>
+        </record>
+        <record>
+            <value name="name">R0VN68LS4</value>
+            <value name="description">(R0VN68LS4) ПС по периоду разгона канал 4</value>
+            <value name="address">9</value>
+        </record>
+        <record>
+            <value name="name">R0VR02RZ1</value>
+            <value name="description">(R0VR02RZ1) Усредненная реактивность</value>
+            <value name="format">8</value>
+            <value name="address">10</value>
+        </record>
+    </records>
+</variable>

@@ -1,0 +1,26 @@
+<vars>
+<var name="OPULCON" description="ОПУ-1 сигнал наличия связи" format="1"></var>
+<var name="OPURCON" description="ОПУ-2 сигнал наличия связи" format="1"></var>
+<var name="RPUCON" description="РПУ сигнал наличия связи" format="1"></var>
+<var name="SRVCON" description="Сервер сигнал наличия связи" format="1"></var>
+<var name="OPULREADY" description="ОПУ-1 работоспособен" format="1"></var>
+<var name="OPURREADY" description="ОПУ-2 работоспособен" format="1"></var>
+<var name="RPURREADY" description="РПУ работоспособен" format="1"></var>
+<var name="SRVRREADY" description="Сервер работоспособен" format="1"></var>
+<var name="OPULSTATUS" description="ОПУ-1 статус" format="2"></var>
+<var name="OPURSTATUS" description="ОПУ-2 статус" format="2"></var>
+<var name="RPUSTATUS" description="РПУ статус" format="2"></var>
+<var name="SRVSTATUS" description="Сервер статус" format="2"></var>
+<var name="OPULLIVE" description="ОПУ-1 счетчик жизни" format="2"></var>
+<var name="OPURLIVE" description="ОПУ-2 счетчик жизни" format="2"></var>
+<var name="RPULIVE" description="РПУ счетчик жизни" format="2"></var>
+<var name="SRVLIVE" description="Сервер счетчик жизни" format="2"></var>
+<var name="OPULERROR" description="ОПУ-1 код состояния" format="2"></var>
+<var name="OPURERROR" description="ОПУ-2 код состояния" format="2"></var>
+<var name="RPUERROR" description="РПУ код состояния" format="2"></var>
+<var name="SRVERROR" description="Сервер код состояния" format="2"></var>
+<var name="FR" description="Частота для щелкуна" format="2"></var>
+<var name="THR" description="Системное время часы" format="2"></var>
+<var name="TMM" description="Системное время минуты" format="2"></var>
+<var name="TSEC" description="Системное время секунды" format="2"></var>
+</vars>

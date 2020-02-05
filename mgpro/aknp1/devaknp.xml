@@ -1,0 +1,10 @@
+<devices xml="aknpass">
+<!--
+        <device name="VCHS01" driver="vchs" slot="0x01" description="Ввод частоты первый"> </device>
+        <device name="VCHS02" driver="vchs" slot="0x02" description="Ввод частоты  второй"> </device>
+-->
+        <device name="DINP01" driver="vds32" slot="0x04" description="Ввод дискретных перший"> </device>
+        <device name="OUTD01" driver="fds16" slot="0x05" description="Вывод дискретных первый"> </device>
+        <device name="SBK01" driver="sbk" slot="0xfe" description="Состояние шкафа"> </device>
+		
+</devices>

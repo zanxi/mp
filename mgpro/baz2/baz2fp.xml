@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subsystem name="baz2" description="BAZ2" main="192.168.20.13" second="192.168.30.13" path="/baz2"
+             shema="baz2.tpr" step="500" status="ok" variable="varbaz2" result="d:/md/cpc108/fpcpc">
+             
+<save>R0VN61LS1</save>
+<save>R0VN62LS1</save>
+<save>R0VN63LS3</save>
+<save>R0VN64LS4</save>
+<!--
+        <device name="fds16_1" driver="fds16" slot="1" description="Формирование дискретных первый" xml="fds16_1"> </device>
+        <device name="fds16_2" driver="fds16" slot="2" description="Формирование дискретных второй" xml="fds16_2"> </device>
+        <device name="vds32_1" driver="vds32" slot="4" description="Ввод дискретных первый" xml="vds32_1">         </device>
+-->
+        <modbus name="msbaz2" description="Основной канал управления" type="slave" port="502" xml="baz2"></modbus>
+        <modbus name="mmbaz2" description="Основной канал управления" type="master" ip1="192.168.20.20" ip2="192.168.20.20" step="1000" xml="baz2"></modbus>
+<!--
+        <modbus name="daknp" description="Канал диагностики"        type="slave" port="503" xml="daknp1"></modbus>
+        <modbus name="taknp" description="Канал тестирования"       type="slave" port="504" xml="taknp1"></modbus>
+        <modbus name="ctrl"  description="Прием информации о режиме измерения" type="dubase" 
+        	subsystem="dufp" canel="ctrl" step="1000"> </modbus>        
+-->
+</subsystem>

@@ -1,0 +1,6 @@
+<saves name="savecnst.bin">
+    <save>OPURREADY</save>
+    <save>OPURSTATUS</save>
+    <save>OPURLIVE</save>
+    <save>OPURERROR</save>
+</saves>
